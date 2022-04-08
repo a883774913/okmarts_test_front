@@ -1,0 +1,9 @@
+当前执行用例为userAccount 存在中文注册失败
+存在userAccount参数
+特殊用例不修改 userAccount 参数 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '用户名只能由字母、数字、下划线、@和.组成', 'code': 500, 'result': None, 'timestamp': 1648892025941}
+预期结果为 用户名只能由字母、数字、下划线、@和.组成
+实际结果为 用户名只能由字母、数字、下划线、@和.组成

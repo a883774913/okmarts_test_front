@@ -1,0 +1,5 @@
+当前执行用例为未登录状态失败
+入口 5
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '未获取到用户', 'code': 500, 'result': None, 'timestamp': 1648892943183}
+预期结果为 未获取到用户
+实际结果为 未获取到用户

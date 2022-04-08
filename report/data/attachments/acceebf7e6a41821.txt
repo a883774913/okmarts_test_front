@@ -1,0 +1,8 @@
+当前执行用例为输入正确信息查询商品详情成功
+data中存在id参数
+替换data参数中的ID 1443418105081614338 为: 1506850655551291394
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1506850655551291394', 'createBy': None, 'createTime': '2022-03-24', 'updateBy': None, 'updateTime': '2022-03-26', 'goodsimages': 'https://okmarts.com/pub/media/catalog/product/cache/eb3b3aea1bc60e25fc668d12622cbc2f/e/x/exp40-tte-dc.jpg', 'goodsimagem': 'https://okmarts.com/pub/media/catalog/product/cache/eb3b3aea1bc60e25fc668d12622cbc2f/e/x/exp40-tte-dc.jpg', 'goodsimagel': 'https://okmarts.com/pub/media/catalog/product/cache/eb3b3aea1bc60e25fc668d12622cbc2f/e/x/exp40-tte-dc.jpg', 'name': 'LS/LG HMI eXP40--5060', 'productionplace': 'Serbia', 'typeid': '1505797153492176898', 'brandid': '1505802773427523586', 'warehouseid': '1503306510501117953', 'amount': 4026, 'goodsno': '1014duL02433474', 'costprice': 8429.0, 'saleprice': 7596.0, 'goodsdesc': None, 'isrecommend': 1, 'status': 1, 'goodsweights': 0, 'dayattention': 0, 'totalattention': 0, 'sale': 0.0, 'browseCount': 0, 'saleIs': 1, 'saleTime': '2022-03-24 12:31:46', 'recommendTime': None, 'weightSubTime': None, 'weightSub': 0, 'isDelete': 0, 'inquiry': None, 'typeName': 'Linear Guideway', 'brandName': 'Baldor', 'warehouseName': None, 'fuzzyQueryName': None, 'promoteStatus': None, 'likeGoods': False, 'attentionId': None, 'disCountDisplay': False, 'subAmount': None, 'discount': None, 'ruletype': None, 'speciArr': None}, 'timestamp': 1648892085595}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryGoodsById?id=1506850655551291394

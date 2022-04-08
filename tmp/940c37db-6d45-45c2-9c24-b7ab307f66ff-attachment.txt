@@ -1,0 +1,7 @@
+当前执行用例为错误的请求类型领取优惠券失败POST
+修改old_name a883774917@163.com 为 test1862713@gmail.com 
+name=test1862713@gmail.com
+入口1
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持POST请求方法，支持以下GET、', 'code': 405, 'result': None, 'timestamp': 1648892909189}
+预期结果为 不支持POST请求方法，支持以下GET、
+实际结果为 不支持POST请求方法，支持以下GET、

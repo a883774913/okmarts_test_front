@@ -1,0 +1,10 @@
+当前执行用例为错误URL地址批量删除失败
+参数中存在ids
+ids=1111,2222
+1111,2222
+替换1111,2222为1510188612773470210,1510191027019046914
+ids=1510188612773470210,1510191027019046914
+入口0
+{'timestamp': '2022-04-02 17:43:27', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/usersAttentionGoods/deleteBatchTT'}
+预期结果为 No message available
+实际结果为 No message available

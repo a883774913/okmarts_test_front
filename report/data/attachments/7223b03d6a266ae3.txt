@@ -1,0 +1,8 @@
+当前执行用例为错误的参数请求类型领取失败application/json
+修改old_name a883774917@163.com 为 test5816860@eunet.at 
+name=test5816860@eunet.at
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': True, 'timestamp': 1648892912856}, 'timestamp': 1648892912856}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/users/registerCoupons?name=test5816860@eunet.at

@@ -1,0 +1,10 @@
+当前执行用例为错误URL订单发起支付失败
+存在 orderId 参数
+[{'goodsname': 'MIT-UNID-CNS Sol-5392', 'goodsprince': '7936.0', 'goodsid': '1506861897082929153', 'goodsamount': 2, 'stock': 7885, 'totalprice': 15872.0}]
+找到 3 张符合要求的优惠券! 
+修改 orderId 参数: 1472857446274961408 为: 1510190505235976192
+修改后的data 为{"orderId":"1510190505235976192","successUrl":"http://3.144.205.149:81/pay/payment?token=paypal","cancelUrl":"http://3.144.205.149:81/pay/payment?token=paypal"}
+入口 0
+{'timestamp': '2022-04-02 17:40:49', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/pay/doPayTTT'}
+预期结果为 No message available
+实际结果为 No message available

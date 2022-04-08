@@ -1,0 +1,8 @@
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510188104617693184
+{"type":3,"id":"1510188104617693184"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892339510}
+预期结果为 成功
+实际结果为 成功

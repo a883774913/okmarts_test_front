@@ -1,0 +1,10 @@
+当前执行用例为错误请求方式（PUT）发起订单支付失败
+存在 orderId 参数
+[{'goodsname': 'Commonwealth Fan-2815', 'goodsprince': '9922.0', 'goodsid': '1506867393898676226', 'goodsamount': 4, 'stock': 9946, 'totalprice': 39688.0}]
+找到 3 张符合要求的优惠券! 
+修改 orderId 参数: 1472857446274961408 为: 1510190590317432832
+修改后的data 为{"orderId":"1510190590317432832","successUrl":"http://3.144.205.149:81/pay/payment?token=paypal","cancelUrl":"http://3.144.205.149:81/pay/payment?token=paypal"}
+入口 3
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持PUT请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892469643}
+预期结果为 不支持PUT请求方法，支持以下POST、
+实际结果为 不支持PUT请求方法，支持以下POST、

@@ -1,0 +1,115 @@
+{
+  "uid" : "212a6eef90b00f04",
+  "name" : "错误URL获取通知列表失败",
+  "fullName" : "main.testmain.TestMain#test_queryNoticePage",
+  "historyId" : "6691cb9286aad5976a4663a3fc41cc24",
+  "time" : {
+    "start" : 1648892972561,
+    "stop" : 1648892973352,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff40802b8da35b3d",
+      "name" : "stdout",
+      "source" : "ff40802b8da35b3d.txt",
+      "type" : "text/plain",
+      "size" : 396
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "通知消息列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '错误URL获取通知列表失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryNoticePageTTT', 'data': 'pageNo=1&pageSize=10', 'content_type': 'application/x-www-form-urlencoded', 'result': 'No message available', 'assert_way': 'message', 'mode': '通知消息列表'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "212a6eef90b00f04.json",
+  "parameterValues" : [ "{'casename': '错误URL获取通知列表失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryNoticePageTTT', 'data': 'pageNo=1&pageSize=10', 'content_type': 'application/x-www-form-urlencoded', 'result': 'No message available', 'assert_way': 'message', 'mode': '通知消息列表'}" ]
+}

@@ -1,0 +1,8 @@
+当前执行用例为输入正确账户领取成功
+修改old_name a883774917@163.com 为 test1720039@netzero.net 
+name=test1720039@netzero.net
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'You have received a coupon', 'code': 500, 'result': None, 'timestamp': 1648892908165}, 'timestamp': 1648892908165}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/users/registerCoupons?name=test1720039@netzero.net

@@ -1,0 +1,88 @@
+{
+  "uid" : "ef584e1bba43d18f",
+  "name" : "输入错误请求参数类型查询失败multipart/form-data",
+  "fullName" : "main.testmain.TestMain#test_goodstype_list",
+  "historyId" : "0addebbd76e1807cea0702f7ea99b32f",
+  "time" : {
+    "start" : 1648892041639,
+    "stop" : 1648892042415,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9dda7f75d972c99b",
+      "name" : "stdout",
+      "source" : "9dda7f75d972c99b.txt",
+      "type" : "text/plain",
+      "size" : 825
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "查询商品类型"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "首页查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '输入错误请求参数类型查询失败multipart/form-data', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/goodsType/listForWeb', 'data': '', 'content_type': 'multipart/form-data', 'result': '操作失败', 'assert_way': 'message', 'mode': '商品类型表'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ef584e1bba43d18f.json",
+  "parameterValues" : [ "{'casename': '输入错误请求参数类型查询失败multipart/form-data', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/goodsType/listForWeb', 'data': '', 'content_type': 'multipart/form-data', 'result': '操作失败', 'assert_way': 'message', 'mode': '商品类型表'}" ]
+}

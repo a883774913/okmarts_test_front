@@ -1,0 +1,7 @@
+当前执行用例为参数sex缺失修改失败
+1509034057227440128
+{"id":"1509034057227440128","name":null,"age":null,"country":null,"area":null,"city":null,"phone":null,"firstName":"First name","lastName":"Last name","birthDay":"2022-04-20","company":"Company","integral":0,"memberlevel":"0","totalintegral":0,"avatar":null,"subscribePromotional":0,"subscribeAccount":0,"subscribeCommodity":0,"email":null}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892933150}
+预期结果为 成功
+实际结果为 成功

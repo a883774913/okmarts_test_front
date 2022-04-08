@@ -1,0 +1,88 @@
+{
+  "uid" : "1a548aa19d2c76b7",
+  "name" : "输入错误参数请求类型修改地址失败\napplication/x-www-form-urlencoded",
+  "fullName" : "main.testmain.TestMain#test_address_edit",
+  "historyId" : "9a9ffcf3a7890f1ed2023df5bbaed3d9",
+  "time" : {
+    "start" : 1648892321282,
+    "stop" : 1648892322870,
+    "duration" : 1588
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "9f4298d07d6f4a5f",
+      "name" : "stdout",
+      "source" : "9f4298d07d6f4a5f.txt",
+      "type" : "text/plain",
+      "size" : 990
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "story",
+    "value" : "修改地址"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '输入错误参数请求类型修改地址失败\\napplication/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"firstname\":\"2\",\"lastname\":\"2\",\"contactnumber\":\"2\",\"area1\":\"2\",\"area2\":\"2\",\"area3\":\"2\",\"postalCode\":\"2\",\"addressLine\":\"12\",\"countryCode\":\"CN\",\"type\":2,\"id\":\"1472809679833927680\"}', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '修改地址'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a548aa19d2c76b7.json",
+  "parameterValues" : [ "{'casename': '输入错误参数请求类型修改地址失败\\napplication/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"firstname\":\"2\",\"lastname\":\"2\",\"contactnumber\":\"2\",\"area1\":\"2\",\"area2\":\"2\",\"area3\":\"2\",\"postalCode\":\"2\",\"addressLine\":\"12\",\"countryCode\":\"CN\",\"type\":2,\"id\":\"1472809679833927680\"}', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '修改地址'}" ]
+}

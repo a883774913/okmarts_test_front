@@ -1,0 +1,7 @@
+当前执行用例为输入错误URL地址兑换优惠券失败
+data中存在id参数
+替换data参数中的ID 1503214205115006977 为: {'amount': 33332, 'endtime': '2023-03-25', 'discount': 321, 'updateTime': '2022-03-25 13:47:47', 'typeone': 1, 'starttime': '2022-03-25', 'exchangeintegral': 1, 'desctext': '123', 'createBy': None, 'createTime': '2022-03-25 13:46:47', 'updateBy': None, 'applytype_dictText': 'General', 'name': '1234', 'typeone_dictText': '直减优惠券', 'id': '1507232505868197889', 'applytype': 1, 'status': 1}
+入口 0
+{'timestamp': '2022-04-02 17:48:14', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/exchangeDiscountsttt'}
+预期结果为 No message available
+实际结果为 No message available

@@ -1,0 +1,9 @@
+当前执行用例为请求类型错误请求失败GET
+存在userAccount参数
+修改 userAccount 参数 979172251@qq.com 为 test2808757@gmail.com 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 2
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持GET请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892015550}
+预期结果为 不支持GET请求方法，支持以下POST、
+实际结果为 不支持GET请求方法，支持以下POST、

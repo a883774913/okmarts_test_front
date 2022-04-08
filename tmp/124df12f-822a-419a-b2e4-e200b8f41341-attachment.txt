@@ -1,0 +1,14 @@
+当前执行用例为ID参数为空修改地址失败
+存在 firstname 参数
+修改 firstname 参数 2 为 阴 
+存在 lastname 参数
+修改 lastname 参数 2 为 优 
+存在contactnumber参数
+修改 contactnumber 参数: 2 为: 17005995076
+data中存在id参数
+特殊用例不执行修改操作
+{"firstname":"阴","lastname":"优","contactnumber":"17005995076","area1":"2","area2":"2","area3":"2","postalCode":"2","addressLine":"12","countryCode":"CN","type":2,"id":null}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'ID不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892318632}
+预期结果为 ID不能为空
+实际结果为 ID不能为空！

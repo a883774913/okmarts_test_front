@@ -1,0 +1,956 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError",
+      "children" : [ {
+        "name" : "缺少password参数请求失败",
+        "uid" : "d813c15f70c8b901",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892019474,
+          "stop" : 1648892020271,
+          "duration" : 797
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少password参数请求失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userRegister', 'data': '{\"userAccount\":\"123345\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '注册'}" ]
+      }, {
+        "name" : "password为空请求失败",
+        "uid" : "b04587c4e199242a",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892022150,
+          "stop" : 1648892022948,
+          "duration" : 798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'password为空请求失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userRegister', 'data': '{\"password\":null,\"userAccount\":\"123345\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '注册'}" ]
+      }, {
+        "name" : "password17位字符注册失败",
+        "uid" : "cc3782863c7882cf",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892026995,
+          "stop" : 1648892027786,
+          "duration" : 791
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'password17位字符注册失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userRegister', 'data': '{\"password\":\"a1234567891234567\",\"userAccount\":\"123345\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '注册'}" ]
+      }, {
+        "name" : "password5位字符注册失败",
+        "uid" : "32936d376a815da4",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892027818,
+          "stop" : 1648892028611,
+          "duration" : 793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'password5位字符注册失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userRegister', 'data': '{\"password\":\"a1234\",\"userAccount\":\"123345\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '注册'}" ]
+      }, {
+        "name" : "password包含中文注册失败",
+        "uid" : "dea3dc0cd2b8914c",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892030283,
+          "stop" : 1648892031088,
+          "duration" : 805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'password包含中文注册失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userRegister', 'data': '{\"password\":\"密码123456\",\"userAccount\":\"123345\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '注册'}" ]
+      }, {
+        "name" : "count参数大于商品存在数量新增失败",
+        "uid" : "4505d9659f5137d5",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892160197,
+          "stop" : 1648892163821,
+          "duration" : 3624
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'count参数大于商品存在数量新增失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/add', 'data': '{\"count\":100000000,\"goodsId\":\"1505790429091729410\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-添加'}" ]
+      }, {
+        "name" : "参数count超过商品库存编辑失败",
+        "uid" : "acc0811fe0a64f25",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892201400,
+          "stop" : 1648892203842,
+          "duration" : 2442
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数count超过商品库存编辑失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":2}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-编辑'}" ]
+      }, {
+        "name" : "参数count为0编辑失败",
+        "uid" : "1a1ab957c09123f4",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892206225,
+          "stop" : 1648892208630,
+          "duration" : 2405
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数count为0编辑失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":0}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-编辑'}" ]
+      }, {
+        "name" : "参数count为负数编辑失败",
+        "uid" : "c02084c091b0c4e4",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892208653,
+          "stop" : 1648892211068,
+          "duration" : 2415
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数count为负数编辑失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":-2}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-编辑'}" ]
+      }, {
+        "name" : "ids部分参数错误删除购物车失败",
+        "uid" : "528561872ef8178",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892233596,
+          "stop" : 1648892235988,
+          "duration" : 2392
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'ids部分参数错误删除购物车失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/batchDelShopCart', 'data': '{\"ids\":\"147176598953474,aaaaa9\"}', 'content_type': 'application/json', 'result': 'Batch deletion failed！', 'assert_way': 'message', 'mode': '购物车-批量删除'}" ]
+      }, {
+        "name" : "输入不存在的TYPE修改地址失败",
+        "uid" : "538907a2edd8fc19",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892287079,
+          "stop" : 1648892288641,
+          "duration" : 1562
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入不存在的TYPE修改地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"firstname\":\"2\",\"lastname\":\"2\",\"contactnumber\":\"2\",\"area1\":\"2\",\"area2\":\"2\",\"area3\":\"2\",\"postalCode\":\"2\",\"addressLine\":\"12\",\"countryCode\":\"CN\",\"type\":46,\"id\":\"1472809679833927680\"}', 'content_type': 'application/json', 'result': '失败', 'assert_way': 'message', 'mode': '修改地址'}" ]
+      }, {
+        "name" : "缺少lastname修改地址失败",
+        "uid" : "c6e34dbe0d472d48",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892291092,
+          "stop" : 1648892292669,
+          "duration" : 1577
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少lastname修改地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"firstname\":\"2\",\"lastname\":\"2\",\"contactnumber\":\"2\",\"area1\":\"2\",\"area2\":\"2\",\"area3\":\"2\",\"postalCode\":\"2\",\"addressLine\":\"12\",\"countryCode\":\"CN\",\"type\":2,\"id\":\"1472809679833927680\"}', 'content_type': 'application/json', 'result': 'lastname cannot be empty！', 'assert_way': 'message', 'mode': '修改地址'}" ]
+      }, {
+        "name" : "缺少contactnumber修改地址失败",
+        "uid" : "71008c5b96b6781b",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892292687,
+          "stop" : 1648892294273,
+          "duration" : 1586
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少contactnumber修改地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"firstname\":\"2\",\"area1\":\"2\",\"area2\":\"2\",\"area3\":\"2\",\"postalCode\":\"2\",\"addressLine\":\"12\",\"countryCode\":\"CN\",\"type\":2,\"id\":\"1472809679833927680\"}', 'content_type': 'application/json', 'result': 'Contact number cannot be empty！', 'assert_way': 'message', 'mode': '修改地址'}" ]
+      }, {
+        "name" : "输入删除type修改地址失败",
+        "uid" : "700553f92cd6203",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892319682,
+          "stop" : 1648892321264,
+          "duration" : 1582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入删除type修改地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"firstname\":\"2\",\"lastname\":\"2\",\"contactnumber\":\"2\",\"area1\":\"2\",\"area2\":\"2\",\"area3\":\"2\",\"postalCode\":\"2\",\"addressLine\":\"12\",\"countryCode\":\"CN\",\"type\":3,\"id\":\"1472809679833927680\"}', 'content_type': 'application/json', 'result': 'empty', 'assert_way': 'message', 'mode': '修改地址'}" ]
+      }, {
+        "name" : "输入错误类型ID删除地址失败",
+        "uid" : "6aa89bfe25c51d51",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892355048,
+          "stop" : 1648892355824,
+          "duration" : 776
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入错误类型ID删除地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":3,\"id\":\"sssss\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '删除地址'}" ]
+      }, {
+        "name" : "输入不存在ID删除地址失败",
+        "uid" : "989adf21c8b60275",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892355865,
+          "stop" : 1648892356657,
+          "duration" : 792
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入不存在ID删除地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":3,\"id\":\"11111\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '删除地址'}" ]
+      }, {
+        "name" : "输入不存在TYPE删除地址失败",
+        "uid" : "b8044ecead94536",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892356682,
+          "stop" : 1648892358256,
+          "duration" : 1574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入不存在TYPE删除地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":99,\"id\":\"1506562052406251520\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '删除地址'}" ]
+      }, {
+        "name" : "使用金额大于商品价格的优惠券失败",
+        "uid" : "88e35c34f41e27d0",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892371279,
+          "stop" : 1648892374464,
+          "duration" : 3185
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '使用金额大于商品价格的优惠券失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1503240416043077632\",\"couponsid\":\"\",\"list\":[{\"count\":1,\"shopCartId\":\"1506078550173900802\"}],\"remark\":\"\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "使用已使用couponsid提交订单失败",
+        "uid" : "38bf47201c30a6d4",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892374490,
+          "stop" : 1648892377690,
+          "duration" : 3200
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '使用已使用couponsid提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1503240416043077632\",\"couponsid\":\"\",\"list\":[{\"count\":1,\"shopCartId\":\"1506078550173900802\"}],\"remark\":\"\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "couponsid为不存在id提交订单失败",
+        "uid" : "2043a0a12741d913",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892377709,
+          "stop" : 1648892380090,
+          "duration" : 2381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'couponsid为不存在id提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1503240416043077632\",\"couponsid\":\"11111\",\"list\":[{\"count\":1,\"shopCartId\":\"1506078550173900802\"}],\"remark\":\"\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "addressid为空提交订单失败",
+        "uid" : "d92903d0ca1008ae",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892384902,
+          "stop" : 1648892387299,
+          "duration" : 2397
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'addressid为空提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":null,\"couponsid\":\"\",\"list\":[{\"count\":1,\"shopCartId\":\"1506078550173900802\"}],\"remark\":\"\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "count为空提交订单失败",
+        "uid" : "e01b9dc44e223fd0",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892393663,
+          "stop" : 1648892396840,
+          "duration" : 3177
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'count为空提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1503240416043077632\",\"couponsid\":\"\",\"list\":[{\"count\":null,\"shopCartId\":\"1506078550173900802\"}],\"remark\":\"\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "count超过商品最大库存提交订单失败",
+        "uid" : "17682d786dac9587",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892396859,
+          "stop" : 1648892400047,
+          "duration" : 3188
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'count超过商品最大库存提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1503240416043077632\",\"couponsid\":\"\",\"list\":[{\"count\":1,\"shopCartId\":\"1506078550173900802\"}],\"remark\":\"\"}', 'content_type': 'application/json', 'result': '库存不足', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "缺少addressid提交订单失败",
+        "uid" : "6703f569d13703fd",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892406400,
+          "stop" : 1648892408788,
+          "duration" : 2388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少addressid提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"couponsid\":\"\",\"list\":[{\"count\":1,\"shopCartId\":\"1472726920837902337\"}]}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "缺少couponsid提交订单失败",
+        "uid" : "f9cd1e608e696619",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892408822,
+          "stop" : 1648892411194,
+          "duration" : 2372
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少couponsid提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1472817369465360384\",\"list\":[{\"count\":1,\"shopCartId\":\"1472726920837902337\"}]}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "缺少count提交订单失败",
+        "uid" : "8717b407316f9605",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892414366,
+          "stop" : 1648892417549,
+          "duration" : 3183
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少count提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1472817369465360384\",\"couponsid\":\"\",\"list\":[{\"shopCartId\":\"1472726920837902337\"}]}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "输入负数Count参数提交订单失败",
+        "uid" : "54aff00efb59d865",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892436530,
+          "stop" : 1648892439690,
+          "duration" : 3160
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入负数Count参数提交订单失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/submitOrder', 'data': '{\"addressId\":\"1472817369465360384\",\"couponsid\":\"\",\"list\":[{\"count\":-1,\"shopCartId\":\"1472726920837902337\"}]}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '购物车表-购买提交订单'}" ]
+      }, {
+        "name" : "缺少cancelURL发起订单支付失败",
+        "uid" : "a913724e56ca33db",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892476468,
+          "stop" : 1648892482172,
+          "duration" : 5704
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '缺少cancelURL发起订单支付失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/pay/doPay', 'data': '{\"orderId\":\"1472857446274961408\",\"successUrl\":\"http://3.144.205.149:81/pay/payment?token=paypal\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '订单发起支付'}" ]
+      }, {
+        "name" : "successUrl参数为空发起订单支付失败",
+        "uid" : "65b4702b048368c0",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892483005,
+          "stop" : 1648892488018,
+          "duration" : 5013
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'successUrl参数为空发起订单支付失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/pay/doPay', 'data': '{\"orderId\":\"1472857446274961408\",\"successUrl\":null,\"cancelUrl\":\"http://3.144.205.149:81/pay/payment?token=paypal\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '订单发起支付'}" ]
+      }, {
+        "name" : "使用错误successUrl发起订单支付失败",
+        "uid" : "e2f20f0149bc13c",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892507682,
+          "stop" : 1648892512647,
+          "duration" : 4965
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '使用错误successUrl发起订单支付失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/pay/doPay', 'data': '{\"orderId\":\"1111111111\",\"successUrl\":\"1234\",\"cancelUrl\":\"http://3.144.205.149:81/pay/payment?token=paypal\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '订单发起支付'}" ]
+      }, {
+        "name" : "已收藏goodsid再次收藏收藏失败",
+        "uid" : "b1b2d610ded8b84b",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892569368,
+          "stop" : 1648892574546,
+          "duration" : 5178
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '已收藏goodsid再次收藏收藏失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/add', 'data': '{\"goodsid\":\"1506883468476424194\"}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-添加'}" ]
+      }, {
+        "name" : "未登录状态删除商品失败",
+        "uid" : "2b97711515d068cc",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892578834,
+          "stop" : 1648892581222,
+          "duration" : 2388
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '未登录状态删除商品失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/delete', 'data': 'id=1508656644457922561', 'content_type': 'application/x-www-form-urlencoded', 'result': '未获取到用户', 'assert_way': 'message', 'mode': '用户收藏商品表-通过id删除'}" ]
+      }, {
+        "name" : "id为空删除商品失败",
+        "uid" : "cb282c321dcc664a",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892588388,
+          "stop" : 1648892589174,
+          "duration" : 786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'id为空删除商品失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/delete', 'data': 'id=', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-通过id删除'}" ]
+      }, {
+        "name" : "参数ID不存在删除商品失败",
+        "uid" : "fc7bd24a866535f4",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892589211,
+          "stop" : 1648892590007,
+          "duration" : 796
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数ID不存在删除商品失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/delete', 'data': 'id=11111', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-通过id删除'}" ]
+      }, {
+        "name" : "未登录状态删除失败",
+        "uid" : "7a25b44b36f24bef",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892609047,
+          "stop" : 1648892611410,
+          "duration" : 2363
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '未登录状态删除失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/deleteBatch', 'data': 'ids=1111,2222', 'content_type': 'application/x-www-form-urlencoded', 'result': '未获取到用户', 'assert_way': 'message', 'mode': '用户收藏商品表-批量删除'}" ]
+      }, {
+        "name" : "参数为空删除失败",
+        "uid" : "f20f3e0492980213",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892617810,
+          "stop" : 1648892618598,
+          "duration" : 788
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数为空删除失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/deleteBatch', 'data': 'ids=null', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-批量删除'}" ]
+      }, {
+        "name" : "参数错误删除失败",
+        "uid" : "6e4967ab53edacf5",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892618620,
+          "stop" : 1648892619410,
+          "duration" : 790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数错误删除失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/deleteBatch', 'data': 'ids=sdsdad,asdasd', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-批量删除'}" ]
+      }, {
+        "name" : "newpassword与之前密码相同修改密码失败",
+        "uid" : "980588d5b5221366",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892803167,
+          "stop" : 1648892826348,
+          "duration" : 23181
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'newpassword与之前密码相同修改密码失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateUserPassword', 'data': '{\"newPassword\":\"a123456\",\"code\":\"541391\"}', 'content_type': 'application/json', 'result': 'Password modification failed', 'assert_way': 'message', 'mode': '修改用户密码'}" ]
+      }, {
+        "name" : "已领取账户再次领取优惠券失败",
+        "uid" : "527f7d873602722f",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892912303,
+          "stop" : 1648892912825,
+          "duration" : 522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '已领取账户再次领取优惠券失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/users/registerCoupons', 'data': 'name=979172251@qq.com', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '注册成功领取优惠券'}" ]
+      }, {
+        "name" : "参数sex为非限定数字修改失败",
+        "uid" : "96614ffec2a3d91d",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892936056,
+          "stop" : 1648892937899,
+          "duration" : 1843
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数sex为非限定数字修改失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateUserInfo', 'data': '{\"id\":\"1509780698268045312\",\"name\":null,\"age\":null,\"country\":null,\"area\":null,\"city\":null,\"phone\":null,\"firstName\":\"First name\",\"lastName\":\"Last name\",\"sex\":\"88\",\"birthDay\":\"2022-04-20\",\"company\":\"Company\",\"integral\":0,\"memberlevel\":\"0\",\"totalintegral\":0,\"avatar\":null,\"subscribePromotional\":0,\"subscribeAccount\":0,\"subscribeCommodity\":0,\"email\":null}', 'content_type': 'application/json', 'result': '操作失败', 'assert_way': 'message', 'mode': '修改个人信息'}" ]
+      }, {
+        "name" : "未登录状态查询失败",
+        "uid" : "bfd1b7d0fab3dd7e",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892992631,
+          "stop" : 1648892994124,
+          "duration" : 1493
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '未登录状态查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/new/listFowHot', 'data': 'pageNo=1&pageSize=10', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '新闻版块热销商品'}" ]
+      }, {
+        "name" : "PageNo为空查询失败",
+        "uid" : "f1607400bdf2b0c",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892996545,
+          "stop" : 1648892997792,
+          "duration" : 1247
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'PageNo为空查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/new/listFowHot', 'data': 'pageNo=null&pageSize=10', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '新闻版块热销商品'}" ]
+      }, {
+        "name" : "PageSize为空查询失败",
+        "uid" : "cd424c588fadc718",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892997826,
+          "stop" : 1648892999066,
+          "duration" : 1240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'PageSize为空查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/new/listFowHot', 'data': 'pageNo=1&pageSize=null', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '新闻版块热销商品'}" ]
+      }, {
+        "name" : "PageNo为非数字查询失败",
+        "uid" : "dbd36855f002b767",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648892999086,
+          "stop" : 1648893000336,
+          "duration" : 1250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'PageNo为非数字查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/new/listFowHot', 'data': 'pageNo=sss&pageSize=10', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '新闻版块热销商品'}" ]
+      }, {
+        "name" : "PageSize为非数字查询失败",
+        "uid" : "8f94796244634f5f",
+        "parentUid" : "a0017ad855102fea08b8682d27fec4ca",
+        "status" : "failed",
+        "time" : {
+          "start" : 1648893000358,
+          "stop" : 1648893001616,
+          "duration" : 1258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': 'PageSize为非数字查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/new/listFowHot', 'data': 'pageNo=1&pageSize=sss', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '新闻版块热销商品'}" ]
+      } ],
+      "uid" : "a0017ad855102fea08b8682d27fec4ca"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+      "children" : [ {
+        "name" : "输入正确信息查询成功",
+        "uid" : "2de7e1abeacfcddf",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893003674,
+          "stop" : 1648893065272,
+          "duration" : 61598
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入正确信息查询成功', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'application/x-www-form-urlencoded', 'result': '成功', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "输入错误URL查询失败",
+        "uid" : "3f69067c14006fc2",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893065422,
+          "stop" : 1648893126996,
+          "duration" : 61574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '输入错误URL查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'application/x-www-form-urlencoded', 'result': 'No message available', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "错误的请求方式查询失败POST",
+        "uid" : "e3bc98c6ed5f79ab",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893129025,
+          "stop" : 1648893190637,
+          "duration" : 61612
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '错误的请求方式查询失败POST', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'application/x-www-form-urlencoded', 'result': '不支持POST请求方法', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "错误的请求方式查询失败DELETE",
+        "uid" : "bda8e48f9ba8c51f",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893190786,
+          "stop" : 1648893252430,
+          "duration" : 61644
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '错误的请求方式查询失败DELETE', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'application/x-www-form-urlencoded', 'result': '不支持DELETE请求方法', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "错误的请求方式查询失败PUT",
+        "uid" : "ca9f72391c466fe5",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893252598,
+          "stop" : 1648893314215,
+          "duration" : 61617
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '错误的请求方式查询失败PUT', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'application/x-www-form-urlencoded', 'result': '不支持PUT请求方法', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "无请求参数查询失败",
+        "uid" : "7fadd7f633d5ec6a",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893314358,
+          "stop" : 1648893375151,
+          "duration" : 60793
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '无请求参数查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'null', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "参数ID为空查询失败",
+        "uid" : "612decf9286eed2c",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893375320,
+          "stop" : 1648893436146,
+          "duration" : 60826
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数ID为空查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=null', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "参数ID不存在查询失败",
+        "uid" : "d1de988c3c8fd6cb",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893436327,
+          "stop" : 1648893497125,
+          "duration" : 60798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '参数ID不存在查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=11111', 'content_type': 'application/x-www-form-urlencoded', 'result': '失败', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "错误的参数类型查询失败application/json",
+        "uid" : "879b2c739b841e75",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893497287,
+          "stop" : 1648893558886,
+          "duration" : 61599
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '错误的参数类型查询失败application/json', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'application/json', 'result': '成功', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      }, {
+        "name" : "错误的参数类型查询失败multipart/form-data",
+        "uid" : "6aa5a28e28045513",
+        "parentUid" : "62b53519027b87a7e4e04fd042da830c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1648893559066,
+          "stop" : 1648893620640,
+          "duration" : 61574
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'casename': '错误的参数类型查询失败multipart/form-data', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/news/newInformation/queryById', 'data': 'id=1504332863887347714', 'content_type': 'multipart/form-data', 'result': '失败', 'assert_way': 'message', 'mode': '查询新闻详情'}" ]
+      } ],
+      "uid" : "62b53519027b87a7e4e04fd042da830c"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

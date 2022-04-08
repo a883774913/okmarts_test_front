@@ -1,0 +1,10 @@
+当前执行用例为userAccount输入30个字符注册成功
+存在userAccount参数
+test4604949682346111925@qq.com
+修改 userAccount 参数 123345 为 test4604949682346111925@qq.com 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892024328}
+预期结果为 成功
+实际结果为 成功

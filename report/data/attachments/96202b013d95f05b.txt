@@ -1,0 +1,6 @@
+当前执行用例为输入错误的URL地址查询成功
+入口0
+{'timestamp': '2022-04-02 17:47:53', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/getMyDiscountsListTTT'}
+预期结果为 No message available
+实际结果为 No message available
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getMyDiscountsListTTT?pageNo=1&pageSize=10&type=undefined

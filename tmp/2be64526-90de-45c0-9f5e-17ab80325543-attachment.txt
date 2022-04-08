@@ -1,0 +1,9 @@
+当前执行用例为请求类型错误请求失败PUT
+存在userAccount参数
+修改 userAccount 参数 979172251@qq.com 为 test4430550@comcast.net 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 3
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持PUT请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892016062}
+预期结果为 不支持PUT请求方法，支持以下POST、
+实际结果为 不支持PUT请求方法，支持以下POST、

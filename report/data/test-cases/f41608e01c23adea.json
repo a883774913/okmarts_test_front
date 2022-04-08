@@ -1,0 +1,118 @@
+{
+  "uid" : "f41608e01c23adea",
+  "name" : "发送错误请求方式编辑购物车失败（PUT）",
+  "fullName" : "main.testmain.TestMain#test_shoppingCart_edit",
+  "historyId" : "a405521a3bb49b38833e54c2a9ab8f1a",
+  "time" : {
+    "start" : 1648892191085,
+    "stop" : 1648892193463,
+    "duration" : 2378
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d71ee94996d0ce47",
+      "name" : "stdout",
+      "source" : "d71ee94996d0ce47.txt",
+      "type" : "text/plain",
+      "size" : 1000
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "购物车-编辑"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '发送错误请求方式编辑购物车失败（PUT）', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":2}', 'content_type': 'application/json', 'result': '不支持PUT请求方法，支持以下POST、', 'assert_way': 'message', 'mode': '购物车表-编辑'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f41608e01c23adea.json",
+  "parameterValues" : [ "{'casename': '发送错误请求方式编辑购物车失败（PUT）', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":2}', 'content_type': 'application/json', 'result': '不支持PUT请求方法，支持以下POST、', 'assert_way': 'message', 'mode': '购物车表-编辑'}" ]
+}

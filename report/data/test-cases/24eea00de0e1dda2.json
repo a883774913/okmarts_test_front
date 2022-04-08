@@ -1,0 +1,118 @@
+{
+  "uid" : "24eea00de0e1dda2",
+  "name" : "错误的参数请求方式错误查询失败",
+  "fullName" : "main.testmain.TestMain#test_usersAttentionGoods_list",
+  "historyId" : "40347bf4236dcd89e4bcebcafd456ce1",
+  "time" : {
+    "start" : 1648892604022,
+    "stop" : 1648892604804,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fbfe068faeb71acd",
+      "name" : "stdout",
+      "source" : "fbfe068faeb71acd.txt",
+      "type" : "text/plain",
+      "size" : 834
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "收藏"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "story",
+    "value" : "收藏查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '错误的参数请求方式错误查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/list', 'data': 'pageNo=1&pageSize=10', 'content_type': 'multipart/form-data', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-分页列表查询'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "24eea00de0e1dda2.json",
+  "parameterValues" : [ "{'casename': '错误的参数请求方式错误查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/list', 'data': 'pageNo=1&pageSize=10', 'content_type': 'multipart/form-data', 'result': '操作失败', 'assert_way': 'message', 'mode': '用户收藏商品表-分页列表查询'}" ]
+}

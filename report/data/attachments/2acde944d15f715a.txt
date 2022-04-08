@@ -1,0 +1,12 @@
+当前执行用例为错误URL地址编辑购物车失败
+{'id': '1510188433076903937', 'goodsname': 'BEI Encoder GHT5-3441', 'goodsprince': '3312.0', 'goodsid': '1506900270459789314', 'goodsamount': 8, 'stock': 6583, 'totalprice': 26496.0}
+data中存在id参数
+{'id': '1510188333525098497', 'goodsname': 'Amgis Transforme-9574', 'goodsprince': '2069.0', 'goodsid': '1506910567367057409', 'goodsamount': 3, 'stock': 1600, 'totalprice': 6207.0}
+替换data参数中的ID 1506138019520012289 为: 1510188333525098497
+存在 count 参数
+修改 count 参数 2 为 8 
+修改后data为{"id":"1510188333525098497","count":8}
+入口 0
+{'timestamp': '2022-04-02 17:36:22', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/my/shoppingCart/editShopCartttt'}
+预期结果为 No message available
+实际结果为 No message available

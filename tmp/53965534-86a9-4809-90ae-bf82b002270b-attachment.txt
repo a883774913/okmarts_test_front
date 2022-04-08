@@ -1,0 +1,9 @@
+当前执行用例为错误请求方式批量删除购物车商品失败（GET）
+{'id': '1510188246916915201', 'goodsname': 'ULVAC Vacuum Pum-4544', 'goodsprince': '3423.0', 'goodsid': '1506899823187599361', 'goodsamount': 3, 'stock': 4808, 'totalprice': 10269.0}
+存在 ids 参数
+修改 ids 参数: 1471765989995753474,1471663580816519169 为: 1510188146245230593,1510188383261155329
+修改后data为{"ids":"1510188146245230593,1510188383261155329"}
+入口 2
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持GET请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892227778}
+预期结果为 不支持GET请求方法，支持以下POST、
+实际结果为 不支持GET请求方法，支持以下POST、

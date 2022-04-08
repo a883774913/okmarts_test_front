@@ -1,0 +1,88 @@
+{
+  "uid" : "686580a8954de934",
+  "name" : "参数类型错误查询失败application/json",
+  "fullName" : "main.testmain.TestMain#test_getAddressList",
+  "historyId" : "ad5084502e00952ffcbf76179181f6a1",
+  "time" : {
+    "start" : 1648892252150,
+    "stop" : 1648892252951,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d8a454651d4e9b6b",
+      "name" : "stdout",
+      "source" : "d8a454651d4e9b6b.txt",
+      "type" : "text/plain",
+      "size" : 1131
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "story",
+    "value" : "获取地址信息"
+  }, {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '参数类型错误查询失败application/json', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getAddressList', 'data': 'pageNo=1&pageSize=100', 'content_type': 'application/json', 'result': '操作成功', 'assert_way': 'message', 'mode': '获取地址列表'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "686580a8954de934.json",
+  "parameterValues" : [ "{'casename': '参数类型错误查询失败application/json', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getAddressList', 'data': 'pageNo=1&pageSize=100', 'content_type': 'application/json', 'result': '操作成功', 'assert_way': 'message', 'mode': '获取地址列表'}" ]
+}

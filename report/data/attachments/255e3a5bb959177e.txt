@@ -1,0 +1,14 @@
+当前执行用例为错误的url地址修改地址失败
+存在 firstname 参数
+修改 firstname 参数 2 为 井 
+存在 lastname 参数
+修改 lastname 参数 2 为 婷 
+存在contactnumber参数
+修改 contactnumber 参数: 2 为: 18929391976
+data中存在id参数
+替换data参数中的ID 1472809679833927680 为: 1510189694921609216
+{"firstname":"井","lastname":"婷","contactnumber":"18929391976","area1":"2","area2":"2","area3":"2","postalCode":"2","addressLine":"12","countryCode":"CN","type":2,"id":"1510189694921609216"}
+入口 0
+{'timestamp': '2022-04-02 17:38:06', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/updateAddressttt'}
+预期结果为 No message available
+实际结果为 No message available

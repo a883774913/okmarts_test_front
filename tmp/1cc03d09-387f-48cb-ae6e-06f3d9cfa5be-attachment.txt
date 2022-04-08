@@ -1,0 +1,10 @@
+当前执行用例为参数contactnumber缺失新增失败
+存在 firstname 参数
+修改 firstname 参数 1 为 贝 
+存在 lastname 参数
+修改 lastname 参数 1 为 睿 
+{"firstname":"贝","lastname":"睿","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Contact number cannot be empty！', 'code': 500, 'result': None, 'timestamp': 1648892262522}
+预期结果为 empty
+实际结果为 Contact number cannot be empty！

@@ -1,0 +1,12 @@
+当前执行用例为参数count超过商品库存编辑失败
+{'id': '1510188271717834753', 'goodsname': 'KAWAKE Air Compr-7527', 'goodsprince': '7833.0', 'goodsid': '1506865928480161793', 'goodsamount': 5, 'stock': 8458, 'totalprice': 39165.0}
+data中存在id参数
+{'id': '1510188134048194562', 'goodsname': 'Omron VFD Freque-5328', 'goodsprince': '7171.0', 'goodsid': '1506860438752788481', 'goodsamount': 7, 'stock': 3414, 'totalprice': 50197.0}
+替换data参数中的ID 1506138019520012289 为: 1510188134048194562
+存在 count 参数
+修改 count 参数 2 为 8459 
+修改后data为{"id":"1510188134048194562","count":8459}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': 'Modified successfully！', 'timestamp': 1648892202793}
+预期结果为 操作失败
+实际结果为 操作成功！

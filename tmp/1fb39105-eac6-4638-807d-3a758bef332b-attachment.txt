@@ -1,0 +1,17 @@
+当前执行用例为缺少shopcartid提交订单失败
+{'id': '1510188457538084866', 'goodsname': 'Crouzet Electric-3105', 'goodsprince': '740.0', 'goodsid': '1506908887405699074', 'goodsamount': 2, 'stock': 6847, 'totalprice': 1480.0}
+shopcar_info为{'id': '1510188457538084866', 'goodsname': 'Crouzet Electric-3105', 'goodsprince': '740.0', 'goodsid': '1506908887405699074', 'goodsamount': 2, 'stock': 6847, 'totalprice': 1480.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510189694921609216
+存在 count 参数
+修改 count 参数 1 为 2 
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1503214205115006977
+修改 couponsid 参数:  为: 1503214205115006977
+修改后的data 为{"addressId":"1510189694921609216","couponsid":"1503214205115006977","list":[{"count":2}]}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '下单失败，无效参数！', 'code': 500, 'result': None, 'timestamp': 1648892419675}
+预期结果为 下单失败，无效参数！
+实际结果为 下单失败，无效参数！

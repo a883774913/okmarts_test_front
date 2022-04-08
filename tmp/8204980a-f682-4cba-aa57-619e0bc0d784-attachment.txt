@@ -1,0 +1,20 @@
+当前执行用例为count为非数字提交订单失败
+{'id': '1510188296476811266', 'goodsname': 'SIGMA Reduction -2335', 'goodsprince': '2621.0', 'goodsid': '1506887030220660738', 'goodsamount': 2, 'stock': 87, 'totalprice': 5242.0}
+shopcar_info为{'id': '1510188296476811266', 'goodsname': 'SIGMA Reduction -2335', 'goodsprince': '2621.0', 'goodsid': '1506887030220660738', 'goodsamount': 2, 'stock': 87, 'totalprice': 5242.0}
+存在 addressId 参数
+修改 addressId 参数: 1503240416043077632 为: 1510189694921609216
+存在 count 参数
+特殊用例不修改 count 参数 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1506078550173900802 为: 1510188296476811266
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"addressId":"1510189694921609216","couponsid":"1504388955217436674","list":[{"count":"sss","shopCartId":"1510188296476811266"}],"remark":""}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "sss": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "sss": not a valid Integer value\n at [Source: (PushbackInputStream); line: 1, column: 87] (through reference chain: org.jeecg.modules.homePage.vo.OrderVO["list"]->java.util.ArrayList[0]->org.jeecg.modules.homePage.vo.OrderItemVO["count"])', 'code': 500, 'result': None, 'timestamp': 1648892392613}
+预期结果为 操作失败
+实际结果为 操作失败，JSON parse error: Cannot deserialize value of type `java.lang.Integer` from String "sss": not a valid Integer value; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.lang.Integer` from String "sss": not a valid Integer value
+ at [Source: (PushbackInputStream); line: 1, column: 87] (through reference chain: org.jeecg.modules.homePage.vo.OrderVO["list"]->java.util.ArrayList[0]->org.jeecg.modules.homePage.vo.OrderItemVO["count"])

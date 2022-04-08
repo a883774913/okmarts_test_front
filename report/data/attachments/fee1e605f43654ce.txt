@@ -1,0 +1,12 @@
+当前执行用例为countryCode参数长度超过限制新增失败
+存在 firstname 参数
+修改 firstname 参数 1 为 桂 
+存在 lastname 参数
+修改 lastname 参数 1 为 怡 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 14797526555
+{"firstname":"桂","lastname":"怡","contactnumber":"14797526555","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '字段太长,超出数据库字段的长度', 'code': 500, 'result': None, 'timestamp': 1648892279404}
+预期结果为 字段太长,超出数据库字段的长度
+实际结果为 字段太长,超出数据库字段的长度

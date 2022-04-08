@@ -1,0 +1,15 @@
+当前执行用例为缺少list提交订单失败
+{'id': '1510188234644381698', 'goodsname': 'KOYO PLC D3-350-6621', 'goodsprince': '5629.0', 'goodsid': '1506891527336632322', 'goodsamount': 2, 'stock': 1177, 'totalprice': 11258.0}
+shopcar_info为{'id': '1510188234644381698', 'goodsname': 'KOYO PLC D3-350-6621', 'goodsprince': '5629.0', 'goodsid': '1506891527336632322', 'goodsamount': 2, 'stock': 1177, 'totalprice': 11258.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510188106870034432
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"addressId":"1510188106870034432","couponsid":"1504388955217436674"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '参数不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892413309}
+预期结果为 参数不能为空！
+实际结果为 参数不能为空！

@@ -1,0 +1,84 @@
+当前执行用例为错误的参数类型查询失败multipart/form-data
+替换1504332863887347714 为 1504333062357618690
+id=1504333062357618690
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510188106870034432
+{"type":3,"id":"1510188106870034432"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893621829}
+预期结果为 成功
+实际结果为 成功
+正在执行第2次数据清理任务，出现了0次错误，还剩8次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510189694921609216
+{"type":3,"id":"1510189694921609216"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893623417}
+预期结果为 成功
+实际结果为 成功
+正在执行第3次数据清理任务，出现了0次错误，还剩7次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893624997}
+预期结果为 成功
+实际结果为 成功
+正在执行第4次数据清理任务，出现了0次错误，还剩6次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893626588}
+预期结果为 成功
+实际结果为 成功
+正在执行第5次数据清理任务，出现了0次错误，还剩5次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893628191}
+预期结果为 成功
+实际结果为 成功
+正在执行第6次数据清理任务，出现了0次错误，还剩4次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893629747}
+预期结果为 成功
+实际结果为 成功
+正在执行第7次数据清理任务，出现了0次错误，还剩3次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893631323}
+预期结果为 成功
+实际结果为 成功
+正在执行第8次数据清理任务，出现了0次错误，还剩2次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893632888}
+预期结果为 成功
+实际结果为 成功
+正在执行第9次数据清理任务，出现了0次错误，还剩1次任务
+当前执行用例为输入正确参数删除地址成功
+data中存在id参数
+未找到相关ID
+{"type":3,"id":"1506562052406251520"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648893634480}
+预期结果为 成功
+实际结果为 成功
+正在执行第10次数据清理任务，出现了0次错误，还剩0次任务

@@ -1,0 +1,5 @@
+当前执行用例为参数integral为4999兑换失败
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'The minimum score shall not be less than 5000！', 'code': 500, 'result': None, 'timestamp': 1648892957705}
+预期结果为 The minimum score shall not be less than 5000
+实际结果为 The minimum score shall not be less than 5000！

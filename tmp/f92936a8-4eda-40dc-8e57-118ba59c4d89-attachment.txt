@@ -1,0 +1,8 @@
+当前执行用例为未注册账户领取优惠券失败
+特殊用例，不修改name参数
+name=DDDDDDD@DSDDD
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，Index: 0, Size: 0', 'code': 500, 'result': None, 'timestamp': 1648892912316}
+预期结果为 操作失败
+实际结果为 操作失败，Index: 0, Size: 0
+http://18.118.13.94:81/jeecg-boot/sys/api/users/registerCoupons?name=DDDDDDD@DSDDD

@@ -1,0 +1,12 @@
+当前执行用例为参数erea2不填新增失败
+存在 firstname 参数
+修改 firstname 参数 1 为 牟 
+存在 lastname 参数
+修改 lastname 参数 1 为 瑛 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 17155618719
+{"firstname":"牟","lastname":"瑛","contactnumber":"17155618719","area1":"11","area2":null,"area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Address cannot be empty！', 'code': 500, 'result': None, 'timestamp': 1648892270519}
+预期结果为 empty
+实际结果为 Address cannot be empty！

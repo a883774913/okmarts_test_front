@@ -1,0 +1,115 @@
+{
+  "uid" : "99659cf2550f26b",
+  "name" : "未登录状态获取用户信息失败",
+  "fullName" : "main.testmain.TestMain#test_getUserInfo",
+  "historyId" : "f437fd13a7b58cb8d923ef5b05ae65a4",
+  "time" : {
+    "start" : 1648892916033,
+    "stop" : 1648892917055,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "81b22f52635ced60",
+      "name" : "stdout",
+      "source" : "81b22f52635ced60.txt",
+      "type" : "text/plain",
+      "size" : 332
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "获取用户信息"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '未登录状态获取用户信息失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getUserInfo', 'data': '', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '获取用户信息'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "99659cf2550f26b.json",
+  "parameterValues" : [ "{'casename': '未登录状态获取用户信息失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getUserInfo', 'data': '', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '获取用户信息'}" ]
+}

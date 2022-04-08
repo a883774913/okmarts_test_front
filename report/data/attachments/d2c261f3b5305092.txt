@@ -1,0 +1,6 @@
+当前执行用例为输入正确信息查询成功
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'signIs': False, 'list': [{'eng': 'SATURDAY', 'date': '04/02', 'point': 5, 'signIn': False, 'num': 1}, {'eng': 'SUNDAY', 'date': '04/03', 'point': 5, 'signIn': False, 'num': 2}, {'eng': 'MONDAY', 'date': '04/04', 'point': 15, 'signIn': False, 'num': 3}, {'eng': 'TUESDAY', 'date': '04/05', 'point': 5, 'signIn': False, 'num': 4}, {'eng': 'WEDNESDAY', 'date': '04/06', 'point': 20, 'signIn': False, 'num': 5}]}, 'timestamp': 1648892059998}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/users/signQuery?%E6%97%A0

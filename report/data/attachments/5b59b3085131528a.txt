@@ -1,0 +1,5 @@
+当前执行用例为输入正确信息兑换成功
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892950346}
+预期结果为 成功
+实际结果为 成功

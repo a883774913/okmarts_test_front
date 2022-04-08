@@ -1,0 +1,7 @@
+当前执行用例为参数ID为空兑换失败
+data中存在id参数
+特殊用例不执行修改操作
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '兑换券ID不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892902871}
+预期结果为 兑换券ID不能为空！
+实际结果为 兑换券ID不能为空！

@@ -1,0 +1,7 @@
+当前执行用例为未登录状态查询商品详情失败
+data中存在id参数
+替换data参数中的ID 1443418105081614338 为: 1506850651575091201
+入口4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，null', 'code': 500, 'result': None, 'timestamp': 1648892089170}
+预期结果为 操作失败
+实际结果为 操作失败，null

@@ -1,0 +1,5 @@
+当前执行用例为错误请求方式DELETE查询路由失败
+入口2
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持DELETE请求方法，支持以下GET、', 'code': 405, 'result': None, 'timestamp': 1648892068989}
+预期结果为 不支持DELETE请求方法，支持以下GET、
+实际结果为 不支持DELETE请求方法，支持以下GET、

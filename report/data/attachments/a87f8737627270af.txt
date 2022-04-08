@@ -1,0 +1,7 @@
+当前执行用例为错误的请求方式兑换失败DELETE
+data中存在id参数
+替换data参数中的ID 1503214205115006977 为: {'amount': 33332, 'endtime': '2023-03-25', 'discount': 321, 'updateTime': '2022-03-25 13:47:47', 'typeone': 1, 'starttime': '2022-03-25', 'exchangeintegral': 1, 'desctext': '123', 'createBy': None, 'createTime': '2022-03-25 13:46:47', 'updateBy': None, 'applytype_dictText': 'General', 'name': '1234', 'typeone_dictText': '直减优惠券', 'id': '1507232505868197889', 'applytype': 1, 'status': 1}
+入口 4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持DELETE请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892901265}
+预期结果为 不支持DELETE请求方法，支持以下POST、
+实际结果为 不支持DELETE请求方法，支持以下POST、

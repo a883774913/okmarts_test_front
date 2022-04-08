@@ -1,0 +1,10 @@
+当前执行用例为正确参数订单发起支付成功
+存在 orderId 参数
+[{'goodsname': 'KOYO PLC D3-350-6621', 'goodsprince': '5629.0', 'goodsid': '1506891527336632322', 'goodsamount': 2, 'stock': 1177, 'totalprice': 11258.0}]
+找到 3 张符合要求的优惠券! 
+修改 orderId 参数: 1472857446274961408 为: 1510190481341026304
+修改后的data 为{"orderId":"1510190481341026304","successUrl":"http://3.144.205.149:81/pay/payment?token=paypal","cancelUrl":"http://3.144.205.149:81/pay/payment?token=paypal"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 0, 'result': {'code': 1, 'url': 'https://www.sandbox.paypal.com/checkoutnow?token=34813891KM691913M', 'orderId': '34813891KM691913M'}, 'timestamp': 1648892443671}
+预期结果为 操作成功
+实际结果为 操作成功！

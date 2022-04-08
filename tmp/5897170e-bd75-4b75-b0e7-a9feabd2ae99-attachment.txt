@@ -1,0 +1,12 @@
+当前执行用例为postalCode:缺失新增失败
+存在 firstname 参数
+修改 firstname 参数 1 为 惠 
+存在 lastname 参数
+修改 lastname 参数 1 为 舒 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 15359557144
+{"firstname":"惠","lastname":"舒","contactnumber":"15359557144","area1":"11","area2":"11","area3":"CN","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Zip code cannot be empty！', 'code': 500, 'result': None, 'timestamp': 1648892265723}
+预期结果为 empty
+实际结果为 Zip code cannot be empty！

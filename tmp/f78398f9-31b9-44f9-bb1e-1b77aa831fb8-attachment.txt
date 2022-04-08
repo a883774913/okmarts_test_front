@@ -1,0 +1,12 @@
+当前执行用例为参数count为0编辑失败
+{'id': '1510188433076903937', 'goodsname': 'BEI Encoder GHT5-3441', 'goodsprince': '3312.0', 'goodsid': '1506900270459789314', 'goodsamount': 8, 'stock': 6583, 'totalprice': 26496.0}
+data中存在id参数
+{'id': '1510188469802229761', 'goodsname': 'BEI Encoder DHO5-4267', 'goodsprince': '3692.0', 'goodsid': '1506858838541926401', 'goodsamount': 2, 'stock': 1345, 'totalprice': 7384.0}
+替换data参数中的ID 1506138019520012289 为: 1510188469802229761
+存在 count 参数
+特殊用例不修改 count 参数 
+修改后data为{"id":"1510188469802229761","count":0}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': 'Modified successfully！', 'timestamp': 1648892207583}
+预期结果为 操作失败
+实际结果为 操作成功！

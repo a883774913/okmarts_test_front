@@ -1,0 +1,9 @@
+当前执行用例为参数id缺失编辑失败
+{'id': '1510188171461386241', 'goodsname': 'The WABCO-737305', 'goodsprince': '8386.0', 'goodsid': '1505776853153091585', 'goodsamount': 1, 'stock': 3016, 'totalprice': 8386.0}
+存在 count 参数
+修改 count 参数 2 为 1 
+修改后data为{"count":1}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '参数不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892194016}
+预期结果为 参数不能为空！
+实际结果为 参数不能为空！

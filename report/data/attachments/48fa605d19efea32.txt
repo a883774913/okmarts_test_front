@@ -1,0 +1,14 @@
+当前执行用例为缺少couponsid提交订单失败
+{'id': '1510188146245230593', 'goodsname': 'Schneider Transf-6058', 'goodsprince': '2686.0', 'goodsid': '1506907482636820481', 'goodsamount': 1, 'stock': 7811, 'totalprice': 2686.0}
+shopcar_info为{'id': '1510188146245230593', 'goodsname': 'Schneider Transf-6058', 'goodsprince': '2686.0', 'goodsid': '1506907482636820481', 'goodsamount': 1, 'stock': 7811, 'totalprice': 2686.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510189694921609216
+存在 count 参数
+修改 count 参数 1 为 1 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1472726920837902337 为: 1510188146245230593
+修改后的data 为{"addressId":"1510189694921609216","list":[{"count":1,"shopCartId":"1510188146245230593"}]}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1510190341855252480', 'createBy': None, 'createTime': '2022-04-02 17:40:10', 'updateBy': None, 'updateTime': None, 'userid': '1509034057227440128', 'goodsid': '1506907482636820481', 'addressid': '1510189694921609216', 'couponsid': None, 'logisticsid': None, 'ordernumber': '20220402094010167168', 'paynumber': None, 'orderamount': 1880.2, 'goodsacount': 1, 'originalamount': 2686.0, 'memberamount': 805.8, 'couponsamount': 0.0, 'paytype': 1, 'onlinepayamount': None, 'payplatform': None, 'offlinepayamount': None, 'collectionaccount': None, 'collectionname': None, 'paystatus': 1, 'payTime': None, 'orderstatus': 0, 'deliverytime': None, 'cancelreason': None, 'preferentialreason': None, 'userName': None, 'goodsName': None, 'goodsPrice': None, 'deliveryWarehouse': None, 'receivingFirstName': None, 'receivingLastName': None, 'receivingPhone': None, 'receivingCountry': None, 'addressDetail': None, 'receivingName': None, 'returnTime': None, 'salesPromotionAmount': 0.0, 'successUrl': None, 'cancelUrl': None, 'remark': None, 'issh': 0, 'nonPaymentNotice': 0, 'orderInvalidationNotice': None, 'receiveTime': None, 'freightPrice': 0.0, 'statusText': '待支付', 'country': None, 'infoOrderList': None}, 'timestamp': 1648892410146}
+预期结果为 操作失败
+实际结果为 操作成功！

@@ -1,0 +1,19 @@
+当前执行用例为错误的请求方式提交订单失败（DELETE）
+{'id': '1510188333525098497', 'goodsname': 'Amgis Transforme-9574', 'goodsprince': '2069.0', 'goodsid': '1506910567367057409', 'goodsamount': 3, 'stock': 1600, 'totalprice': 6207.0}
+shopcar_info为{'id': '1510188333525098497', 'goodsname': 'Amgis Transforme-9574', 'goodsprince': '2069.0', 'goodsid': '1506910567367057409', 'goodsamount': 3, 'stock': 1600, 'totalprice': 6207.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510188106870034432
+存在 count 参数
+修改 count 参数 1 为 3 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1472726920837902337 为: 1510188333525098497
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"addressId":"1510188106870034432","couponsid":"1504388955217436674","list":[{"count":3,"shopCartId":"1510188333525098497"}]}
+入口 4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持DELETE请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892432324}
+预期结果为 不支持DELETE请求方法，支持以下POST、
+实际结果为 不支持DELETE请求方法，支持以下POST、

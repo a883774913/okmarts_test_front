@@ -1,0 +1,9 @@
+当前执行用例为URL错误请求失败
+存在userAccount参数
+修改 userAccount 参数 979172251@qq.com 为 test8774017@kalianet.to 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 0
+{'timestamp': '2022-04-02 17:33:35', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/usr/use'}
+预期结果为 No message available
+实际结果为 No message available

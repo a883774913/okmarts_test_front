@@ -1,0 +1,14 @@
+当前执行用例为输入不存在的id修改地址失败
+存在 firstname 参数
+修改 firstname 参数 2 为 申 
+存在 lastname 参数
+修改 lastname 参数 2 为 三 
+存在contactnumber参数
+修改 contactnumber 参数: 2 为: 13299388870
+data中存在id参数
+特殊用例不执行修改操作
+{"firstname":"申","lastname":"三","contactnumber":"13299388870","area1":"2","area2":"2","area3":"2","postalCode":"2","addressLine":"12","countryCode":"CN","type":2,"id":"1111111"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，null', 'code': 500, 'result': None, 'timestamp': 1648892288458}
+预期结果为 失败
+实际结果为 操作失败，null

@@ -1,0 +1,8 @@
+当前执行用例为错误url领取失败
+修改old_name a883774917@163.com 为 test105902@qq.com 
+name=test105902@qq.com
+入口0
+{'timestamp': '2022-04-02 17:48:28', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/users/registerCouponsttt'}
+预期结果为 No message available
+实际结果为 No message available
+http://18.118.13.94:81/jeecg-boot/sys/api/users/registerCouponsttt?name=test105902@qq.com

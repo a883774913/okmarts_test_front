@@ -1,0 +1,118 @@
+{
+  "uid" : "a203fd11b7b6dd85",
+  "name" : "错误请求方式添加商品到收藏栏失败（PUT）",
+  "fullName" : "main.testmain.TestMain#test_usersAttentionGoods_add",
+  "historyId" : "0eb9c03acf7ccedae4f9f4e641c39352",
+  "time" : {
+    "start" : 1648892545260,
+    "stop" : 1648892549042,
+    "duration" : 3782
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "3830a1162c5883",
+      "name" : "stdout",
+      "source" : "3830a1162c5883.txt",
+      "type" : "text/plain",
+      "size" : 15862
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "收藏"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "story",
+    "value" : "添加收藏"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '错误请求方式添加商品到收藏栏失败（PUT）', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/add', 'data': '{\"goodsid\":\"1506883468476424194\"}', 'content_type': 'application/json', 'result': '不支持PUT请求方法，支持以下POST、', 'assert_way': 'message', 'mode': '用户收藏商品表-添加'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a203fd11b7b6dd85.json",
+  "parameterValues" : [ "{'casename': '错误请求方式添加商品到收藏栏失败（PUT）', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/add', 'data': '{\"goodsid\":\"1506883468476424194\"}', 'content_type': 'application/json', 'result': '不支持PUT请求方法，支持以下POST、', 'assert_way': 'message', 'mode': '用户收藏商品表-添加'}" ]
+}

@@ -1,0 +1,12 @@
+当前执行用例为参数count为空编辑失败
+{'id': '1510188184249819137', 'goodsname': 'PROPISTON-985171', 'goodsprince': '9438.0', 'goodsid': '1505792318747316226', 'goodsamount': 4, 'stock': 7123, 'totalprice': 37752.0}
+data中存在id参数
+{'id': '1510188146245230593', 'goodsname': 'Schneider Transf-6058', 'goodsprince': '2686.0', 'goodsid': '1506907482636820481', 'goodsamount': 1, 'stock': 7811, 'totalprice': 2686.0}
+替换data参数中的ID 1506138019520012289 为: 1510188146245230593
+存在 count 参数
+特殊用例不修改 count 参数 
+修改后data为{"id":"1510188146245230593","count":"null"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '参数不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892200352}
+预期结果为 参数不能为空！
+实际结果为 参数不能为空！

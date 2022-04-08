@@ -1,0 +1,12 @@
+当前执行用例为参数First Name参数长度超过限制新增失败
+存在 firstname 参数
+特殊用例不修改 firstname 参数 
+存在 lastname 参数
+修改 lastname 参数 1 为 惠 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 17099956034
+{"firstname":"11111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111","lastname":"惠","contactnumber":"17099956034","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '字段太长,超出数据库字段的长度', 'code': 500, 'result': None, 'timestamp': 1648892273705}
+预期结果为 字段太长,超出数据库字段的长度
+实际结果为 字段太长,超出数据库字段的长度

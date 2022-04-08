@@ -1,0 +1,118 @@
+{
+  "uid" : "ac987e6dfb48af9c",
+  "name" : "发送错误请求GET删除地址失败",
+  "fullName" : "main.testmain.TestMain#test_address_delete",
+  "historyId" : "805bc11f1877e09e0ec045200c506b05",
+  "time" : {
+    "start" : 1648892343991,
+    "stop" : 1648892345554,
+    "duration" : 1563
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "fac0d580f71badaf",
+      "name" : "stdout",
+      "source" : "fac0d580f71badaf.txt",
+      "type" : "text/plain",
+      "size" : 551
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除地址"
+  }, {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '发送错误请求GET删除地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":3,\"id\":\"1506562052406251520\"}', 'content_type': 'application/json', 'result': '不支持GET请求方法，支持以下POST、', 'assert_way': 'message', 'mode': '删除地址'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac987e6dfb48af9c.json",
+  "parameterValues" : [ "{'casename': '发送错误请求GET删除地址失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":3,\"id\":\"1506562052406251520\"}', 'content_type': 'application/json', 'result': '不支持GET请求方法，支持以下POST、', 'assert_way': 'message', 'mode': '删除地址'}" ]
+}

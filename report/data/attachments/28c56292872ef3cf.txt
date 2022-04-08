@@ -1,0 +1,10 @@
+当前执行用例为参数count缺失编辑失败
+{'id': '1510188321244176385', 'goodsname': 'wika Level Meter-6615', 'goodsprince': '6761.0', 'goodsid': '1506850860766003201', 'goodsamount': 1, 'stock': 651, 'totalprice': 6761.0}
+data中存在id参数
+{'id': '1510188408334704641', 'goodsname': 'Imai-576137', 'goodsprince': '2483.0', 'goodsid': '1503318446664024066', 'goodsamount': 2, 'stock': 928, 'totalprice': 4966.0}
+替换data参数中的ID 1506138019520012289 为: 1510188408334704641
+修改后data为{"id":"1510188408334704641"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '参数不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892196395}
+预期结果为 参数不能为空！
+实际结果为 参数不能为空！

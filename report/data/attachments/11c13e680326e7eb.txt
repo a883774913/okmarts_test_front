@@ -1,0 +1,9 @@
+当前执行用例为password为空请求失败
+存在userAccount参数
+修改 userAccount 参数 979172251@qq.com 为 test8369528@iway.na 
+存在 password 参数
+特殊用例不修改 password 参数 
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，user password error:1', 'code': 500, 'result': None, 'timestamp': 1648892012928}
+预期结果为 操作失败
+实际结果为 操作失败，user password error:1

@@ -1,0 +1,118 @@
+{
+  "uid" : "20b0557beddfd7fb",
+  "name" : "参数ID为空删除失败",
+  "fullName" : "main.testmain.TestMain#test_address_delete",
+  "historyId" : "177ebe8fae032e28fa3073086619ee55",
+  "time" : {
+    "start" : 1648892350275,
+    "stop" : 1648892351075,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "45e89086f4e185",
+      "name" : "stdout",
+      "source" : "45e89086f4e185.txt",
+      "type" : "text/plain",
+      "size" : 395
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "删除地址"
+  }, {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '参数ID为空删除失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":3,\"id\":null}', 'content_type': 'application/json', 'result': 'ID不能为空', 'assert_way': 'message', 'mode': '删除地址'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "20b0557beddfd7fb.json",
+  "parameterValues" : [ "{'casename': '参数ID为空删除失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateAddress', 'data': '{\"type\":3,\"id\":null}', 'content_type': 'application/json', 'result': 'ID不能为空', 'assert_way': 'message', 'mode': '删除地址'}" ]
+}

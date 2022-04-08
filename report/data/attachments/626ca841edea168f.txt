@@ -1,0 +1,5 @@
+当前执行用例为未登录状态查询失败
+入口4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': [{'id': 37, 'seachContext': 'EMG', 'type': 1, 'correct': None, 'createTime': '2022-03-15 10:42:00', 'status': 1, 'num': 0}, {'id': 38, 'seachContext': 'FOXBORO', 'type': 1, 'correct': None, 'createTime': '2022-03-15 10:42:16', 'status': 1, 'num': 0}, {'id': 39, 'seachContext': 'Emerson', 'type': 1, 'correct': None, 'createTime': '2022-03-15 10:42:25', 'status': 1, 'num': 0}, {'id': 40, 'seachContext': 'Azbil', 'type': 1, 'correct': None, 'createTime': '2022-03-15 10:42:44', 'status': 1, 'num': 0}], 'timestamp': 1648892043996}
+预期结果为 操作成功
+实际结果为 操作成功！

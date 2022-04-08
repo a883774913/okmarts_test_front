@@ -1,0 +1,10 @@
+当前执行用例为错误请求方式删除失败GET
+参数中存在ids
+ids=1111,2222
+1111,2222
+替换1111,2222为1510188561091256322,1510188612773470210
+ids=1510188561091256322,1510188612773470210
+入口2
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持GET请求方法，支持以下DELETE、', 'code': 405, 'result': None, 'timestamp': 1648892614090}
+预期结果为 不支持GET请求方法，支持以下DELETE、
+实际结果为 不支持GET请求方法，支持以下DELETE、

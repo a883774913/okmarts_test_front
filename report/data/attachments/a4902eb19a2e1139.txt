@@ -1,0 +1,12 @@
+当前执行用例为参数请求类型错误新增失败application/x-www-form-urlencoded
+存在 firstname 参数
+修改 firstname 参数 1 为 樊 
+存在 lastname 参数
+修改 lastname 参数 1 为 秀 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 18959451782
+{"firstname":"樊","lastname":"秀","contactnumber":"18959451782","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': "操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported", 'code': 500, 'result': None, 'timestamp': 1648892280201}
+预期结果为 操作失败
+实际结果为 操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

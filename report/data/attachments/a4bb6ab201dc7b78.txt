@@ -1,0 +1,16 @@
+当前执行用例为输入错误的URL修改密码失败
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Verification code has been sent. Please do not click again!', 'code': 500, 'result': None, 'timestamp': 1648892661033}
+存在 code 参数
+20
+hydraulic
+hydraulic
+Operational business：Password modification
+Verification Code：258426 （Valid for ten minutes）
+['258426']
+code为258426
+修改 code 参数: 541391 为: 258426
+{"newPassword":"a123456","code":"258426"}
+入口 0
+{'timestamp': '2022-04-02 17:44:43', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/updateUserPasswordttt'}
+预期结果为 No message available
+实际结果为 No message available

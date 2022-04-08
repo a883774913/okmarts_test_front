@@ -1,0 +1,12 @@
+当前执行用例为输入错误的URL新增地址失败
+存在 firstname 参数
+修改 firstname 参数 1 为 金 
+存在 lastname 参数
+修改 lastname 参数 1 为 岚 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 18955318442
+{"firstname":"金","lastname":"岚","contactnumber":"18955318442","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'timestamp': '2022-04-02 17:37:36', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/addAddressttt'}
+预期结果为 No message available
+实际结果为 No message available

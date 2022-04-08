@@ -1,0 +1,6 @@
+当前执行用例为缺失orderid参数发起订单支付失败
+修改后的data 为{"successUrl":"http://3.144.205.149:81/pay/payment?token=paypal","cancelUrl":"http://3.144.205.149:81/pay/payment?token=paypal"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '订单号不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892470426}
+预期结果为 订单号不能为空
+实际结果为 订单号不能为空！

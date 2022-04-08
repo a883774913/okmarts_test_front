@@ -1,0 +1,12 @@
+当前执行用例为参数lastname不填新增失败
+存在 firstname 参数
+修改 firstname 参数 1 为 计 
+存在 lastname 参数
+特殊用例不修改 lastname 参数 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 15220162592
+{"firstname":"计","lastname":null,"contactnumber":"15220162592","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'lastname cannot be empty！', 'code': 500, 'result': None, 'timestamp': 1648892268131}
+预期结果为 empty
+实际结果为 lastname cannot be empty！

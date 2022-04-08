@@ -1,0 +1,5 @@
+当前执行用例为无参数兑换失败
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Exchange points cannot be empty！', 'code': 500, 'result': None, 'timestamp': 1648892955335}
+预期结果为 Exchange points cannot be empty
+实际结果为 Exchange points cannot be empty！

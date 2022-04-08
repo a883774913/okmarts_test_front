@@ -1,0 +1,9 @@
+当前执行用例为输入错误URL删除商品失败
+参数中存在id
+1508656644457922561
+替换1508656644457922561为1510188666867408897
+id=1510188666867408897
+入口0
+{'timestamp': '2022-04-02 17:42:57', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/usersAttentionGoods/deletettt'}
+预期结果为 No message available
+实际结果为 No message available

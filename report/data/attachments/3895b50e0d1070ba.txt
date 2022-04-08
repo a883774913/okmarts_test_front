@@ -1,0 +1,17 @@
+当前执行用例为缺少count提交订单失败
+{'id': '1510188420754038785', 'goodsname': 'Lenze HMI EPM-H5-2009', 'goodsprince': '3964.0', 'goodsid': '1506898376232411138', 'goodsamount': 10, 'stock': 1332, 'totalprice': 39640.0}
+shopcar_info为{'id': '1510188420754038785', 'goodsname': 'Lenze HMI EPM-H5-2009', 'goodsprince': '3964.0', 'goodsid': '1506898376232411138', 'goodsamount': 10, 'stock': 1332, 'totalprice': 39640.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510188106870034432
+存在 shopCartId 参数
+修改 shopCartId 参数: 1472726920837902337 为: 1510188420754038785
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"addressId":"1510188106870034432","couponsid":"1504388955217436674","list":[{"shopCartId":"1510188420754038785"}]}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1510190368501665792', 'createBy': None, 'createTime': '2022-04-02 17:40:16', 'updateBy': None, 'updateTime': None, 'userid': '1509034057227440128', 'goodsid': '1506898376232411138', 'addressid': '1510188106870034432', 'couponsid': '1504388955217436674', 'logisticsid': None, 'ordernumber': '20220402094016451138', 'paynumber': None, 'orderamount': 27748.0, 'goodsacount': 10, 'originalamount': 39640.0, 'memberamount': 11892.0, 'couponsamount': 0.0, 'paytype': 1, 'onlinepayamount': None, 'payplatform': None, 'offlinepayamount': None, 'collectionaccount': None, 'collectionname': None, 'paystatus': 1, 'payTime': None, 'orderstatus': 0, 'deliverytime': None, 'cancelreason': None, 'preferentialreason': None, 'userName': None, 'goodsName': None, 'goodsPrice': None, 'deliveryWarehouse': None, 'receivingFirstName': None, 'receivingLastName': None, 'receivingPhone': None, 'receivingCountry': None, 'addressDetail': None, 'receivingName': None, 'returnTime': None, 'salesPromotionAmount': 0.0, 'successUrl': None, 'cancelUrl': None, 'remark': None, 'issh': 0, 'nonPaymentNotice': 0, 'orderInvalidationNotice': None, 'receiveTime': None, 'freightPrice': 0.0, 'statusText': '待支付', 'country': None, 'infoOrderList': None}, 'timestamp': 1648892416498}
+预期结果为 操作失败
+实际结果为 操作成功！

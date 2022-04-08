@@ -1,0 +1,6 @@
+当前执行用例为错误URL查询路由失败
+入口0
+{'timestamp': '2022-04-02 17:34:27', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/goods/routeUrlTTT'}
+预期结果为 No message available
+实际结果为 No message available
+http://18.118.13.94:81/jeecg-boot/sys/api/goods/routeUrlTTT?routeName=index

@@ -1,0 +1,6 @@
+当前执行用例为pageNO参数错误获取通知列表失败
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，Failed to convert value of type \'java.lang.String\' to required type \'int\'; nested exception is java.lang.NumberFormatException: For input string: "爱的"', 'code': 500, 'result': None, 'timestamp': 1648892977315}
+预期结果为 操作失败
+实际结果为 操作失败，Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "爱的"
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryNoticePage?pageNo=%E7%88%B1%E7%9A%84&pageSize=10

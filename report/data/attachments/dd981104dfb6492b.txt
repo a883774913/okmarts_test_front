@@ -1,0 +1,19 @@
+当前执行用例为使用已使用couponsid提交订单失败
+{'id': '1510188346254811137', 'goodsname': 'EATON HMI XV-102-3509', 'goodsprince': '7897.0', 'goodsid': '1506867249451040770', 'goodsamount': 7, 'stock': 8317, 'totalprice': 55279.0}
+shopcar_info为{'id': '1510188346254811137', 'goodsname': 'EATON HMI XV-102-3509', 'goodsprince': '7897.0', 'goodsid': '1506867249451040770', 'goodsamount': 7, 'stock': 8317, 'totalprice': 55279.0}
+存在 addressId 参数
+修改 addressId 参数: 1503240416043077632 为: 1510189694921609216
+存在 count 参数
+修改 count 参数 1 为 7 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1506078550173900802 为: 1510188346254811137
+存在 couponsid 参数
+old_couponsid为 
+正在寻找已使用优惠券
+couponsid 为 1509034077887647745
+修改 couponsid 参数:  为: 1509034077887647745
+修改后的data 为{"addressId":"1510189694921609216","couponsid":"1509034077887647745","list":[{"count":7,"shopCartId":"1510188346254811137"}],"remark":""}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1510190201329291264', 'createBy': None, 'createTime': '2022-04-02 17:39:36', 'updateBy': None, 'updateTime': None, 'userid': '1509034057227440128', 'goodsid': '1506867249451040770', 'addressid': '1510189694921609216', 'couponsid': '1509034077887647745', 'logisticsid': None, 'ordernumber': '20220402093936688113', 'paynumber': None, 'orderamount': 38595.3, 'goodsacount': 7, 'originalamount': 55279.0, 'memberamount': 16583.7, 'couponsamount': 100.0, 'paytype': 1, 'onlinepayamount': None, 'payplatform': None, 'offlinepayamount': None, 'collectionaccount': None, 'collectionname': None, 'paystatus': 1, 'payTime': None, 'orderstatus': 0, 'deliverytime': None, 'cancelreason': None, 'preferentialreason': None, 'userName': None, 'goodsName': None, 'goodsPrice': None, 'deliveryWarehouse': None, 'receivingFirstName': None, 'receivingLastName': None, 'receivingPhone': None, 'receivingCountry': None, 'addressDetail': None, 'receivingName': None, 'returnTime': None, 'salesPromotionAmount': 0.0, 'successUrl': None, 'cancelUrl': None, 'remark': '', 'issh': 0, 'nonPaymentNotice': 0, 'orderInvalidationNotice': None, 'receiveTime': None, 'freightPrice': 0.0, 'statusText': '待支付', 'country': None, 'infoOrderList': None}, 'timestamp': 1648892376642}
+预期结果为 操作失败
+实际结果为 操作成功！

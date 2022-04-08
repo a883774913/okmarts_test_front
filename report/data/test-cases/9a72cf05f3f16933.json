@@ -1,0 +1,118 @@
+{
+  "uid" : "9a72cf05f3f16933",
+  "name" : "postalCode:缺失新增失败",
+  "fullName" : "main.testmain.TestMain#test_addAddress",
+  "historyId" : "51b0afcc8af48fa40d74c34a86e665ea",
+  "time" : {
+    "start" : 1648892265984,
+    "stop" : 1648892266770,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "7c55421747959c2",
+      "name" : "stdout",
+      "source" : "7c55421747959c2.txt",
+      "type" : "text/plain",
+      "size" : 667
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "story",
+    "value" : "新增地址"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': 'postalCode:缺失新增失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/addAddress', 'data': '{\"firstname\":\"1\",\"lastname\":\"1\",\"contactnumber\":\"11\",\"area1\":\"11\",\"area2\":\"11\",\"area3\":\"CN\",\"addressLine\":\"12\",\"countryCode\":\"CN\"}', 'content_type': 'application/json', 'result': 'empty', 'assert_way': 'message', 'mode': '新增地址'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9a72cf05f3f16933.json",
+  "parameterValues" : [ "{'casename': 'postalCode:缺失新增失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/addAddress', 'data': '{\"firstname\":\"1\",\"lastname\":\"1\",\"contactnumber\":\"11\",\"area1\":\"11\",\"area2\":\"11\",\"area3\":\"CN\",\"addressLine\":\"12\",\"countryCode\":\"CN\"}', 'content_type': 'application/json', 'result': 'empty', 'assert_way': 'message', 'mode': '新增地址'}" ]
+}

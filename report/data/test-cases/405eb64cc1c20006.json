@@ -1,0 +1,115 @@
+{
+  "uid" : "405eb64cc1c20006",
+  "name" : "sortType为非数字类型进行查询失败",
+  "fullName" : "main.testmain.TestMain#test_fuzzyquery_byname_list",
+  "historyId" : "fce0d0c9eefe370d616f59fcbdbf59fd",
+  "time" : {
+    "start" : 1648892082420,
+    "stop" : 1648892083206,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "e277da6a56dc18ed",
+      "name" : "stdout",
+      "source" : "e277da6a56dc18ed.txt",
+      "type" : "text/plain",
+      "size" : 813
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "模糊查询"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': 'sortType为非数字类型进行查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/goods/fuzzyquery_byname_list', 'data': 'fuzzyQueryName=SATRON&pageNo=1&pageSize=11&brands=&type=&origins=&sortType=sss', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '根据商品名称模糊查询接口'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "405eb64cc1c20006.json",
+  "parameterValues" : [ "{'casename': 'sortType为非数字类型进行查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/goods/fuzzyquery_byname_list', 'data': 'fuzzyQueryName=SATRON&pageNo=1&pageSize=11&brands=&type=&origins=&sortType=sss', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '根据商品名称模糊查询接口'}" ]
+}

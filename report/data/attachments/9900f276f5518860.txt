@@ -1,0 +1,8 @@
+当前执行用例为发送错误请求DELETE删除地址失败
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510188106870034432
+{"type":3,"id":"1510188106870034432"}
+入口 4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持DELETE请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892346083}
+预期结果为 不支持DELETE请求方法，支持以下POST、
+实际结果为 不支持DELETE请求方法，支持以下POST、

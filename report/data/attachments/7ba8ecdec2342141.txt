@@ -1,0 +1,9 @@
+当前执行用例为错误请求方式（POST）删除商品失败
+参数中存在id
+1508656644457922561
+替换1508656644457922561为1510188639591849985
+id=1510188639591849985
+入口1
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持POST请求方法，支持以下DELETE、', 'code': 405, 'result': None, 'timestamp': 1648892584452}
+预期结果为 不支持POST请求方法，支持以下DELETE、
+实际结果为 不支持POST请求方法，支持以下DELETE、

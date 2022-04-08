@@ -1,0 +1,85 @@
+{
+  "uid" : "91f014c873581061",
+  "name" : "content-type参数类型错误请求失败application/x-www-form-urlencoded",
+  "fullName" : "main.testmain.TestMain#test_login",
+  "historyId" : "86674e10caf260fe37ac45cf98641dd8",
+  "time" : {
+    "start" : 1648892017630,
+    "stop" : 1648892018145,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1f086067584725b",
+      "name" : "stdout",
+      "source" : "1f086067584725b.txt",
+      "type" : "text/plain",
+      "size" : 676
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录模块"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': 'content-type参数类型错误请求失败application/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userLogin', 'data': '{\"userAccount\":\"979172251@qq.com\",\"password\":\"a123456\",\"type\":0}', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '登录'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "91f014c873581061.json",
+  "parameterValues" : [ "{'casename': 'content-type参数类型错误请求失败application/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/usr/userLogin', 'data': '{\"userAccount\":\"979172251@qq.com\",\"password\":\"a123456\",\"type\":0}', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '登录'}" ]
+}

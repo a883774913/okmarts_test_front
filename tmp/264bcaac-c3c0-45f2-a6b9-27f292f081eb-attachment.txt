@@ -1,0 +1,8 @@
+当前执行用例为错误URL查询商品详情失败
+data中存在id参数
+替换data参数中的ID 1443418105081614338 为: 1506851429173886977
+入口0
+{'timestamp': '2022-04-02 17:34:47', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/queryGoodsByIdtttt'}
+预期结果为 No message available
+实际结果为 No message available
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryGoodsByIdtttt?id=1506851429173886977

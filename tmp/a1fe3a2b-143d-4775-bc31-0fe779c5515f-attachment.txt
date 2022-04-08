@@ -1,0 +1,8 @@
+当前执行用例为缺少TYPE参数删除地址失败
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510188106870034432
+{"id":"1510188106870034432"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作类型不能为空！', 'code': 500, 'result': None, 'timestamp': 1648892351603}
+预期结果为 操作类型不能为空
+实际结果为 操作类型不能为空！

@@ -1,0 +1,5 @@
+当前执行用例为输入错误请求方式查询失败PUT
+入口3
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持PUT请求方法，支持以下GET、', 'code': 405, 'result': None, 'timestamp': 1648892039703}
+预期结果为 不支持PUT请求方法，支持以下GET、
+实际结果为 不支持PUT请求方法，支持以下GET、

@@ -1,0 +1,5 @@
+当前执行用例为参数integral为5000兑换成功
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892958507}
+预期结果为 成功
+实际结果为 成功

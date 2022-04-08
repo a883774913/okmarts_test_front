@@ -1,0 +1,9 @@
+当前执行用例为userAccount为空请求失败
+存在userAccount参数
+特殊用例不修改 userAccount 参数 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '用户名不能为空', 'code': 500, 'result': None, 'timestamp': 1648892021086}
+预期结果为 用户名不能为空
+实际结果为 用户名不能为空

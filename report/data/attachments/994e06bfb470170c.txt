@@ -1,0 +1,9 @@
+当前执行用例为不存在ids删除失败
+{'id': '1510188259072008193', 'goodsname': 'CITEL Surge Prot-7185', 'goodsprince': '3261.0', 'goodsid': '1506911954326921217', 'goodsamount': 2, 'stock': 9514, 'totalprice': 6522.0}
+存在 ids 参数
+特殊用例不修改ids参数
+修改后data为{"ids":"11111,2222"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Batch deletion failed！', 'code': 500, 'result': None, 'timestamp': 1648892238139}
+预期结果为 Batch deletion failed！
+实际结果为 Batch deletion failed！

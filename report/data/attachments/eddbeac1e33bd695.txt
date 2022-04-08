@@ -1,0 +1,8 @@
+当前执行用例为输入错误地址删除地址失败
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510188106870034432
+{"type":3,"id":"1510188106870034432"}
+入口 0
+{'timestamp': '2022-04-02 17:39:01', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/sys/api/homePage/updateAddresstytt'}
+预期结果为 No message available
+实际结果为 No message available

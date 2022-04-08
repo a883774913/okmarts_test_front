@@ -1,0 +1,9 @@
+当前执行用例为content-type参数类型错误请求失败application/x-www-form-urlencoded
+存在userAccount参数
+修改 userAccount 参数 979172251@qq.com 为 test3973822@comcast.net 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': "操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported", 'code': 500, 'result': None, 'timestamp': 1648892017104}
+预期结果为 操作失败
+实际结果为 操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

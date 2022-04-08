@@ -1,0 +1,9 @@
+当前执行用例为未登录状态删除购物车商品失败
+{'id': '1510188469802229761', 'goodsname': 'BEI Encoder DHO5-4267', 'goodsprince': '3692.0', 'goodsid': '1506858838541926401', 'goodsamount': 0, 'stock': 1345, 'totalprice': 0.0}
+存在 ids 参数
+修改 ids 参数: 1471765989995753474,1471663580816519169 为: 1510188433076903937,1510188209692467201
+修改后data为{"ids":"1510188433076903937,1510188209692467201"}
+入口 5
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '未获取到用户', 'code': 500, 'result': None, 'timestamp': 1648892225393}
+预期结果为 未获取到用户
+实际结果为 未获取到用户

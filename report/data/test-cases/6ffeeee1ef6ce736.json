@@ -1,0 +1,118 @@
+{
+  "uid" : "6ffeeee1ef6ce736",
+  "name" : "未登录状态添加购物车失败",
+  "fullName" : "main.testmain.TestMain#test_shoppingCart_add",
+  "historyId" : "0f2e31d74d4239498adb880312bd3296",
+  "time" : {
+    "start" : 1648892122670,
+    "stop" : 1648892126723,
+    "duration" : 4053
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c707ea53ad16bb6",
+      "name" : "stdout",
+      "source" : "6c707ea53ad16bb6.txt",
+      "type" : "text/plain",
+      "size" : 17141
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "添加商品到购物车"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '未登录状态添加购物车失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/add', 'data': '{\"count\":1,\"goodsId\":\"1505790429091729410\"}', 'content_type': 'application/json', 'result': '未获取到用户', 'assert_way': 'message', 'mode': '购物车表-添加'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6ffeeee1ef6ce736.json",
+  "parameterValues" : [ "{'casename': '未登录状态添加购物车失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/add', 'data': '{\"count\":1,\"goodsId\":\"1505790429091729410\"}', 'content_type': 'application/json', 'result': '未获取到用户', 'assert_way': 'message', 'mode': '购物车表-添加'}" ]
+}

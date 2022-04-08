@@ -1,0 +1,7 @@
+当前执行用例为错误请求方式POST查询商品详情失败
+data中存在id参数
+替换data参数中的ID 1443418105081614338 为: 1506850650274856961
+入口1
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持POST请求方法，支持以下GET、', 'code': 405, 'result': None, 'timestamp': 1648892090834}
+预期结果为 不支持POST请求方法，支持以下GET、
+实际结果为 不支持POST请求方法，支持以下GET、

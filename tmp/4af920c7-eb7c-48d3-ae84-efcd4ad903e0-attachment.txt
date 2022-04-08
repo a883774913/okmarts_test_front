@@ -1,0 +1,18 @@
+当前执行用例为addressid为空提交订单失败
+{'id': '1510188184249819137', 'goodsname': 'PROPISTON-985171', 'goodsprince': '9438.0', 'goodsid': '1505792318747316226', 'goodsamount': 4, 'stock': 7123, 'totalprice': 37752.0}
+shopcar_info为{'id': '1510188184249819137', 'goodsname': 'PROPISTON-985171', 'goodsprince': '9438.0', 'goodsid': '1505792318747316226', 'goodsamount': 4, 'stock': 7123, 'totalprice': 37752.0}
+存在 addressId 参数
+存在 count 参数
+修改 count 参数 1 为 4 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1506078550173900802 为: 1510188184249819137
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"addressId":null,"couponsid":"1504388955217436674","list":[{"count":4,"shopCartId":"1510188184249819137"}],"remark":""}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1510190241623969792', 'createBy': None, 'createTime': '2022-04-02 17:39:46', 'updateBy': None, 'updateTime': None, 'userid': '1509034057227440128', 'goodsid': '1505792318747316226', 'addressid': '1510189694921609216', 'couponsid': '1504388955217436674', 'logisticsid': None, 'ordernumber': '20220402093946268148', 'paynumber': None, 'orderamount': 26426.4, 'goodsacount': 4, 'originalamount': 37752.0, 'memberamount': 11325.6, 'couponsamount': 0.0, 'paytype': 1, 'onlinepayamount': None, 'payplatform': None, 'offlinepayamount': None, 'collectionaccount': None, 'collectionname': None, 'paystatus': 1, 'payTime': None, 'orderstatus': 0, 'deliverytime': None, 'cancelreason': None, 'preferentialreason': None, 'userName': None, 'goodsName': None, 'goodsPrice': None, 'deliveryWarehouse': None, 'receivingFirstName': None, 'receivingLastName': None, 'receivingPhone': None, 'receivingCountry': None, 'addressDetail': None, 'receivingName': None, 'returnTime': None, 'salesPromotionAmount': 0.0, 'successUrl': None, 'cancelUrl': None, 'remark': '', 'issh': 0, 'nonPaymentNotice': 0, 'orderInvalidationNotice': None, 'receiveTime': None, 'freightPrice': 0.0, 'statusText': '待支付', 'country': None, 'infoOrderList': None}, 'timestamp': 1648892386248}
+预期结果为 操作失败
+实际结果为 操作成功！

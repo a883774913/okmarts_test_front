@@ -1,0 +1,9 @@
+当前执行用例为ids部分参数错误删除购物车失败
+{'id': '1510188408334704641', 'goodsname': 'Imai-576137', 'goodsprince': '2483.0', 'goodsid': '1503318446664024066', 'goodsamount': 2, 'stock': 928, 'totalprice': 4966.0}
+存在 ids 参数
+修改 ids 参数: 147176598953474,aaaaa9 为: sss,1510188222078246913
+修改后data为{"ids":"sss,1510188222078246913"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': 'Batch deletion succeeded！', 'timestamp': 1648892234941}
+预期结果为 Batch deletion failed！
+实际结果为 操作成功！

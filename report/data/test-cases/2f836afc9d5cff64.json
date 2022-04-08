@@ -1,0 +1,85 @@
+{
+  "uid" : "2f836afc9d5cff64",
+  "name" : "错误的参数类型修改失败application/x-www-form-urlencoded",
+  "fullName" : "main.testmain.TestMain#test_updateUserInfo",
+  "historyId" : "dbaf5e37f1887bba126e04414f307756",
+  "time" : {
+    "start" : 1648892937927,
+    "stop" : 1648892939761,
+    "duration" : 1834
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "442cc507efce9172",
+      "name" : "stdout",
+      "source" : "442cc507efce9172.txt",
+      "type" : "text/plain",
+      "size" : 875
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "修改用户信息"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '错误的参数类型修改失败application/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateUserInfo', 'data': '{\"id\":\"1509780698268045312\",\"name\":null,\"age\":null,\"country\":null,\"area\":null,\"city\":null,\"phone\":null,\"firstName\":\"First name\",\"lastName\":\"Last name\",\"sex\":\"2\",\"birthDay\":\"2022-04-20\",\"company\":\"Company\",\"integral\":0,\"memberlevel\":\"0\",\"totalintegral\":0,\"avatar\":null,\"subscribePromotional\":0,\"subscribeAccount\":0,\"subscribeCommodity\":0,\"email\":null}', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '修改个人信息'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f836afc9d5cff64.json",
+  "parameterValues" : [ "{'casename': '错误的参数类型修改失败application/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateUserInfo', 'data': '{\"id\":\"1509780698268045312\",\"name\":null,\"age\":null,\"country\":null,\"area\":null,\"city\":null,\"phone\":null,\"firstName\":\"First name\",\"lastName\":\"Last name\",\"sex\":\"2\",\"birthDay\":\"2022-04-20\",\"company\":\"Company\",\"integral\":0,\"memberlevel\":\"0\",\"totalintegral\":0,\"avatar\":null,\"subscribePromotional\":0,\"subscribeAccount\":0,\"subscribeCommodity\":0,\"email\":null}', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '修改个人信息'}" ]
+}

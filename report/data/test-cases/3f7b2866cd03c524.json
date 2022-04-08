@@ -1,0 +1,118 @@
+{
+  "uid" : "3f7b2866cd03c524",
+  "name" : "参数count为空编辑失败",
+  "fullName" : "main.testmain.TestMain#test_shoppingCart_edit",
+  "historyId" : "a983759be5e89fa42f36704a40fe25d4",
+  "time" : {
+    "start" : 1648892199010,
+    "stop" : 1648892201397,
+    "duration" : 2387
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "d60c0db8264db1eb",
+      "name" : "stdout",
+      "source" : "d60c0db8264db1eb.txt",
+      "type" : "text/plain",
+      "size" : 904
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "购物车-编辑"
+  }, {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "购物车"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '参数count为空编辑失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":\"null\"}', 'content_type': 'application/json', 'result': '参数不能为空！', 'assert_way': 'message', 'mode': '购物车表-编辑'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3f7b2866cd03c524.json",
+  "parameterValues" : [ "{'casename': '参数count为空编辑失败', 'url': 'http://18.118.13.94:81/jeecg-boot/my/shoppingCart/editShopCart', 'data': '{\"id\":\"1506138019520012289\",\"count\":\"null\"}', 'content_type': 'application/json', 'result': '参数不能为空！', 'assert_way': 'message', 'mode': '购物车表-编辑'}" ]
+}

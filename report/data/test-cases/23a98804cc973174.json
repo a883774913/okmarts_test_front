@@ -1,0 +1,85 @@
+{
+  "uid" : "23a98804cc973174",
+  "name" : "参数传递类型错误修改密码失败application/x-www-form-urlencoded",
+  "fullName" : "main.testmain.TestMain#test_updateUserPassword",
+  "historyId" : "07e5db268e9424d5a29eb8188b9b0a41",
+  "time" : {
+    "start" : 1648892826380,
+    "stop" : 1648892850202,
+    "duration" : 23822
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1164cefa0f74e176",
+      "name" : "stdout",
+      "source" : "1164cefa0f74e176.txt",
+      "type" : "text/plain",
+      "size" : 999
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "feature",
+    "value" : "修改密码"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': '参数传递类型错误修改密码失败application/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateUserPassword', 'data': '{\"newPassword\":\"a123456\",\"code\":\"541391\"}', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '修改用户密码'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23a98804cc973174.json",
+  "parameterValues" : [ "{'casename': '参数传递类型错误修改密码失败application/x-www-form-urlencoded', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/updateUserPassword', 'data': '{\"newPassword\":\"a123456\",\"code\":\"541391\"}', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作失败', 'assert_way': 'message', 'mode': '修改用户密码'}" ]
+}

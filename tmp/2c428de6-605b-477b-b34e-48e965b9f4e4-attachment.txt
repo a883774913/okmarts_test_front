@@ -1,0 +1,8 @@
+当前执行用例为错误的参数请求类型领取失败multipart/form-data
+修改old_name a883774917@163.com 为 test8014378@verizon.net 
+name=test8014378@verizon.net
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found', 'code': 500, 'result': None, 'timestamp': 1648892913371}
+预期结果为 操作失败
+实际结果为 操作失败，Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found
+http://18.118.13.94:81/jeecg-boot/sys/api/users/registerCoupons?name=test8014378@verizon.net

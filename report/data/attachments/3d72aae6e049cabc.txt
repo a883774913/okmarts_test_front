@@ -1,0 +1,12 @@
+当前执行用例为输入正确的信息新增地址成功
+存在 firstname 参数
+修改 firstname 参数 1 为 祝 
+存在 lastname 参数
+修改 lastname 参数 1 为 炜 
+存在contactnumber参数
+修改 contactnumber 参数: 11 为: 18621511366
+{"firstname":"祝","lastname":"炜","contactnumber":"18621511366","area1":"11","area2":"11","area3":"CN","postalCode":"21","addressLine":"12","countryCode":"CN"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892255902}
+预期结果为 成功
+实际结果为 成功

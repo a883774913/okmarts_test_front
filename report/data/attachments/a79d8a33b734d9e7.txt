@@ -1,0 +1,5 @@
+当前执行用例为输入正确信息密码检查通过
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892941341}
+预期结果为 成功
+实际结果为 成功

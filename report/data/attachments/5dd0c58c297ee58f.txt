@@ -1,0 +1,8 @@
+当前执行用例为ID为空查询商品详情失败
+data中存在id参数
+特殊用例不执行修改操作
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '未找到该商品信息！', 'code': 500, 'result': None, 'timestamp': 1648892095714}
+预期结果为 未找到该商品信息
+实际结果为 未找到该商品信息！
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryGoodsById?id=

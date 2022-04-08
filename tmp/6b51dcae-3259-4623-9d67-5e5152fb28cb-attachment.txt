@@ -1,0 +1,12 @@
+当前执行用例为输入错误类型参数请求类型编辑购物车失败application/x-www-form-urlencoded
+{'id': '1510188433076903937', 'goodsname': 'BEI Encoder GHT5-3441', 'goodsprince': '3312.0', 'goodsid': '1506900270459789314', 'goodsamount': 8, 'stock': 6583, 'totalprice': 26496.0}
+data中存在id参数
+{'id': '1510188259072008193', 'goodsname': 'CITEL Surge Prot-7185', 'goodsprince': '3261.0', 'goodsid': '1506911954326921217', 'goodsamount': 2, 'stock': 9514, 'totalprice': 6522.0}
+替换data参数中的ID 1506138019520012289 为: 1510188259072008193
+存在 count 参数
+修改 count 参数 2 为 8 
+修改后data为{"id":"1510188259072008193","count":8}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': "操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported", 'code': 500, 'result': None, 'timestamp': 1648892215583}
+预期结果为 操作失败
+实际结果为 操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

@@ -1,0 +1,8 @@
+当前执行用例为错误的参数请求方式查询商品详情失败
+data中存在id参数
+替换data参数中的ID 1443418105081614338 为: 1506851429173886977
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1506851429173886977', 'createBy': None, 'createTime': '2022-03-24', 'updateBy': None, 'updateTime': '2022-04-02', 'goodsimages': 'https://okmarts.com/pub/media/catalog/product/cache/eb3b3aea1bc60e25fc668d12622cbc2f/v/r/vrt100.jpg', 'goodsimagem': 'https://okmarts.com/pub/media/catalog/product/cache/eb3b3aea1bc60e25fc668d12622cbc2f/v/r/vrt100.jpg', 'goodsimagel': 'https://okmarts.com/pub/media/catalog/product/cache/eb3b3aea1bc60e25fc668d12622cbc2f/v/r/vrt100.jpg', 'name': 'TECOMEC Overflow-2228', 'productionplace': 'Andorra', 'typeid': '1503308280937807874', 'brandid': '1503311449877086209', 'warehouseid': '1503306485733752834', 'amount': 8960, 'goodsno': '1801Ain01832463', 'costprice': 9771.0, 'saleprice': 4295.0, 'goodsdesc': None, 'isrecommend': 1, 'status': 1, 'goodsweights': 4, 'dayattention': 0, 'totalattention': 0, 'sale': 0.0, 'browseCount': 0, 'saleIs': 1, 'saleTime': '2022-03-24 13:00:59', 'recommendTime': None, 'weightSubTime': None, 'weightSub': 0, 'isDelete': 0, 'inquiry': None, 'typeName': 'Air Cylinder', 'brandName': 'ACTRON', 'warehouseName': None, 'fuzzyQueryName': None, 'promoteStatus': None, 'likeGoods': False, 'attentionId': None, 'disCountDisplay': False, 'subAmount': None, 'discount': None, 'ruletype': None, 'speciArr': None}, 'timestamp': 1648892098166}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/queryGoodsById?id=1506851429173886977

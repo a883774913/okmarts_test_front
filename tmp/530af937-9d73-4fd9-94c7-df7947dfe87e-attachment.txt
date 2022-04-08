@@ -1,0 +1,6 @@
+当前执行用例为输入正确参数查询路由信息成功
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': None, 'timestamp': 1648892066614}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/goods/routeUrl?routeName=index

@@ -1,0 +1,8 @@
+当前执行用例为code参数为空修改密码失败
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Verification code has been sent. Please do not click again!', 'code': 500, 'result': None, 'timestamp': 1648892790728}
+存在 code 参数
+{"newPassword":"a123456","code":""}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Password modification failed', 'code': 500, 'result': None, 'timestamp': 1648892796010}
+预期结果为 Password modification failed
+实际结果为 Password modification failed

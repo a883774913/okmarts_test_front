@@ -1,0 +1,11 @@
+当前执行用例为参数id为非数字编辑失败
+{'id': '1510188184249819137', 'goodsname': 'PROPISTON-985171', 'goodsprince': '9438.0', 'goodsid': '1505792318747316226', 'goodsamount': 4, 'stock': 7123, 'totalprice': 37752.0}
+data中存在id参数
+特殊用例不执行修改操作
+存在 count 参数
+修改 count 参数 2 为 4 
+修改后data为{"id":"sssss","count":4}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，null', 'code': 500, 'result': None, 'timestamp': 1648892213215}
+预期结果为 操作失败
+实际结果为 操作失败，null

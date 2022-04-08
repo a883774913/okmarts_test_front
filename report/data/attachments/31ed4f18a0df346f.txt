@@ -1,0 +1,9 @@
+当前执行用例为错误请求方式批量删除购物车商品失败（DELETE）
+{'id': '1510188209692467201', 'goodsname': 'LENORD BAUER Enc-3665', 'goodsprince': '9037.0', 'goodsid': '1506892742590078978', 'goodsamount': 4, 'stock': 5934, 'totalprice': 36148.0}
+存在 ids 参数
+修改 ids 参数: 1471765989995753474,1471663580816519169 为: 1510188469802229761,1510188121385590785
+修改后data为{"ids":"1510188469802229761,1510188121385590785"}
+入口 4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持DELETE请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892230149}
+预期结果为 不支持DELETE请求方法，支持以下POST、
+实际结果为 不支持DELETE请求方法，支持以下POST、

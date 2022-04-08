@@ -1,0 +1,14 @@
+当前执行用例为输入删除type修改地址失败
+存在 firstname 参数
+修改 firstname 参数 2 为 宿 
+存在 lastname 参数
+修改 lastname 参数 2 为 淼 
+存在contactnumber参数
+修改 contactnumber 参数: 2 为: 15665123783
+data中存在id参数
+替换data参数中的ID 1472809679833927680 为: 1510188105733378048
+{"firstname":"宿","lastname":"淼","contactnumber":"15665123783","area1":"2","area2":"2","area3":"2","postalCode":"2","addressLine":"12","countryCode":"CN","type":3,"id":"1510188105733378048"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '成功', 'code': 200, 'result': None, 'timestamp': 1648892320213}
+预期结果为 empty
+实际结果为 成功

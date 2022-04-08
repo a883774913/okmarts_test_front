@@ -1,0 +1,12 @@
+当前执行用例为发送错误请求方式编辑购物车失败（DELETE）
+{'id': '1510188358317629441', 'goodsname': 'PHOENIX Surge Pr-3555', 'goodsprince': '1139.0', 'goodsid': '1506892562763489281', 'goodsamount': 2, 'stock': 717, 'totalprice': 2278.0}
+data中存在id参数
+{'id': '1510188121385590785', 'goodsname': 'WAGO PLC 750-600-3191', 'goodsprince': '2496.0', 'goodsid': '1506886468448165890', 'goodsamount': 2, 'stock': 7298, 'totalprice': 4992.0}
+替换data参数中的ID 1506138019520012289 为: 1510188121385590785
+存在 count 参数
+修改 count 参数 2 为 2 
+修改后data为{"id":"1510188121385590785","count":2}
+入口 4
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持DELETE请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892190033}
+预期结果为 不支持DELETE请求方法，支持以下POST、
+实际结果为 不支持DELETE请求方法，支持以下POST、

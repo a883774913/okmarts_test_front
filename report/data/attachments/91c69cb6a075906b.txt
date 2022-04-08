@@ -1,0 +1,6 @@
+当前执行用例为参数为空获取验证码失败
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Operation business exception！', 'code': 500, 'result': None, 'timestamp': 1648892629253}
+预期结果为 Operation business exception！
+实际结果为 Operation business exception！
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getUserEmailCode?type=null

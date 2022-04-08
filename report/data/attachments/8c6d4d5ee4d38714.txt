@@ -1,0 +1,9 @@
+当前执行用例为错误参数请求类型删除商品失败
+参数中存在id
+1508656644457922561
+替换1508656644457922561为1510188522411384834
+id=1510188522411384834
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found', 'code': 500, 'result': None, 'timestamp': 1648892593189}
+预期结果为 操作失败
+实际结果为 操作失败，Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found

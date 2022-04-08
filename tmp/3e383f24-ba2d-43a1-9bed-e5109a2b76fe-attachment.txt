@@ -1,0 +1,12 @@
+当前执行用例为未登录状态编辑购物车失败
+{'id': '1510188445458489345', 'goodsname': 'Ebara Vacuum Pum-5247', 'goodsprince': '5015.0', 'goodsid': '1506882101812797442', 'goodsamount': 3, 'stock': 1834, 'totalprice': 15045.0}
+data中存在id参数
+{'id': '1510188158740062209', 'goodsname': 'Rockwell AB Powe-3254', 'goodsprince': '5448.0', 'goodsid': '1506911578437591042', 'goodsamount': 3, 'stock': 4536, 'totalprice': 16344.0}
+替换data参数中的ID 1506138019520012289 为: 1510188158740062209
+存在 count 参数
+修改 count 参数 2 为 3 
+修改后data为{"id":"1510188158740062209","count":3}
+入口 5
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '未获取到用户', 'code': 500, 'result': None, 'timestamp': 1648892185293}
+预期结果为 未获取到用户
+实际结果为 未获取到用户

@@ -1,0 +1,10 @@
+当前执行用例为错误参数类型删除失败multipart/form-data
+参数中存在ids
+ids=1111,2222
+1111,2222
+替换1111,2222为1510188599938899970,1510188625901641730
+ids=1510188599938899970,1510188625901641730
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found', 'code': 500, 'result': None, 'timestamp': 1648892622080}
+预期结果为 操作失败
+实际结果为 操作失败，Failed to parse multipart servlet request; nested exception is java.io.IOException: org.apache.tomcat.util.http.fileupload.FileUploadException: the request was rejected because no multipart boundary was found

@@ -1,0 +1,6 @@
+当前执行用例为pageSize参数为非数字查询失败
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': [{'id': '1510188106870034432', 'firstname': '归', 'lastname': '婷', 'contactnumber': '13460869157', 'countryCode': 'CN', 'postalCode': '21', 'area1': '11', 'area2': '11', 'area3': 'CN', 'addressLine': '12', 'isDefault': 1, 'type': None}, {'id': '1510188104617693184', 'firstname': '卢', 'lastname': '媛', 'contactnumber': '17602074545', 'countryCode': 'CN', 'postalCode': '21', 'area1': '11', 'area2': '11', 'area3': 'CN', 'addressLine': '12', 'isDefault': 0, 'type': None}, {'id': '1510188105733378048', 'firstname': '商', 'lastname': '维', 'contactnumber': '14755545839', 'countryCode': 'CN', 'postalCode': '21', 'area1': '11', 'area2': '11', 'area3': 'CN', 'addressLine': '12', 'isDefault': 0, 'type': None}], 'timestamp': 1648892250290}
+预期结果为 操作成功
+实际结果为 操作成功！
+http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getAddressList?pageNo=1&pageSize=ssss

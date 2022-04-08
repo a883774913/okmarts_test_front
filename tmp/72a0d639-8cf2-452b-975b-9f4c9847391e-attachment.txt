@@ -1,0 +1,9 @@
+当前执行用例为正确参数批量删除成功
+{'id': '1510188184249819137', 'goodsname': 'PROPISTON-985171', 'goodsprince': '9438.0', 'goodsid': '1505792318747316226', 'goodsamount': 4, 'stock': 7123, 'totalprice': 37752.0}
+存在 ids 参数
+修改 ids 参数: 1471765989995753474,1471663580816519169 为: 1510189273330212866,1510188358317629441
+修改后data为{"ids":"1510189273330212866,1510188358317629441"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': 'Batch deletion succeeded！', 'timestamp': 1648892220369}
+预期结果为 操作成功
+实际结果为 操作成功！

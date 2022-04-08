@@ -1,0 +1,8 @@
+当前执行用例为发送错误请求GET删除地址失败
+data中存在id参数
+替换data参数中的ID 1506562052406251520 为: 1510189694921609216
+{"type":3,"id":"1510189694921609216"}
+入口 2
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持GET请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892344509}
+预期结果为 不支持GET请求方法，支持以下POST、
+实际结果为 不支持GET请求方法，支持以下POST、

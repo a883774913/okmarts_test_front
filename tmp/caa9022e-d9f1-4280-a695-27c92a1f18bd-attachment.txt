@@ -1,0 +1,8 @@
+当前执行用例为生日日期输入异常日期修改失败
+1509034057227440128
+{"id":"1509034057227440128","name":null,"age":null,"country":null,"area":null,"city":null,"phone":null,"firstName":"First name","lastName":"Last name","sex":"2","birthDay":"12345","company":"Company","integral":0,"memberlevel":"0","totalintegral":0,"avatar":null,"subscribePromotional":0,"subscribeAccount":0,"subscribeCommodity":0,"email":null}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，JSON parse error: Cannot deserialize value of type `java.util.Date` from String "12345": expected format "yyyy-MM-dd"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "12345": expected format "yyyy-MM-dd"\n at [Source: (PushbackInputStream); line: 1, column: 173] (through reference chain: org.jeecg.modules.homePage.vo.UsersVO["birthDay"])', 'code': 500, 'result': None, 'timestamp': 1648892935001}
+预期结果为 操作失败
+实际结果为 操作失败，JSON parse error: Cannot deserialize value of type `java.util.Date` from String "12345": expected format "yyyy-MM-dd"; nested exception is com.fasterxml.jackson.databind.exc.InvalidFormatException: Cannot deserialize value of type `java.util.Date` from String "12345": expected format "yyyy-MM-dd"
+ at [Source: (PushbackInputStream); line: 1, column: 173] (through reference chain: org.jeecg.modules.homePage.vo.UsersVO["birthDay"])

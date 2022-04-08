@@ -1,0 +1,12 @@
+当前执行用例为参数正确，编辑购物车成功
+{'id': '1510188134048194562', 'goodsname': 'Omron VFD Freque-5328', 'goodsprince': '7171.0', 'goodsid': '1506860438752788481', 'goodsamount': 7, 'stock': 3414, 'totalprice': 50197.0}
+data中存在id参数
+{'id': '1510188346254811137', 'goodsname': 'EATON HMI XV-102-3509', 'goodsprince': '7897.0', 'goodsid': '1506867249451040770', 'goodsamount': 2, 'stock': 8317, 'totalprice': 15794.0}
+替换data参数中的ID 1506138019520012289 为: 1510188346254811137
+存在 count 参数
+修改 count 参数 2 为 7 
+修改后data为{"id":"1510188346254811137","count":7}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': 'Modified successfully！', 'timestamp': 1648892180243}
+预期结果为 操作成功
+实际结果为 操作成功！

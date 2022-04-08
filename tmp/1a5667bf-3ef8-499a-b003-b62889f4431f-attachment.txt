@@ -1,0 +1,16 @@
+当前执行用例为错误请求方式GET修改密码失败
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Verification code has been sent. Please do not click again!', 'code': 500, 'result': None, 'timestamp': 1648892708094}
+存在 code 参数
+20
+hydraulic
+hydraulic
+Operational business：Password modification
+Verification Code：258426 （Valid for ten minutes）
+['258426']
+code为258426
+修改 code 参数: 541391 为: 258426
+{"newPassword":"a123456","code":"258426"}
+入口 2
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '不支持GET请求方法，支持以下POST、', 'code': 405, 'result': None, 'timestamp': 1648892729762}
+预期结果为 不支持GET请求方法，支持以下POST、
+实际结果为 不支持GET请求方法，支持以下POST、

@@ -1,0 +1,9 @@
+当前执行用例为输入错误URL地址删除购物车商品失败
+{'id': '1510188408334704641', 'goodsname': 'Imai-576137', 'goodsprince': '2483.0', 'goodsid': '1503318446664024066', 'goodsamount': 2, 'stock': 928, 'totalprice': 4966.0}
+存在 ids 参数
+修改 ids 参数: 1471765989995753474,1471663580816519169 为: 1510188457538084866,1510188383261155329
+修改后data为{"ids":"1510188457538084866,1510188383261155329"}
+入口 0
+{'timestamp': '2022-04-02 17:37:02', 'status': 404, 'error': 'Not Found', 'message': 'No message available', 'path': '/jeecg-boot/my/shoppingCart/batchDelShopCartttt'}
+预期结果为 No message available
+实际结果为 No message available

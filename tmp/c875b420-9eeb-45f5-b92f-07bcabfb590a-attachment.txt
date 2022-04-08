@@ -1,0 +1,20 @@
+当前执行用例为参数类型错误提交订单失败
+application/x-www-form-urlencoded
+{'id': '1510189116266110978', 'goodsname': 'VOGEL Reduction -6555', 'goodsprince': '28.0', 'goodsid': '1506867268346380289', 'goodsamount': 9, 'stock': 7882, 'totalprice': 252.0}
+shopcar_info为{'id': '1510189116266110978', 'goodsname': 'VOGEL Reduction -6555', 'goodsprince': '28.0', 'goodsid': '1506867268346380289', 'goodsamount': 9, 'stock': 7882, 'totalprice': 252.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510188106870034432
+存在 count 参数
+修改 count 参数 1 为 9 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1472726920837902337 为: 1510189116266110978
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"addressId":"1510188106870034432","couponsid":"1504388955217436674","list":[{"count":9,"shopCartId":"1510189116266110978"}]}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': "操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported", 'code': 500, 'result': None, 'timestamp': 1648892422832}
+预期结果为 操作失败
+实际结果为 操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

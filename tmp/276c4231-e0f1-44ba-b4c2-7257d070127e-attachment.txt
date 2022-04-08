@@ -1,0 +1,6 @@
+当前执行用例为无参数删除失败
+
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': "操作失败，Required String parameter 'ids' is not present", 'code': 500, 'result': None, 'timestamp': 1648892616758}
+预期结果为 操作失败
+实际结果为 操作失败，Required String parameter 'ids' is not present

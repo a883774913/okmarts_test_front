@@ -1,0 +1,16 @@
+当前执行用例为couponsid为空提交订单成功
+{'id': '1510188371093479425', 'goodsname': 'UniOP HMI eTOP13-5101', 'goodsprince': '8918.0', 'goodsid': '1506903459963740161', 'goodsamount': -2, 'stock': 1253, 'totalprice': -17836.0}
+shopcar_info为{'id': '1510188371093479425', 'goodsname': 'UniOP HMI eTOP13-5101', 'goodsprince': '8918.0', 'goodsid': '1506903459963740161', 'goodsamount': -2, 'stock': 1253, 'totalprice': -17836.0}
+存在 addressId 参数
+修改 addressId 参数: 1472817369465360384 为: 1510189694921609216
+存在 count 参数
+修改 count 参数 1 为 -2 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1472726920837902337 为: 1510188371093479425
+存在 couponsid 参数
+参数 couponsid 的值未找到！！
+修改后的data 为{"addressId":"1510189694921609216","couponsid": null,"list":[{"count":-2,"shopCartId":"1510188371093479425"}]}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1510190221432590336', 'createBy': None, 'createTime': '2022-04-02 17:39:41', 'updateBy': None, 'updateTime': None, 'userid': '1509034057227440128', 'goodsid': '1506903459963740161', 'addressid': '1510189694921609216', 'couponsid': None, 'logisticsid': None, 'ordernumber': '20220402093941442042', 'paynumber': None, 'orderamount': 0.0, 'goodsacount': -2, 'originalamount': -17836.0, 'memberamount': -5350.8, 'couponsamount': 0.0, 'paytype': 1, 'onlinepayamount': None, 'payplatform': None, 'offlinepayamount': None, 'collectionaccount': None, 'collectionname': None, 'paystatus': 1, 'payTime': None, 'orderstatus': 0, 'deliverytime': None, 'cancelreason': None, 'preferentialreason': None, 'userName': None, 'goodsName': None, 'goodsPrice': None, 'deliveryWarehouse': None, 'receivingFirstName': None, 'receivingLastName': None, 'receivingPhone': None, 'receivingCountry': None, 'addressDetail': None, 'receivingName': None, 'returnTime': None, 'salesPromotionAmount': 0.0, 'successUrl': None, 'cancelUrl': None, 'remark': None, 'issh': 0, 'nonPaymentNotice': 0, 'orderInvalidationNotice': None, 'receiveTime': None, 'freightPrice': 0.0, 'statusText': '待支付', 'country': None, 'infoOrderList': None}, 'timestamp': 1648892381435}
+预期结果为 操作成功
+实际结果为 操作成功！

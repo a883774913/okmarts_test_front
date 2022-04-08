@@ -1,0 +1,118 @@
+{
+  "uid" : "bdf1fc9fa13cc73b",
+  "name" : "pageNo参数为空查询失败",
+  "fullName" : "main.testmain.TestMain#test_getAddressList",
+  "historyId" : "c6dcfe0d85e4a57f0eaab57c45711a2c",
+  "time" : {
+    "start" : 1648892249763,
+    "stop" : 1648892250542,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain",
+    "time" : {
+      "start" : 1648891876991,
+      "stop" : 1648892011835,
+      "duration" : 134844
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6b24eb2bfbdb52eb",
+      "name" : "stdout",
+      "source" : "6b24eb2bfbdb52eb.txt",
+      "type" : "text/plain",
+      "size" : 1118
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMain::0",
+    "time" : {
+      "start" : 1648893620785,
+      "stop" : 1648893639450,
+      "duration" : 18665
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "O&Kmarts 前端接口测试用例"
+  }, {
+    "name" : "story",
+    "value" : "获取地址信息"
+  }, {
+    "name" : "feature",
+    "value" : "地址管理"
+  }, {
+    "name" : "parentSuite",
+    "value" : "main"
+  }, {
+    "name" : "suite",
+    "value" : "testmain"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-NB3FDE0"
+  }, {
+    "name" : "thread",
+    "value" : "10872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "main.testmain"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "Parameters",
+    "value" : "{'casename': 'pageNo参数为空查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getAddressList', 'data': 'pageNo=null&pageSize=100', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作成功', 'assert_way': 'message', 'mode': '获取地址列表'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bdf1fc9fa13cc73b.json",
+  "parameterValues" : [ "{'casename': 'pageNo参数为空查询失败', 'url': 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getAddressList', 'data': 'pageNo=null&pageSize=100', 'content_type': 'application/x-www-form-urlencoded', 'result': '操作成功', 'assert_way': 'message', 'mode': '获取地址列表'}" ]
+}

@@ -1,0 +1,17 @@
+当前执行用例为缺少addressid提交订单失败
+{'id': '1510188246916915201', 'goodsname': 'ULVAC Vacuum Pum-4544', 'goodsprince': '3423.0', 'goodsid': '1506899823187599361', 'goodsamount': 3, 'stock': 4808, 'totalprice': 10269.0}
+shopcar_info为{'id': '1510188246916915201', 'goodsname': 'ULVAC Vacuum Pum-4544', 'goodsprince': '3423.0', 'goodsid': '1506899823187599361', 'goodsamount': 3, 'stock': 4808, 'totalprice': 10269.0}
+存在 count 参数
+修改 count 参数 1 为 3 
+存在 shopCartId 参数
+修改 shopCartId 参数: 1472726920837902337 为: 1510188246916915201
+存在 couponsid 参数
+old_couponsid为 
+找到 3 张符合要求的优惠券! 
+couponsid 为 1504388955217436674
+修改 couponsid 参数:  为: 1504388955217436674
+修改后的data 为{"couponsid":"1504388955217436674","list":[{"count":3,"shopCartId":"1510188246916915201"}]}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': True, 'message': '操作成功！', 'code': 200, 'result': {'id': '1510190331759562752', 'createBy': None, 'createTime': '2022-04-02 17:40:07', 'updateBy': None, 'updateTime': None, 'userid': '1509034057227440128', 'goodsid': '1506899823187599361', 'addressid': '1510189694921609216', 'couponsid': '1504388955217436674', 'logisticsid': None, 'ordernumber': '20220402094007777133', 'paynumber': None, 'orderamount': 7188.3, 'goodsacount': 3, 'originalamount': 10269.0, 'memberamount': 3080.7, 'couponsamount': 0.0, 'paytype': 1, 'onlinepayamount': None, 'payplatform': None, 'offlinepayamount': None, 'collectionaccount': None, 'collectionname': None, 'paystatus': 1, 'payTime': None, 'orderstatus': 0, 'deliverytime': None, 'cancelreason': None, 'preferentialreason': None, 'userName': None, 'goodsName': None, 'goodsPrice': None, 'deliveryWarehouse': None, 'receivingFirstName': None, 'receivingLastName': None, 'receivingPhone': None, 'receivingCountry': None, 'addressDetail': None, 'receivingName': None, 'returnTime': None, 'salesPromotionAmount': 0.0, 'successUrl': None, 'cancelUrl': None, 'remark': None, 'issh': 0, 'nonPaymentNotice': 0, 'orderInvalidationNotice': None, 'receiveTime': None, 'freightPrice': 0.0, 'statusText': '待支付', 'country': None, 'infoOrderList': None}, 'timestamp': 1648892407738}
+预期结果为 操作失败
+实际结果为 操作成功！

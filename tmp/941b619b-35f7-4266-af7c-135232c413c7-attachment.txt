@@ -1,0 +1,6 @@
+当前执行用例为pageSize参数为查询成功
+入口0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，Failed to convert value of type \'java.lang.String\' to required type \'java.lang.Integer\'; nested exception is java.lang.NumberFormatException: For input string: "null"', 'code': 500, 'result': None, 'timestamp': 1648892602152}
+预期结果为 操作失败
+实际结果为 操作失败，Failed to convert value of type 'java.lang.String' to required type 'java.lang.Integer'; nested exception is java.lang.NumberFormatException: For input string: "null"
+http://18.118.13.94:81/jeecg-boot/sys/api/usersAttentionGoods/list?pageNo=1&pageSize=null

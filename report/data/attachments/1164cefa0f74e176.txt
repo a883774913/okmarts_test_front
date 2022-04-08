@@ -1,0 +1,16 @@
+当前执行用例为参数传递类型错误修改密码失败application/x-www-form-urlencoded
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Verification code has been sent. Please do not click again!', 'code': 500, 'result': None, 'timestamp': 1648892826126}
+存在 code 参数
+20
+hydraulic
+hydraulic
+Operational business：Password modification
+Verification Code：258426 （Valid for ten minutes）
+['258426']
+code为258426
+修改 code 参数: 541391 为: 258426
+{"newPassword":"a123456","code":"258426"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': "操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported", 'code': 500, 'result': None, 'timestamp': 1648892849147}
+预期结果为 操作失败
+实际结果为 操作失败，Content type 'application/x-www-form-urlencoded;charset=UTF-8' not supported

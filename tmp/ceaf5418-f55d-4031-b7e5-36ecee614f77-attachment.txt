@@ -1,0 +1,13 @@
+当前执行用例为contactnumber为空修改地址失败
+存在 firstname 参数
+修改 firstname 参数 2 为 干 
+存在 lastname 参数
+修改 lastname 参数 2 为 燕 
+存在contactnumber参数
+data中存在id参数
+替换data参数中的ID 1472809679833927680 为: 1510189694921609216
+{"firstname":"干","lastname":"燕","contactnumber":null,"area1":"2","area2":"2","area3":"2","postalCode":"2","addressLine":"12","countryCode":"CN","type":2,"id":"1510189694921609216"}
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Contact number cannot be empty！', 'code': 500, 'result': None, 'timestamp': 1648892308287}
+预期结果为 Contact number cannot be empty！
+实际结果为 Contact number cannot be empty！

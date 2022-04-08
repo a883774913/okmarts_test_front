@@ -1,0 +1,5 @@
+当前执行用例为参数password错误失败
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': 'Verification failed, password error!', 'code': 500, 'result': None, 'timestamp': 1648892947947}
+预期结果为 Verification failed, password error
+实际结果为 Verification failed, password error!

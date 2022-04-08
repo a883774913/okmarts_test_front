@@ -1,0 +1,9 @@
+当前执行用例为userAccount不包含@注册失败
+存在userAccount参数
+特殊用例不修改 userAccount 参数 
+存在 password 参数
+修改 password 参数 a123456 为 a123456 
+入口 0
+{'allNum': None, 'typename': None, 'typeid': None, 'brandsid': None, 'brandsname': None, 'success': False, 'message': '操作失败，account already exist!', 'code': 500, 'result': None, 'timestamp': 1648892025146}
+预期结果为 操作失败
+实际结果为 操作失败，account already exist!

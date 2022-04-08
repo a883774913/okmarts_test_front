@@ -1,0 +1,5371 @@
+[ {
+  "uid" : "f4baea4af19bee",
+  "name" : "使用错误的请求方式POST查询失败",
+  "time" : {
+    "start" : 1648892074240,
+    "stop" : 1648892075017,
+    "duration" : 777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27770a93f4d17b66",
+  "name" : "输入错误URL地址删除购物车商品失败",
+  "time" : {
+    "start" : 1648892221418,
+    "stop" : 1648892223791,
+    "duration" : 2373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6816bc869c465e2f",
+  "name" : "pageSize为空进行查询失败",
+  "time" : {
+    "start" : 1648892080059,
+    "stop" : 1648892080841,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "57d8707fe1e6652c",
+  "name" : "输入错误的请求方式修改默认地址失败PUT",
+  "time" : {
+    "start" : 1648892332623,
+    "stop" : 1648892334210,
+    "duration" : 1587
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d30ebfccc08e38b",
+  "name" : "缺少area2修改地址失败",
+  "time" : {
+    "start" : 1648892295880,
+    "stop" : 1648892297440,
+    "duration" : 1560
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92e8869ef5057d7",
+  "name" : "错误的参数请求方式获取广告栏位数据失败application/json",
+  "time" : {
+    "start" : 1648892052957,
+    "stop" : 1648892053758,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6820aa43c8290dc",
+  "name" : "缺少list提交订单失败",
+  "time" : {
+    "start" : 1648892411213,
+    "stop" : 1648892414358,
+    "duration" : 3145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32936d376a815da4",
+  "name" : "password5位字符注册失败",
+  "time" : {
+    "start" : 1648892027818,
+    "stop" : 1648892028611,
+    "duration" : 793
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "77438302c342167f",
+  "name" : "错误的请求类型失败DELETE",
+  "time" : {
+    "start" : 1648892945031,
+    "stop" : 1648892945806,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c0cf71cb7bc78acb",
+  "name" : "错误的参数类型兑换失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892960399,
+    "stop" : 1648892961190,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf664fc7474005b1",
+  "name" : "使用正确参数查询成功",
+  "time" : {
+    "start" : 1648892100868,
+    "stop" : 1648892101669,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8c6950eaaa5babe",
+  "name" : "输入错误请求参数查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892114590,
+    "stop" : 1648892115369,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "910afdbd7c426e21",
+  "name" : "参数id不存在编辑失败",
+  "time" : {
+    "start" : 1648892211088,
+    "stop" : 1648892212680,
+    "duration" : 1592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aa5a28e28045513",
+  "name" : "错误的参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648893559066,
+    "stop" : 1648893620640,
+    "duration" : 61574
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "7535c42d84fa6053",
+  "name" : "输入错误URL签到失败",
+  "time" : {
+    "start" : 1648892528008,
+    "stop" : 1648892528803,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ab7c887e9a2b18a",
+  "name" : "错误请求方式GET修改密码失败",
+  "time" : {
+    "start" : 1648892708360,
+    "stop" : 1648892730811,
+    "duration" : 22451
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aa89bfe25c51d51",
+  "name" : "输入错误类型ID删除地址失败",
+  "time" : {
+    "start" : 1648892355048,
+    "stop" : 1648892355824,
+    "duration" : 776
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8147d6ceeb31447",
+  "name" : "输入错误参数请求类型修改地址失败\nmultipart/form-data",
+  "time" : {
+    "start" : 1648892322875,
+    "stop" : 1648892324447,
+    "duration" : 1572
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2043a0a12741d913",
+  "name" : "couponsid为不存在id提交订单失败",
+  "time" : {
+    "start" : 1648892377709,
+    "stop" : 1648892380090,
+    "duration" : 2381
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "52117d6fcc32dd99",
+  "name" : "错误请求方式批量删除购物车商品失败（GET）",
+  "time" : {
+    "start" : 1648892226447,
+    "stop" : 1648892228820,
+    "duration" : 2373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "de7a2091b515c342",
+  "name" : "错误URL订单发起支付失败",
+  "time" : {
+    "start" : 1648892445401,
+    "stop" : 1648892450410,
+    "duration" : 5009
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8babf2d43998cf1e",
+  "name" : "输入错误URL删除商品失败",
+  "time" : {
+    "start" : 1648892576720,
+    "stop" : 1648892578830,
+    "duration" : 2110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b0b51c6d79f83d8",
+  "name" : "PageSize为空查询失败",
+  "time" : {
+    "start" : 1648892986584,
+    "stop" : 1648892987373,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a5741db48778ac35",
+  "name" : "goodsid不存在新增失败",
+  "time" : {
+    "start" : 1648892565639,
+    "stop" : 1648892569354,
+    "duration" : 3715
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52f27eaad10abf2c",
+  "name" : "正确参数获取通知信息列表成功",
+  "time" : {
+    "start" : 1648892971759,
+    "stop" : 1648892972557,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "690fa0f5e7c888f1",
+  "name" : "缺少area1修改地址失败",
+  "time" : {
+    "start" : 1648892294298,
+    "stop" : 1648892295877,
+    "duration" : 1579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de7e1abeacfcddf",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648893003674,
+    "stop" : 1648893065272,
+    "duration" : 61598
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "54d82deb0b00c0e9",
+  "name" : "URL错误注册失败",
+  "time" : {
+    "start" : 1648892031130,
+    "stop" : 1648892031916,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "caa1d824ef65d760",
+  "name" : "参数正确获取用户信息正确",
+  "time" : {
+    "start" : 1648892914424,
+    "stop" : 1648892915232,
+    "duration" : 808
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "91f014c873581061",
+  "name" : "content-type参数类型错误请求失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892017630,
+    "stop" : 1648892018145,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "88e35c34f41e27d0",
+  "name" : "使用金额大于商品价格的优惠券失败",
+  "time" : {
+    "start" : 1648892371279,
+    "stop" : 1648892374464,
+    "duration" : 3185
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a16add093c981e0",
+  "name" : "参数请求方式错误批量删除失败multipart/form-data",
+  "time" : {
+    "start" : 1648892241563,
+    "stop" : 1648892243958,
+    "duration" : 2395
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fccbe856db62d9d5",
+  "name" : "错误url领取失败",
+  "time" : {
+    "start" : 1648892909229,
+    "stop" : 1648892909732,
+    "duration" : 503
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d493967b5e18406",
+  "name" : "错误请求方式添加商品到收藏栏失败（GET）",
+  "time" : {
+    "start" : 1648892549049,
+    "stop" : 1648892552742,
+    "duration" : 3693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d813c15f70c8b901",
+  "name" : "缺少password参数请求失败",
+  "time" : {
+    "start" : 1648892019474,
+    "stop" : 1648892020271,
+    "duration" : 797
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cd9e20a9f98b7f5",
+  "name" : "lastname为空修改地址失败",
+  "time" : {
+    "start" : 1648892306173,
+    "stop" : 1648892307762,
+    "duration" : 1589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96ac38af4015b574",
+  "name" : "错误的请求方式查询失败POST",
+  "time" : {
+    "start" : 1648892964632,
+    "stop" : 1648892965417,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5b7433ac8b03bb4",
+  "name" : "错误请求方式PUT修改密码失败",
+  "time" : {
+    "start" : 1648892753894,
+    "stop" : 1648892778860,
+    "duration" : 24966
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e022557176261c8",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648892061051,
+    "stop" : 1648892061834,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0d7a5fb3485f6e4",
+  "name" : "错误URL地址失败",
+  "time" : {
+    "start" : 1648892942409,
+    "stop" : 1648892943193,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "99659cf2550f26b",
+  "name" : "未登录状态获取用户信息失败",
+  "time" : {
+    "start" : 1648892916033,
+    "stop" : 1648892917055,
+    "duration" : 1022
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2edb84b84d51172",
+  "name" : "错误的请求方式兑换失败DELETE",
+  "time" : {
+    "start" : 1648892900772,
+    "stop" : 1648892902318,
+    "duration" : 1546
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fe537a7908b7ba9",
+  "name" : "缺少addressLine修改地址失败",
+  "time" : {
+    "start" : 1648892300619,
+    "stop" : 1648892302197,
+    "duration" : 1578
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43dcd2b4fffbaf28",
+  "name" : "错误的参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648892047437,
+    "stop" : 1648892048218,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b139be87a58cd03a",
+  "name" : "输入错误的URL修改密码失败",
+  "time" : {
+    "start" : 1648892661295,
+    "stop" : 1648892684885,
+    "duration" : 23590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71518702c3a51d33",
+  "name" : "count参数为负数新增失败",
+  "time" : {
+    "start" : 1648892156446,
+    "stop" : 1648892160194,
+    "duration" : 3748
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "319e954cca5e21f7",
+  "name" : "无参数修改密码失败",
+  "time" : {
+    "start" : 1648892778864,
+    "stop" : 1648892784932,
+    "duration" : 6068
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51bc09432c509737",
+  "name" : "输入错误地址删除地址失败",
+  "time" : {
+    "start" : 1648892340571,
+    "stop" : 1648892342156,
+    "duration" : 1585
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d1a22f2de32dc90",
+  "name" : "参数PageSize为空查询失败",
+  "time" : {
+    "start" : 1648892888601,
+    "stop" : 1648892889390,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea15704113bd3194",
+  "name" : "错误请求方式DELETE查询商品详情失败",
+  "time" : {
+    "start" : 1648892091879,
+    "stop" : 1648892093529,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bbb3981b298a2a23",
+  "name" : "userAccount输入31个字符注册失败",
+  "time" : {
+    "start" : 1648892023765,
+    "stop" : 1648892024557,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c9d8889b3aadbcc0",
+  "name" : "错误的请求类型领取优惠券失败DELETE",
+  "time" : {
+    "start" : 1648892910245,
+    "stop" : 1648892910763,
+    "duration" : 518
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a2c2729502cc38d",
+  "name" : "shopCartId为空提交订单失败",
+  "time" : {
+    "start" : 1648892403244,
+    "stop" : 1648892406394,
+    "duration" : 3150
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "37086b1a259d5c7",
+  "name" : "填写错误URL添加购物车失败",
+  "time" : {
+    "start" : 1648892119000,
+    "stop" : 1648892122666,
+    "duration" : 3666
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee8f31a8b6602c94",
+  "name" : "参数请求方式错误批量删除失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892239191,
+    "stop" : 1648892241559,
+    "duration" : 2368
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dea3dc0cd2b8914c",
+  "name" : "password包含中文注册失败",
+  "time" : {
+    "start" : 1648892030283,
+    "stop" : 1648892031088,
+    "duration" : 805
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a90f1806078676a",
+  "name" : "请求方式错误查询失败（PUT）",
+  "time" : {
+    "start" : 1648892254559,
+    "stop" : 1648892255355,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c79ad64688e6df7b",
+  "name" : "错误的请求类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892059463,
+    "stop" : 1648892060244,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a993540464ce20a",
+  "name" : "错误参数请求类型删除商品失败",
+  "time" : {
+    "start" : 1648892590043,
+    "stop" : 1648892592128,
+    "duration" : 2085
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28bee52295f6c81e",
+  "name" : "输入错误请求方式查询失败（POST）",
+  "time" : {
+    "start" : 1648892063697,
+    "stop" : 1648892064495,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a32fc949a4f2b4e0",
+  "name" : "输入错误请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648892039947,
+    "stop" : 1648892040747,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95bff9abde626ffa",
+  "name" : "输入错误请求方式PUT获取首页广告栏位数据失败",
+  "time" : {
+    "start" : 1648892052169,
+    "stop" : 1648892052953,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae03a2c06194a9d7",
+  "name" : "参数为空获取验证码失败",
+  "time" : {
+    "start" : 1648892629497,
+    "stop" : 1648892630306,
+    "duration" : 809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6dc06c46fcda6d8",
+  "name" : "错误的参数请求方式查询路由失败multipart/form-data",
+  "time" : {
+    "start" : 1648892071635,
+    "stop" : 1648892072429,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8d4cb3391f435cb1",
+  "name" : "PageNo为空查询失败",
+  "time" : {
+    "start" : 1648892985796,
+    "stop" : 1648892986578,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db8265fa000bcf24",
+  "name" : "错误的请求方式PUT获取验证码失败",
+  "time" : {
+    "start" : 1648892628686,
+    "stop" : 1648892629482,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "886bb28add8e8025",
+  "name" : "参数类型错误提交订单失败\napplication/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892420728,
+    "stop" : 1648892423880,
+    "duration" : 3152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "538907a2edd8fc19",
+  "name" : "输入不存在的TYPE修改地址失败",
+  "time" : {
+    "start" : 1648892287079,
+    "stop" : 1648892288641,
+    "duration" : 1562
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6d2cc1c1977ea645",
+  "name" : "错误URL查询商品详情失败",
+  "time" : {
+    "start" : 1648892086645,
+    "stop" : 1648892088316,
+    "duration" : 1671
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b0ffe10a19e22cf",
+  "name" : "未登录状态编辑购物车失败",
+  "time" : {
+    "start" : 1648892183693,
+    "stop" : 1648892186334,
+    "duration" : 2641
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cada9cea5416f07f",
+  "name" : "输入错误请求方式查询失败POST",
+  "time" : {
+    "start" : 1648892038366,
+    "stop" : 1648892039162,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edeb45241dbfce2c",
+  "name" : "错误的请求方式提交订单失败（GET）",
+  "time" : {
+    "start" : 1648892427041,
+    "stop" : 1648892430208,
+    "duration" : 3167
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7db333cdb7c5208a",
+  "name" : "错误参数请求方式签到失败application/json",
+  "time" : {
+    "start" : 1648892532255,
+    "stop" : 1648892533060,
+    "duration" : 805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb6ded12fed49786",
+  "name" : "无参数兑换失败",
+  "time" : {
+    "start" : 1648892955604,
+    "stop" : 1648892956394,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "60cfefbff8f293d1",
+  "name" : "goodsid参数丢失新增失败",
+  "time" : {
+    "start" : 1648892148924,
+    "stop" : 1648892152707,
+    "duration" : 3783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fadd7f633d5ec6a",
+  "name" : "无请求参数查询失败",
+  "time" : {
+    "start" : 1648893314358,
+    "stop" : 1648893375151,
+    "duration" : 60793
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "b126f8c590a988a8",
+  "name" : "错误的请求方式获取验证码失败",
+  "time" : {
+    "start" : 1648892631099,
+    "stop" : 1648892634104,
+    "duration" : 3005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a0c428c8a8d7adc0",
+  "name" : "错误请求方式DELETE查询路由失败",
+  "time" : {
+    "start" : 1648892069235,
+    "stop" : 1648892070035,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f2d224608d2b7b5",
+  "name" : "输入正确信息查询商品详情成功",
+  "time" : {
+    "start" : 1648892084987,
+    "stop" : 1648892086641,
+    "duration" : 1654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3a686a8adf24166",
+  "name" : "错误的参数请求类型兑换失败multipart/form-data",
+  "time" : {
+    "start" : 1648892907126,
+    "stop" : 1648892908692,
+    "duration" : 1566
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "38bf47201c30a6d4",
+  "name" : "使用已使用couponsid提交订单失败",
+  "time" : {
+    "start" : 1648892374490,
+    "stop" : 1648892377690,
+    "duration" : 3200
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d093970a184a2f86",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892042421,
+    "stop" : 1648892043202,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a93cf28f81eb431a",
+  "name" : "错误参数请求类型删除地址失败multipart/form-data",
+  "time" : {
+    "start" : 1648892359898,
+    "stop" : 1648892361466,
+    "duration" : 1568
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "612decf9286eed2c",
+  "name" : "参数ID为空查询失败",
+  "time" : {
+    "start" : 1648893375320,
+    "stop" : 1648893436146,
+    "duration" : 60826
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "945750140ceee40",
+  "name" : "错误请求方式POST获取通知列表失败",
+  "time" : {
+    "start" : 1648892974390,
+    "stop" : 1648892975185,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ac6681c8e5e6c67",
+  "name" : "未登录状态查询成功",
+  "time" : {
+    "start" : 1648892982345,
+    "stop" : 1648892983396,
+    "duration" : 1051
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b64228acd1a0771",
+  "name" : "错误请求方式批量删除购物车商品失败（PUT）",
+  "time" : {
+    "start" : 1648892231210,
+    "stop" : 1648892233589,
+    "duration" : 2379
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97a0e4cad69957b",
+  "name" : "未登录状态兑换失败",
+  "time" : {
+    "start" : 1648892952196,
+    "stop" : 1648892953236,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "630c4fc64d7ac1b8",
+  "name" : "参数erea2参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892277211,
+    "stop" : 1648892278016,
+    "duration" : 805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "22e10826b688e11e",
+  "name" : "无参数查询商品详情失败",
+  "time" : {
+    "start" : 1648892095170,
+    "stop" : 1648892095958,
+    "duration" : 788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82bc987c05cd8b0a",
+  "name" : "参数请求类型错误新增失败multipart/form-data",
+  "time" : {
+    "start" : 1648892281260,
+    "stop" : 1648892282044,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ce83999a9bc45373",
+  "name" : "错误的请求类型失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892949019,
+    "stop" : 1648892949798,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c88a18a367623bc6",
+  "name" : "请求方式错误查询失败（POST）",
+  "time" : {
+    "start" : 1648892253764,
+    "stop" : 1648892254548,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b7b528f03fddf963",
+  "name" : "错误的URL查询失败",
+  "time" : {
+    "start" : 1648892981553,
+    "stop" : 1648892982331,
+    "duration" : 778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9fadb87434b76b97",
+  "name" : "使用错误的请求方式DELETE查询失败",
+  "time" : {
+    "start" : 1648892075021,
+    "stop" : 1648892075807,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "920c921770c53f1f",
+  "name" : "count参数为空新增失败",
+  "time" : {
+    "start" : 1648892137983,
+    "stop" : 1648892141660,
+    "duration" : 3677
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "111510e69e12c12",
+  "name" : "错误的请求方式DELETE查询失败",
+  "time" : {
+    "start" : 1648892876466,
+    "stop" : 1648892877260,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "352de02f4c290213",
+  "name" : "参数erea1参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892276404,
+    "stop" : 1648892277207,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fcdfafb0db2586e",
+  "name" : "请求方式错误查询失败（DELETE）",
+  "time" : {
+    "start" : 1648892255358,
+    "stop" : 1648892256159,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ab65ec1d7c177a9",
+  "name" : "错误请求方式删除失败GET",
+  "time" : {
+    "start" : 1648892613284,
+    "stop" : 1648892615144,
+    "duration" : 1860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8717b407316f9605",
+  "name" : "缺少count提交订单失败",
+  "time" : {
+    "start" : 1648892414366,
+    "stop" : 1648892417549,
+    "duration" : 3183
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e192c56f72e64f22",
+  "name" : "参数First Name参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892273947,
+    "stop" : 1648892274751,
+    "duration" : 804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ecb9715744c243",
+  "name" : "参数contactnumber参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892275593,
+    "stop" : 1648892276397,
+    "duration" : 804
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ffc035350f1f407",
+  "name" : "password等于16位字符注册成功",
+  "time" : {
+    "start" : 1648892029470,
+    "stop" : 1648892030279,
+    "duration" : 809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f8f81d7461a1eba",
+  "name" : "输入错误URL地址兑换优惠券失败",
+  "time" : {
+    "start" : 1648892894173,
+    "stop" : 1648892895755,
+    "duration" : 1582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5da8ba0f6fb645eb",
+  "name" : "正确参数批量删除成功",
+  "time" : {
+    "start" : 1648892219021,
+    "stop" : 1648892221414,
+    "duration" : 2393
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "44bdb60a32795e25",
+  "name" : "错误请求方式（GET）发起订单支付失败",
+  "time" : {
+    "start" : 1648892455693,
+    "stop" : 1648892460724,
+    "duration" : 5031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcdae903098fba38",
+  "name" : "参数类型错误查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892252961,
+    "stop" : 1648892253749,
+    "duration" : 788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55afcb8d0b3aeedd",
+  "name" : "code参数丢失修改密码失败",
+  "time" : {
+    "start" : 1648892784936,
+    "stop" : 1648892790979,
+    "duration" : 6043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a548aa19d2c76b7",
+  "name" : "输入错误参数请求类型修改地址失败\napplication/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892321282,
+    "stop" : 1648892322870,
+    "duration" : 1588
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdd2e1aa3cd1a201",
+  "name" : "错误的参数类型兑换失败multipart/form-data",
+  "time" : {
+    "start" : 1648892961195,
+    "stop" : 1648892961969,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfd1b7d0fab3dd7e",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892992631,
+    "stop" : 1648892994124,
+    "duration" : 1493
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bb69bd27eb40359",
+  "name" : "错误参数请求方式签到失败multipart/form-data",
+  "time" : {
+    "start" : 1648892533064,
+    "stop" : 1648892533860,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df440c10120ebba3",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892061846,
+    "stop" : 1648892062884,
+    "duration" : 1038
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ac95ae9b72b3e8d",
+  "name" : "无参数兑换失败",
+  "time" : {
+    "start" : 1648892902324,
+    "stop" : 1648892903118,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f8549b2b97cb29a",
+  "name" : "输入正确参数查询路由信息成功",
+  "time" : {
+    "start" : 1648892066883,
+    "stop" : 1648892067658,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4505d9659f5137d5",
+  "name" : "count参数大于商品存在数量新增失败",
+  "time" : {
+    "start" : 1648892160197,
+    "stop" : 1648892163821,
+    "duration" : 3624
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c517ff3623fa987d",
+  "name" : "参数count缺失编辑失败",
+  "time" : {
+    "start" : 1648892195064,
+    "stop" : 1648892197442,
+    "duration" : 2378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d40bbe43533fc7a",
+  "name" : "输入正确的信息修改默认地址成功",
+  "time" : {
+    "start" : 1648892324459,
+    "stop" : 1648892326045,
+    "duration" : 1586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "518c5d468dcf8a5d",
+  "name" : "pageNO参数错误查询失败",
+  "time" : {
+    "start" : 1648892600029,
+    "stop" : 1648892600831,
+    "duration" : 802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c65bc5b36a35580",
+  "name" : "请求错误查询失败（PUT）",
+  "time" : {
+    "start" : 1648892105068,
+    "stop" : 1648892105861,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d956850dc118d330",
+  "name" : "填写正确参数添加购物车成功",
+  "time" : {
+    "start" : 1648892115375,
+    "stop" : 1648892118987,
+    "duration" : 3612
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "989adf21c8b60275",
+  "name" : "输入不存在ID删除地址失败",
+  "time" : {
+    "start" : 1648892355865,
+    "stop" : 1648892356657,
+    "duration" : 792
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2864ac8d8745a87",
+  "name" : "firstname为空修改地址失败",
+  "time" : {
+    "start" : 1648892304597,
+    "stop" : 1648892306166,
+    "duration" : 1569
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "482858bfb18cfe5",
+  "name" : "输入正确信息获取首页广告栏位数据成功",
+  "time" : {
+    "start" : 1648892049005,
+    "stop" : 1648892049803,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6a4d4e65fc9d02a7",
+  "name" : "count为非数字提交订单失败",
+  "time" : {
+    "start" : 1648892390505,
+    "stop" : 1648892393659,
+    "duration" : 3154
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20b0557beddfd7fb",
+  "name" : "参数ID为空删除失败",
+  "time" : {
+    "start" : 1648892350275,
+    "stop" : 1648892351075,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "980588d5b5221366",
+  "name" : "newpassword与之前密码相同修改密码失败",
+  "time" : {
+    "start" : 1648892803167,
+    "stop" : 1648892826348,
+    "duration" : 23181
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "69b75943e45b0377",
+  "name" : "输入不存在的id修改地址失败",
+  "time" : {
+    "start" : 1648892288702,
+    "stop" : 1648892289505,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "950df3925bcebe8",
+  "name" : "使用正确的参数注册成功",
+  "time" : {
+    "start" : 1648892018667,
+    "stop" : 1648892019465,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db4edea157fba286",
+  "name" : "错误的url地址修改地址失败",
+  "time" : {
+    "start" : 1648892285478,
+    "stop" : 1648892287072,
+    "duration" : 1594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c05e17c030578be5",
+  "name" : "未登录状态修改个人信息失败",
+  "time" : {
+    "start" : 1648892924714,
+    "stop" : 1648892926790,
+    "duration" : 2076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e338cd88a08e75bf",
+  "name" : "参数erea3不填新增失败",
+  "time" : {
+    "start" : 1648892271571,
+    "stop" : 1648892272366,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9aab15825b2ca371",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648892101673,
+    "stop" : 1648892102458,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4b936393e3203396",
+  "name" : "错误的请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648892045844,
+    "stop" : 1648892046636,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b465b857cc7859aa",
+  "name" : "错误的请求方式DELETE查询失败",
+  "time" : {
+    "start" : 1648892597649,
+    "stop" : 1648892598445,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f466678a8949fef2",
+  "name" : "错误的参数请求方式修改默认地址失败",
+  "time" : {
+    "start" : 1648892337400,
+    "stop" : 1648892338970,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a66eee83a7769423",
+  "name" : "参数integral为4999兑换失败",
+  "time" : {
+    "start" : 1648892957982,
+    "stop" : 1648892958761,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dbd36855f002b767",
+  "name" : "PageNo为非数字查询失败",
+  "time" : {
+    "start" : 1648892999086,
+    "stop" : 1648893000336,
+    "duration" : 1250
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c8d150c621a5809",
+  "name" : "参数password为空失败",
+  "time" : {
+    "start" : 1648892947421,
+    "stop" : 1648892948197,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4946cdc9578298c",
+  "name" : "未登录状态查询商品详情失败",
+  "time" : {
+    "start" : 1648892088327,
+    "stop" : 1648892090216,
+    "duration" : 1889
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af1215eb3f465664",
+  "name" : "sortType为空进行查询失败",
+  "time" : {
+    "start" : 1648892081626,
+    "stop" : 1648892082417,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75086f3c98ec9230",
+  "name" : "错误的参数类型修改失败multipart/form-data",
+  "time" : {
+    "start" : 1648892939764,
+    "stop" : 1648892941588,
+    "duration" : 1824
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a99ee6196c05fcf7",
+  "name" : "错误的请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648892995738,
+    "stop" : 1648892996538,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad6eadef03fcad12",
+  "name" : "输入错误请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648892039165,
+    "stop" : 1648892039935,
+    "duration" : 770
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "700553f92cd6203",
+  "name" : "输入删除type修改地址失败",
+  "time" : {
+    "start" : 1648892319682,
+    "stop" : 1648892321264,
+    "duration" : 1582
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "32f1f157552f0477",
+  "name" : "错误的参数请求方式修改默认地址失败",
+  "time" : {
+    "start" : 1648892335807,
+    "stop" : 1648892337396,
+    "duration" : 1589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fccdba22709c375",
+  "name" : "错误的参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892989782,
+    "stop" : 1648892990566,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71008c5b96b6781b",
+  "name" : "缺少contactnumber修改地址失败",
+  "time" : {
+    "start" : 1648892292687,
+    "stop" : 1648892294273,
+    "duration" : 1586
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf29779b5c2ba4d3",
+  "name" : "code参数为空修改密码失败",
+  "time" : {
+    "start" : 1648892790984,
+    "stop" : 1648892797066,
+    "duration" : 6082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8a19b6f102fea66",
+  "name" : "goodsid不存在新增失败",
+  "time" : {
+    "start" : 1648892167668,
+    "stop" : 1648892171493,
+    "duration" : 3825
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3dfbb51b202da34b",
+  "name" : "输入正确参数添加商品到收藏成功",
+  "time" : {
+    "start" : 1648892533870,
+    "stop" : 1648892537530,
+    "duration" : 3660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecb82235f94f39f9",
+  "name" : "参数PageNO错误查询失败",
+  "time" : {
+    "start" : 1648892889399,
+    "stop" : 1648892890192,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97f3ae19507d8955",
+  "name" : "参数erea2不填新增失败",
+  "time" : {
+    "start" : 1648892270761,
+    "stop" : 1648892271568,
+    "duration" : 807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "332eec5d117d1ac8",
+  "name" : "参数lastname不填新增失败",
+  "time" : {
+    "start" : 1648892268389,
+    "stop" : 1648892269179,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afc62e2f157b12f2",
+  "name" : "参数integral为5000兑换成功",
+  "time" : {
+    "start" : 1648892958767,
+    "stop" : 1648892959565,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b54e8543d9beab1a",
+  "name" : "参数erea3参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892278024,
+    "stop" : 1648892278827,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7cedd9c014aba8b4",
+  "name" : "addressLine缺失新增失败",
+  "time" : {
+    "start" : 1648892266783,
+    "stop" : 1648892267581,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "212a6eef90b00f04",
+  "name" : "错误URL获取通知列表失败",
+  "time" : {
+    "start" : 1648892972561,
+    "stop" : 1648892973352,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7718a7f4bf41294",
+  "name" : "输入错误的URL新增地址失败",
+  "time" : {
+    "start" : 1648892256961,
+    "stop" : 1648892257744,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fd072d548d30a15",
+  "name" : "错误的请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648892046639,
+    "stop" : 1648892047433,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e207ad821e9b5a9",
+  "name" : "缺失orderid参数发起订单支付失败",
+  "time" : {
+    "start" : 1648892470694,
+    "stop" : 1648892471475,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f34921c1229757de",
+  "name" : "输入不存在的商品名称模糊查询失败",
+  "time" : {
+    "start" : 1648892077593,
+    "stop" : 1648892078454,
+    "duration" : 861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53e835e44d53163f",
+  "name" : "错误URL地址批量删除失败",
+  "time" : {
+    "start" : 1648892606929,
+    "stop" : 1648892609042,
+    "duration" : 2113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eae227802eaf29a9",
+  "name" : "pageNo参数为非数字查询失败",
+  "time" : {
+    "start" : 1648892251344,
+    "stop" : 1648892252137,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61917f08d93c738b",
+  "name" : "错误的请求方式DELETE获取验证码失败",
+  "time" : {
+    "start" : 1648892627898,
+    "stop" : 1648892628680,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3792bd7c7133ad37",
+  "name" : "userAccount不包含@注册失败",
+  "time" : {
+    "start" : 1648892025388,
+    "stop" : 1648892026188,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d3db4cc258aec6b",
+  "name" : "goodsid参数为空新增失败",
+  "time" : {
+    "start" : 1648892561211,
+    "stop" : 1648892565634,
+    "duration" : 4423
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "623d94c777fb2e07",
+  "name" : "参数正确批量删除收藏列表成功",
+  "time" : {
+    "start" : 1648892604818,
+    "stop" : 1648892606923,
+    "duration" : 2105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a09e9628c5261146",
+  "name" : "错误请求方式（POST）删除商品失败",
+  "time" : {
+    "start" : 1648892583396,
+    "stop" : 1648892585501,
+    "duration" : 2105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24eea00de0e1dda2",
+  "name" : "错误的参数请求方式错误查询失败",
+  "time" : {
+    "start" : 1648892604022,
+    "stop" : 1648892604804,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d95718847a93f2d5",
+  "name" : "错误的请求方式PUT兑换失败",
+  "time" : {
+    "start" : 1648892954796,
+    "stop" : 1648892955599,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b13d445f2a9354a2",
+  "name" : "错误的请求类型修改失败GET",
+  "time" : {
+    "start" : 1648892926795,
+    "stop" : 1648892928628,
+    "duration" : 1833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e37b9eb72e72a2d4",
+  "name" : "未登录状态获取验证码失败",
+  "time" : {
+    "start" : 1648892626055,
+    "stop" : 1648892627100,
+    "duration" : 1045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c02fe87bda7fff29",
+  "name" : "pageNo为空进行查询失败",
+  "time" : {
+    "start" : 1648892078459,
+    "stop" : 1648892079254,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "681f851498fbd9e9",
+  "name" : "错误的请求方式兑换失败GET",
+  "time" : {
+    "start" : 1648892897588,
+    "stop" : 1648892899191,
+    "duration" : 1603
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a1ab957c09123f4",
+  "name" : "参数count为0编辑失败",
+  "time" : {
+    "start" : 1648892206225,
+    "stop" : 1648892208630,
+    "duration" : 2405
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a9b28d8928327e6c",
+  "name" : "输入正确信息密码检查通过",
+  "time" : {
+    "start" : 1648892941591,
+    "stop" : 1648892942403,
+    "duration" : 812
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77f09e2247b1e89e",
+  "name" : "错误的请求方式新增地址失败（PUT）",
+  "time" : {
+    "start" : 1648892260401,
+    "stop" : 1648892261184,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c75dc399f3e5ade5",
+  "name" : "countryCode参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892279646,
+    "stop" : 1648892280446,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9af910e91ad3740a",
+  "name" : "goodsid参数丢失新增失败",
+  "time" : {
+    "start" : 1648892556491,
+    "stop" : 1648892561201,
+    "duration" : 4710
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fdd85de47fa9fec",
+  "name" : "参数contactnumber不填新增失败",
+  "time" : {
+    "start" : 1648892269182,
+    "stop" : 1648892269966,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd2b0f77add4cc94",
+  "name" : "输入正确的信息查询我的优惠价成功",
+  "time" : {
+    "start" : 1648892873033,
+    "stop" : 1648892873830,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9274034e29b44b8",
+  "name" : "请求类型错误请求失败GET",
+  "time" : {
+    "start" : 1648892016075,
+    "stop" : 1648892016590,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a17e31b177979eb5",
+  "name" : "输入正确参数获取验证码成功",
+  "time" : {
+    "start" : 1648892623132,
+    "stop" : 1648892625249,
+    "duration" : 2117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1be8a6d24f6c436",
+  "name" : "信息正确签到成功",
+  "time" : {
+    "start" : 1648892527209,
+    "stop" : 1648892528003,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a25b44b36f24bef",
+  "name" : "未登录状态删除失败",
+  "time" : {
+    "start" : 1648892609047,
+    "stop" : 1648892611410,
+    "duration" : 2363
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "70dda3725b8ffd2b",
+  "name" : "错误的URL查询失败",
+  "time" : {
+    "start" : 1648892962803,
+    "stop" : 1648892963595,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51febf053c9d8cc1",
+  "name" : "未登录状态订单发起支付失败",
+  "time" : {
+    "start" : 1648892450415,
+    "stop" : 1648892455690,
+    "duration" : 5275
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "345d3c93e3ebabd5",
+  "name" : "错误的请求方式查询失败POST",
+  "time" : {
+    "start" : 1648892056205,
+    "stop" : 1648892056998,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5be946938aeacc",
+  "name" : "参数请求方式错误获取通知列表失败",
+  "time" : {
+    "start" : 1648892979163,
+    "stop" : 1648892979947,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ab4dc6d7dfb9114",
+  "name" : "错误的参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892891784,
+    "stop" : 1648892892567,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "217b7a4df6bda6d3",
+  "name" : "错误的参数请求方式查询商品详情失败",
+  "time" : {
+    "start" : 1648892097563,
+    "stop" : 1648892099213,
+    "duration" : 1650
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1f66b78c1737be0",
+  "name" : "userAccount参数错误请求失败",
+  "time" : {
+    "start" : 1648892015033,
+    "stop" : 1648892015548,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6703f569d13703fd",
+  "name" : "缺少addressid提交订单失败",
+  "time" : {
+    "start" : 1648892406400,
+    "stop" : 1648892408788,
+    "duration" : 2388
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "405eb64cc1c20006",
+  "name" : "sortType为非数字类型进行查询失败",
+  "time" : {
+    "start" : 1648892082420,
+    "stop" : 1648892083206,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7370bfc7b5aaa827",
+  "name" : "购物车存在一件商品批量删除失败",
+  "time" : {
+    "start" : 1648892243963,
+    "stop" : 1648892246325,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54aff00efb59d865",
+  "name" : "输入负数Count参数提交订单失败",
+  "time" : {
+    "start" : 1648892436530,
+    "stop" : 1648892439690,
+    "duration" : 3160
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c65b05f711c4e3f1",
+  "name" : "缺少userAccount参数请求失败",
+  "time" : {
+    "start" : 1648892020530,
+    "stop" : 1648892021324,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1f5817e9e0da02",
+  "name" : "pageSize为非数字类型进行查询失败",
+  "time" : {
+    "start" : 1648892080846,
+    "stop" : 1648892081621,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6be7c7b2682ead3",
+  "name" : "输入正确参数查询地址成功",
+  "time" : {
+    "start" : 1648892246330,
+    "stop" : 1648892247136,
+    "duration" : 806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ae4c28f167e276fb",
+  "name" : "错误参数请求类型删除地址失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892358296,
+    "stop" : 1648892359886,
+    "duration" : 1590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4ba37634202f5ba",
+  "name" : "请求类型错误注册失败GET",
+  "time" : {
+    "start" : 1648892031920,
+    "stop" : 1648892032700,
+    "duration" : 780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97bf510ef4cbfbce",
+  "name" : "参数PageNo为空查询失败",
+  "time" : {
+    "start" : 1648892966987,
+    "stop" : 1648892967772,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "391418e6135a484b",
+  "name" : "type为空修改地址失败",
+  "time" : {
+    "start" : 1648892317292,
+    "stop" : 1648892318891,
+    "duration" : 1599
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "93f090111b640af",
+  "name" : "缺少type修改地址失败",
+  "time" : {
+    "start" : 1648892302200,
+    "stop" : 1648892303781,
+    "duration" : 1581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c22a532f016cedb",
+  "name" : "不填参数注册失败",
+  "time" : {
+    "start" : 1648892022971,
+    "stop" : 1648892023760,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6530734d5bb2c8b8",
+  "name" : "ID为空查询商品详情失败",
+  "time" : {
+    "start" : 1648892095963,
+    "stop" : 1648892096764,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c44f39f4970eb33",
+  "name" : "pageSize参数为空查询失败",
+  "time" : {
+    "start" : 1648892248960,
+    "stop" : 1648892249759,
+    "duration" : 799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fc209ec466a34a2",
+  "name" : "错误的请求方式GET兑换失败",
+  "time" : {
+    "start" : 1648892953248,
+    "stop" : 1648892954022,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db0782720dcfba92",
+  "name" : "未登录状态添加商品到收藏夹失败",
+  "time" : {
+    "start" : 1648892541329,
+    "stop" : 1648892545244,
+    "duration" : 3915
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d759154ce1d8e89b",
+  "name" : "参数PageSize为空查询失败",
+  "time" : {
+    "start" : 1648892967776,
+    "stop" : 1648892968573,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4f5bfd77ae62af7c",
+  "name" : "addressLine为空修改地址失败",
+  "time" : {
+    "start" : 1648892315712,
+    "stop" : 1648892317287,
+    "duration" : 1575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ffeeee1ef6ce736",
+  "name" : "未登录状态添加购物车失败",
+  "time" : {
+    "start" : 1648892122670,
+    "stop" : 1648892126723,
+    "duration" : 4053
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6e2186685c2bc9",
+  "name" : "cancelUrl参数为空发起订单支付失败",
+  "time" : {
+    "start" : 1648892488048,
+    "stop" : 1648892493053,
+    "duration" : 5005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d433a225c13a27fc",
+  "name" : "PageNo为非数字查询失败",
+  "time" : {
+    "start" : 1648892987387,
+    "stop" : 1648892988170,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3eedc4cd512f9861",
+  "name" : "错误的请求方式提交订单失败（PUT）",
+  "time" : {
+    "start" : 1648892433371,
+    "stop" : 1648892436520,
+    "duration" : 3149
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b06049ed9603b20",
+  "name" : "输入错误类型TYPE参数删除地址失败",
+  "time" : {
+    "start" : 1648892353464,
+    "stop" : 1648892355044,
+    "duration" : 1580
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a671abb532fde299",
+  "name" : "缺少area3修改地址失败",
+  "time" : {
+    "start" : 1648892297443,
+    "stop" : 1648892299034,
+    "duration" : 1591
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f793b074c8f90d28",
+  "name" : "pageNO参数值为负数查询失败",
+  "time" : {
+    "start" : 1648892109818,
+    "stop" : 1648892110613,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a203fd11b7b6dd85",
+  "name" : "错误请求方式添加商品到收藏栏失败（PUT）",
+  "time" : {
+    "start" : 1648892545260,
+    "stop" : 1648892549042,
+    "duration" : 3782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ea3567144394685",
+  "name" : "addressLine不填新增失败",
+  "time" : {
+    "start" : 1648892273161,
+    "stop" : 1648892273941,
+    "duration" : 780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e252c3c0bdb11382",
+  "name" : "错误的参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648893002878,
+    "stop" : 1648893003660,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13854c83b48ceb3f",
+  "name" : "参数PageSize为非数字查询失败",
+  "time" : {
+    "start" : 1648892969372,
+    "stop" : 1648892970158,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ed6e07aaddb976d1",
+  "name" : "参数请求类型错误新增失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892280449,
+    "stop" : 1648892281245,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "56a1acc842d85302",
+  "name" : "输入正确参数删除地址成功",
+  "time" : {
+    "start" : 1648892338975,
+    "stop" : 1648892340561,
+    "duration" : 1586
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9651809b9828ceaa",
+  "name" : "参数password错误失败",
+  "time" : {
+    "start" : 1648892948200,
+    "stop" : 1648892949006,
+    "duration" : 806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b16309c996317b9",
+  "name" : "输入错误请求方式DELETE获取首页广告栏位数据失败",
+  "time" : {
+    "start" : 1648892051391,
+    "stop" : 1648892052166,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dc5c90b87624917b",
+  "name" : "错误的URL查询失败",
+  "time" : {
+    "start" : 1648892991835,
+    "stop" : 1648892992618,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b17918f351766480",
+  "name" : "缺少ID参数修改地址失败",
+  "time" : {
+    "start" : 1648892303785,
+    "stop" : 1648892304586,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b84838c48f405af9",
+  "name" : "无参数删除失败",
+  "time" : {
+    "start" : 1648892617022,
+    "stop" : 1648892617806,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cc3782863c7882cf",
+  "name" : "password17位字符注册失败",
+  "time" : {
+    "start" : 1648892026995,
+    "stop" : 1648892027786,
+    "duration" : 791
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd472b24193192e",
+  "name" : "ID参数为空修改地址失败",
+  "time" : {
+    "start" : 1648892318903,
+    "stop" : 1648892319678,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ab17bd90e85f940",
+  "name" : "请求类型错误请求失败PUT",
+  "time" : {
+    "start" : 1648892016595,
+    "stop" : 1648892017104,
+    "duration" : 509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4419848fcb1072e0",
+  "name" : "缺少postalCode修改地址失败",
+  "time" : {
+    "start" : 1648892299040,
+    "stop" : 1648892300611,
+    "duration" : 1571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9ecfdfa10868db98",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892247926,
+    "stop" : 1648892248957,
+    "duration" : 1031
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b0315466a368327",
+  "name" : "orderid参数不存在发起订单支付失败",
+  "time" : {
+    "start" : 1648892493057,
+    "stop" : 1648892493842,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31750e645a066017",
+  "name" : "错误请求方式PUT查询路由失败",
+  "time" : {
+    "start" : 1648892070040,
+    "stop" : 1648892070830,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6f6cf5607976725",
+  "name" : "请求类型错误注册失败DELETE",
+  "time" : {
+    "start" : 1648892032705,
+    "stop" : 1648892033503,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "879b2c739b841e75",
+  "name" : "错误的参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648893497287,
+    "stop" : 1648893558886,
+    "duration" : 61599
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f9cd1e608e696619",
+  "name" : "缺少couponsid提交订单失败",
+  "time" : {
+    "start" : 1648892408822,
+    "stop" : 1648892411194,
+    "duration" : 2372
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "baa43915c1bafc4d",
+  "name" : "参数请求类型错误查询失败application/json",
+  "time" : {
+    "start" : 1648892881215,
+    "stop" : 1648892882016,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da47d1e1272edd1a",
+  "name" : "输入错误的请求方式修改默认地址失败GET",
+  "time" : {
+    "start" : 1648892329445,
+    "stop" : 1648892331045,
+    "duration" : 1600
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c1134523814bec8",
+  "name" : "参数类型错误发起订单支付失败multipart/form-data",
+  "time" : {
+    "start" : 1648892522184,
+    "stop" : 1648892527204,
+    "duration" : 5020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1454c7d76019a05c",
+  "name" : "使用已支付订单发起支付失败",
+  "time" : {
+    "start" : 1648892493852,
+    "stop" : 1648892507678,
+    "duration" : 13826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17eac89f381d86cd",
+  "name" : "参数erea1不填新增失败",
+  "time" : {
+    "start" : 1648892269981,
+    "stop" : 1648892270757,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83508e6a40f33bda",
+  "name" : "输入错误的URL地址查询成功",
+  "time" : {
+    "start" : 1648892873838,
+    "stop" : 1648892874627,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e3c15ddbd82281a",
+  "name" : "输入错误URL地址获取首页广告栏位数据失败",
+  "time" : {
+    "start" : 1648892049806,
+    "stop" : 1648892050598,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14c216e801c4f86",
+  "name" : "count参数不为INT型新增失败",
+  "time" : {
+    "start" : 1648892152712,
+    "stop" : 1648892156432,
+    "duration" : 3720
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55b669f8ed912567",
+  "name" : "错误请求方式PUT查询商品详情失败",
+  "time" : {
+    "start" : 1648892093532,
+    "stop" : 1648892095156,
+    "duration" : 1624
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afbbd318f24aec71",
+  "name" : "postalCode:不填新增失败",
+  "time" : {
+    "start" : 1648892272373,
+    "stop" : 1648892273155,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9dfd224dd6af1f34",
+  "name" : "错误的参数请求方式查询商品详情失败",
+  "time" : {
+    "start" : 1648892099226,
+    "stop" : 1648892100861,
+    "duration" : 1635
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c881ba7fe74e9e3f",
+  "name" : "错误的请求方式兑换失败PUT",
+  "time" : {
+    "start" : 1648892899195,
+    "stop" : 1648892900768,
+    "duration" : 1573
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da18e1cc83c78834",
+  "name" : "错误的请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648892966211,
+    "stop" : 1648892966982,
+    "duration" : 771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c0dfc70867df5c0",
+  "name" : "输入错误请求方式查询失败（DELETE）",
+  "time" : {
+    "start" : 1648892062895,
+    "stop" : 1648892063686,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8c422514b0a6618c",
+  "name" : "PageSize为非数字查询失败",
+  "time" : {
+    "start" : 1648892988182,
+    "stop" : 1648892988976,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c9195ff8db78f14",
+  "name" : "输入错误请求参数查询失败application/json",
+  "time" : {
+    "start" : 1648892113791,
+    "stop" : 1648892114582,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a2c6355aebf8d50",
+  "name" : "使用错误cancelUrl发起订单支付失败",
+  "time" : {
+    "start" : 1648892512675,
+    "stop" : 1648892517159,
+    "duration" : 4484
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dd7b1d07342702b1",
+  "name" : "使用正确参数查询成功",
+  "time" : {
+    "start" : 1648892072445,
+    "stop" : 1648892073436,
+    "duration" : 991
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1414f7b803678c16",
+  "name" : "未登录状态修改默认地址失败",
+  "time" : {
+    "start" : 1648892327621,
+    "stop" : 1648892329439,
+    "duration" : 1818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc6367e9f027988",
+  "name" : "无参数获取通知列表成功",
+  "time" : {
+    "start" : 1648892976776,
+    "stop" : 1648892977561,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "42430fd9d9783a7a",
+  "name" : "输入错误请求参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648892040757,
+    "stop" : 1648892041634,
+    "duration" : 877
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35d027a24e45795a",
+  "name" : "参数sex缺失修改失败",
+  "time" : {
+    "start" : 1648892932350,
+    "stop" : 1648892934208,
+    "duration" : 1858
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d1a6effcaeb15e8",
+  "name" : "不填任何参数查询成功",
+  "time" : {
+    "start" : 1648892105866,
+    "stop" : 1648892106650,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c649317b200eda5",
+  "name" : "参数ID为空兑换失败",
+  "time" : {
+    "start" : 1648892903128,
+    "stop" : 1648892903928,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2285e4a79ed53ee6",
+  "name" : "错误的请求类型修改失败PUT",
+  "time" : {
+    "start" : 1648892930507,
+    "stop" : 1648892932347,
+    "duration" : 1840
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82f36faca7853bee",
+  "name" : "输入正确的信息修改密码成功",
+  "time" : {
+    "start" : 1648892634907,
+    "stop" : 1648892661280,
+    "duration" : 26373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b9f996b2f95d1994",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648892037559,
+    "stop" : 1648892038352,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4a45e0bb21e03c8",
+  "name" : "发送错误请求PUT删除地址失败",
+  "time" : {
+    "start" : 1648892347135,
+    "stop" : 1648892348692,
+    "duration" : 1557
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24836c3ec911696b",
+  "name" : "缺少TYPE参数删除地址失败",
+  "time" : {
+    "start" : 1648892351080,
+    "stop" : 1648892352657,
+    "duration" : 1577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28abed2bd3f0029d",
+  "name" : "goodsid参数为空新增失败",
+  "time" : {
+    "start" : 1648892141665,
+    "stop" : 1648892145261,
+    "duration" : 3596
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f69067c14006fc2",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648893065422,
+    "stop" : 1648893126996,
+    "duration" : 61574
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ca3de6ff07a58cbb",
+  "name" : "错误的请求方式POST查询失败",
+  "time" : {
+    "start" : 1648892045046,
+    "stop" : 1648892045829,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "528561872ef8178",
+  "name" : "ids部分参数错误删除购物车失败",
+  "time" : {
+    "start" : 1648892233596,
+    "stop" : 1648892235988,
+    "duration" : 2392
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f20f3e0492980213",
+  "name" : "参数为空删除失败",
+  "time" : {
+    "start" : 1648892617810,
+    "stop" : 1648892618598,
+    "duration" : 788
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1cf615d60305714b",
+  "name" : "错误的请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648892985003,
+    "stop" : 1648892985789,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "94aaa27291ef72b2",
+  "name" : "缺少userAccount参数请求失败",
+  "time" : {
+    "start" : 1648892012925,
+    "stop" : 1648892013451,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f836afc9d5cff64",
+  "name" : "错误的参数类型修改失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892937927,
+    "stop" : 1648892939761,
+    "duration" : 1834
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "833718a0bbfafbfc",
+  "name" : "输入错误类型参数请求类型编辑购物车失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892214263,
+    "stop" : 1648892216625,
+    "duration" : 2362
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ecd4c47a6c41a259",
+  "name" : "参数erea2缺失新增失败",
+  "time" : {
+    "start" : 1648892264382,
+    "stop" : 1648892265172,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23a98804cc973174",
+  "name" : "参数传递类型错误修改密码失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892826380,
+    "stop" : 1648892850202,
+    "duration" : 23822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e77de8a9c5bc0e0b",
+  "name" : "code错误修改密码失败",
+  "time" : {
+    "start" : 1648892797080,
+    "stop" : 1648892803162,
+    "duration" : 6082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fb33a1b42f3bcdb1",
+  "name" : "未登录状态修改密码失败",
+  "time" : {
+    "start" : 1648892684899,
+    "stop" : 1648892708355,
+    "duration" : 23456
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8b3a1581424e8153",
+  "name" : "未注册账户领取优惠券失败",
+  "time" : {
+    "start" : 1648892912855,
+    "stop" : 1648892913371,
+    "duration" : 516
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f1607400bdf2b0c",
+  "name" : "PageNo为空查询失败",
+  "time" : {
+    "start" : 1648892996545,
+    "stop" : 1648892997792,
+    "duration" : 1247
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e4967ab53edacf5",
+  "name" : "参数错误删除失败",
+  "time" : {
+    "start" : 1648892618620,
+    "stop" : 1648892619410,
+    "duration" : 790
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "e01b9dc44e223fd0",
+  "name" : "count为空提交订单失败",
+  "time" : {
+    "start" : 1648892393663,
+    "stop" : 1648892396840,
+    "duration" : 3177
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "8655bfdb76e094b1",
+  "name" : "输入正确信息兑换成功",
+  "time" : {
+    "start" : 1648892950601,
+    "stop" : 1648892951407,
+    "duration" : 806
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b2ce91cd22a11d0",
+  "name" : "错误的参数请求方式错误查询失败",
+  "time" : {
+    "start" : 1648892603208,
+    "stop" : 1648892604017,
+    "duration" : 809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "27a342e695bce9ec",
+  "name" : "ID不存在或错误查询商品详情失败",
+  "time" : {
+    "start" : 1648892096778,
+    "stop" : 1648892097559,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc7bd24a866535f4",
+  "name" : "参数ID不存在删除商品失败",
+  "time" : {
+    "start" : 1648892589211,
+    "stop" : 1648892590007,
+    "duration" : 796
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2956ebc052d83a2b",
+  "name" : "参数ID为非数字兑换失败",
+  "time" : {
+    "start" : 1648892904735,
+    "stop" : 1648892905517,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52f9839b4bad6132",
+  "name" : "输入错误的请求方式修改默认地址失败DELETE",
+  "time" : {
+    "start" : 1648892331051,
+    "stop" : 1648892332618,
+    "duration" : 1567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef584e1bba43d18f",
+  "name" : "输入错误请求参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892041639,
+    "stop" : 1648892042415,
+    "duration" : 776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c271ae8d25afc302",
+  "name" : "未登录查询失败",
+  "time" : {
+    "start" : 1648892884418,
+    "stop" : 1648892885444,
+    "duration" : 1026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e22e8f25e4a0e9e8",
+  "name" : "错误的请求类型失败GET",
+  "time" : {
+    "start" : 1648892944246,
+    "stop" : 1648892945028,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2c229e9e96f1955d",
+  "name" : "错误的请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648892994951,
+    "stop" : 1648892995734,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cacc346e2140b598",
+  "name" : "错误的参数请求方式获取广告栏位数据失败multipart/form-data",
+  "time" : {
+    "start" : 1648892053771,
+    "stop" : 1648892054562,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45e09423dad85c28",
+  "name" : "输入正确参数查询成功",
+  "time" : {
+    "start" : 1648892594239,
+    "stop" : 1648892595024,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21bb8f3b3053cea6",
+  "name" : "错误的请求方式POST获取验证码失败",
+  "time" : {
+    "start" : 1648892627105,
+    "stop" : 1648892627894,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cdbdd9de5d4817f5",
+  "name" : "缺少ID参数删除地址失败",
+  "time" : {
+    "start" : 1648892352662,
+    "stop" : 1648892353453,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b40f327288d5c14c",
+  "name" : "content-type参数类型错误请求失败multipart/form-data",
+  "time" : {
+    "start" : 1648892018149,
+    "stop" : 1648892018662,
+    "duration" : 513
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f5e0f21e9aa2509f",
+  "name" : "pageNo为非数字类型进行查询失败",
+  "time" : {
+    "start" : 1648892079267,
+    "stop" : 1648892080054,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17aa8f66ac3b6e2c",
+  "name" : "输入错误类型参数请求类型编辑购物车失败multipart/form-data",
+  "time" : {
+    "start" : 1648892216631,
+    "stop" : 1648892219017,
+    "duration" : 2386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff555e1a7303a54d",
+  "name" : "使用错误的请求方式GET添加购物车失败",
+  "time" : {
+    "start" : 1648892130458,
+    "stop" : 1648892134263,
+    "duration" : 3805
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa2dc64346e59448",
+  "name" : "错误的请求方式DELETE兑换失败",
+  "time" : {
+    "start" : 1648892954026,
+    "stop" : 1648892954793,
+    "duration" : 767
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d1fd366b436e4ef",
+  "name" : "参数类型错误新增购物车失败multipart/form-data",
+  "time" : {
+    "start" : 1648892175260,
+    "stop" : 1648892178905,
+    "duration" : 3645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e711b45f9419c7ba",
+  "name" : "使用错误的请求方式DELETE添加购物车失败",
+  "time" : {
+    "start" : 1648892126728,
+    "stop" : 1648892130446,
+    "duration" : 3718
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e6716a666d41826",
+  "name" : "输入错误URL获取用户信息失败",
+  "time" : {
+    "start" : 1648892915236,
+    "stop" : 1648892916028,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba3721a3920f3a7f",
+  "name" : "错误的请求方式POST查询失败",
+  "time" : {
+    "start" : 1648892596863,
+    "stop" : 1648892597645,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e8914ae92201432",
+  "name" : "参数类型错误提交订单失败\nmultipart/form-data",
+  "time" : {
+    "start" : 1648892423893,
+    "stop" : 1648892427036,
+    "duration" : 3143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "895a2fdbc6349c39",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892054567,
+    "stop" : 1648892055422,
+    "duration" : 855
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0b2959ef68224db",
+  "name" : "未登录状态失败",
+  "time" : {
+    "start" : 1648892943197,
+    "stop" : 1648892944242,
+    "duration" : 1045
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a0f382949d9277b",
+  "name" : "缺少shopcartid提交订单失败",
+  "time" : {
+    "start" : 1648892417569,
+    "stop" : 1648892420725,
+    "duration" : 3156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "79f6eb27257a68a4",
+  "name" : "错误的参数验证码获取失败",
+  "time" : {
+    "start" : 1648892630314,
+    "stop" : 1648892631095,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "846d0052a84108c0",
+  "name" : "pageSize参数值为非数字查询失败",
+  "time" : {
+    "start" : 1648892111418,
+    "stop" : 1648892112192,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b89f4a89cf92e5e",
+  "name" : "输入错误URL地址添加商品到收藏失败",
+  "time" : {
+    "start" : 1648892537545,
+    "stop" : 1648892541321,
+    "duration" : 3776
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97ccbf1d0e69ea43",
+  "name" : "使用错误URL查询失败",
+  "time" : {
+    "start" : 1648892073440,
+    "stop" : 1648892074234,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e0bf3ea2ee9c8eb",
+  "name" : "错误参数请求方式查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892066075,
+    "stop" : 1648892066878,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf2cf32261034275",
+  "name" : "未登录状态删除购物车商品失败",
+  "time" : {
+    "start" : 1648892223796,
+    "stop" : 1648892226438,
+    "duration" : 2642
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5e1235701623b930",
+  "name" : "未登录状态兑换优惠券失败",
+  "time" : {
+    "start" : 1648892895759,
+    "stop" : 1648892897585,
+    "duration" : 1826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2365233a8ade6584",
+  "name" : "URL错误请求失败",
+  "time" : {
+    "start" : 1648892015559,
+    "stop" : 1648892016070,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e2f20f0149bc13c",
+  "name" : "使用错误successUrl发起订单支付失败",
+  "time" : {
+    "start" : 1648892507682,
+    "stop" : 1648892512647,
+    "duration" : 4965
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e17125e496223ed",
+  "name" : "参数值均为空查询失败",
+  "time" : {
+    "start" : 1648892108240,
+    "stop" : 1648892109021,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "98dd65bb1c32655c",
+  "name" : "参数PageNo为空查询失败",
+  "time" : {
+    "start" : 1648892887816,
+    "stop" : 1648892888595,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2a876be11c401775",
+  "name" : "参数password缺失失败",
+  "time" : {
+    "start" : 1648892946616,
+    "stop" : 1648892947416,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9938b126e41824c4",
+  "name" : "参数type为空删除失败",
+  "time" : {
+    "start" : 1648892348695,
+    "stop" : 1648892350270,
+    "duration" : 1575
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "686580a8954de934",
+  "name" : "参数类型错误查询失败application/json",
+  "time" : {
+    "start" : 1648892252150,
+    "stop" : 1648892252951,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "202eb20080d763bc",
+  "name" : "错误参数请求方式查询失败application/json",
+  "time" : {
+    "start" : 1648892065276,
+    "stop" : 1648892066072,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa47072c640619fb",
+  "name" : "错误的URL修改个人信息失败",
+  "time" : {
+    "start" : 1648892922881,
+    "stop" : 1648892924711,
+    "duration" : 1830
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d0dbd5e4d570638f",
+  "name" : "输入错误请求方式查询失败（PUT）",
+  "time" : {
+    "start" : 1648892064500,
+    "stop" : 1648892065272,
+    "duration" : 772
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4f0a2143db641b9",
+  "name" : "输入错误URL地址查询失败",
+  "time" : {
+    "start" : 1648892247149,
+    "stop" : 1648892247922,
+    "duration" : 773
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "50f04fce957fea52",
+  "name" : "错误请求方式删除失败POST",
+  "time" : {
+    "start" : 1648892611430,
+    "stop" : 1648892613277,
+    "duration" : 1847
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e0a65cf6ad32405f",
+  "name" : "输入正确信息修改个人信息成功",
+  "time" : {
+    "start" : 1648892921018,
+    "stop" : 1648892922875,
+    "duration" : 1857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "31fb6178bb8984dd",
+  "name" : "错误请求方式POST获取用户信息失败",
+  "time" : {
+    "start" : 1648892917059,
+    "stop" : 1648892917839,
+    "duration" : 780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48f2c120ea204e46",
+  "name" : "错误的参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892048223,
+    "stop" : 1648892048994,
+    "duration" : 771
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b11f2e1f97cb5d7f",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892044003,
+    "stop" : 1648892045043,
+    "duration" : 1040
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c93b2bf944523ba0",
+  "name" : "错误的参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648892988991,
+    "stop" : 1648892989778,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "35708a4f3f2a0e75",
+  "name" : "输入正确账户领取成功",
+  "time" : {
+    "start" : 1648892908696,
+    "stop" : 1648892909225,
+    "duration" : 529
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a972f0bca689548",
+  "name" : "使用错误的请求方式PUT添加购物车失败",
+  "time" : {
+    "start" : 1648892134270,
+    "stop" : 1648892137979,
+    "duration" : 3709
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d92903d0ca1008ae",
+  "name" : "addressid为空提交订单失败",
+  "time" : {
+    "start" : 1648892384902,
+    "stop" : 1648892387299,
+    "duration" : 2397
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1de988c3c8fd6cb",
+  "name" : "参数ID不存在查询失败",
+  "time" : {
+    "start" : 1648893436327,
+    "stop" : 1648893497125,
+    "duration" : 60798
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "833099272498ba40",
+  "name" : "输入错误URL地址提交订单失败",
+  "time" : {
+    "start" : 1648892364682,
+    "stop" : 1648892367824,
+    "duration" : 3142
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c02084c091b0c4e4",
+  "name" : "参数count为负数编辑失败",
+  "time" : {
+    "start" : 1648892208653,
+    "stop" : 1648892211068,
+    "duration" : 2415
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "219a7f2937ba16d5",
+  "name" : "错误URL查询路由失败",
+  "time" : {
+    "start" : 1648892067662,
+    "stop" : 1648892068447,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa4dd1f3dc4069a2",
+  "name" : "参数PageSize错误查询失败",
+  "time" : {
+    "start" : 1648892890198,
+    "stop" : 1648892890978,
+    "duration" : 780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c021e3217901c778",
+  "name" : "参数类型错误查询失败application/json",
+  "time" : {
+    "start" : 1648892083210,
+    "stop" : 1648892084206,
+    "duration" : 996
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db72f92c63c24294",
+  "name" : "错误请求方式PUT获取通知列表失败",
+  "time" : {
+    "start" : 1648892975994,
+    "stop" : 1648892976772,
+    "duration" : 778
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d53587b571b9c7b3",
+  "name" : "参数pagesize为空查询成功",
+  "time" : {
+    "start" : 1648892878845,
+    "stop" : 1648892879640,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "898824cd7c1a8363",
+  "name" : "错误的请求方式PUT查询失败",
+  "time" : {
+    "start" : 1648892877265,
+    "stop" : 1648892878050,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b841b7658d470b8",
+  "name" : "count参数丢失新增失败",
+  "time" : {
+    "start" : 1648892145266,
+    "stop" : 1648892148911,
+    "duration" : 3645
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd424c588fadc718",
+  "name" : "PageSize为空查询失败",
+  "time" : {
+    "start" : 1648892997826,
+    "stop" : 1648892999066,
+    "duration" : 1240
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c12285e291475d3",
+  "name" : "错误的请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648892057003,
+    "stop" : 1648892057795,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b2bb9d080cee7c49",
+  "name" : "错误的请求类型领取优惠券失败POST",
+  "time" : {
+    "start" : 1648892909736,
+    "stop" : 1648892910241,
+    "duration" : 505
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ad5028d6820b771d",
+  "name" : "参数id为非数字编辑失败",
+  "time" : {
+    "start" : 1648892212683,
+    "stop" : 1648892214260,
+    "duration" : 1577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3f7b2866cd03c524",
+  "name" : "参数count为空编辑失败",
+  "time" : {
+    "start" : 1648892199010,
+    "stop" : 1648892201397,
+    "duration" : 2387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aabad371690274a3",
+  "name" : "输入正确参数提交订单成功",
+  "time" : {
+    "start" : 1648892361469,
+    "stop" : 1648892364678,
+    "duration" : 3209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "611cacc40fb4e212",
+  "name" : "未登录状态查询成功",
+  "time" : {
+    "start" : 1648893127167,
+    "stop" : 1648893129021,
+    "duration" : 1854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bb36688c6525c04c",
+  "name" : "缺少firstname修改地址失败",
+  "time" : {
+    "start" : 1648892289509,
+    "stop" : 1648892291086,
+    "duration" : 1577
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c58f47588b7f0639",
+  "name" : "错误请求方式POST查询商品详情失败",
+  "time" : {
+    "start" : 1648892090221,
+    "stop" : 1648892091875,
+    "duration" : 1654
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "732c5b9b66da420c",
+  "name" : "参数lastname缺失新增失败",
+  "time" : {
+    "start" : 1648892261983,
+    "stop" : 1648892262767,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3bc98c6ed5f79ab",
+  "name" : "错误的请求方式查询失败POST",
+  "time" : {
+    "start" : 1648893129025,
+    "stop" : 1648893190637,
+    "duration" : 61612
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "f22c0062e420ccb9",
+  "name" : "pageNO参数错误获取通知列表失败",
+  "time" : {
+    "start" : 1648892977576,
+    "stop" : 1648892978371,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7297f5a9e0733963",
+  "name" : "pageSize参数值为负数查询失败",
+  "time" : {
+    "start" : 1648892112205,
+    "stop" : 1648892113001,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "564d61d6350ae02e",
+  "name" : "参数正确，编辑购物车成功",
+  "time" : {
+    "start" : 1648892178914,
+    "stop" : 1648892181291,
+    "duration" : 2377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c61e102619f37a2",
+  "name" : "参数contactnumber缺失新增失败",
+  "time" : {
+    "start" : 1648892262770,
+    "stop" : 1648892263572,
+    "duration" : 802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8a911452eb4d6ef",
+  "name" : "错误参数类型删除失败application/json",
+  "time" : {
+    "start" : 1648892619431,
+    "stop" : 1648892621292,
+    "duration" : 1861
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1f5680bce2585db2",
+  "name" : "错误的请求方式POST查询失败",
+  "time" : {
+    "start" : 1648892875662,
+    "stop" : 1648892876457,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1ee3ea6c411a61f1",
+  "name" : "错误的请求类型失败multipart/form-data",
+  "time" : {
+    "start" : 1648892949801,
+    "stop" : 1648892950589,
+    "duration" : 788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "202cc843b703d67f",
+  "name" : "area2为空修改地址失败",
+  "time" : {
+    "start" : 1648892310962,
+    "stop" : 1648892312527,
+    "duration" : 1565
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4691b1b7f292da90",
+  "name" : "userAccount为空请求失败",
+  "time" : {
+    "start" : 1648892013970,
+    "stop" : 1648892014503,
+    "duration" : 533
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7139c5994a49f4c1",
+  "name" : "错误请求方式DELETE获取通知列表失败",
+  "time" : {
+    "start" : 1648892975198,
+    "stop" : 1648892975988,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18caf224532a7d87",
+  "name" : "参数integral为空兑换失败",
+  "time" : {
+    "start" : 1648892956399,
+    "stop" : 1648892957193,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "65b4702b048368c0",
+  "name" : "successUrl参数为空发起订单支付失败",
+  "time" : {
+    "start" : 1648892483005,
+    "stop" : 1648892488018,
+    "duration" : 5013
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "af4ff4e9d4752a14",
+  "name" : "发送错误请求DELETE删除地址失败",
+  "time" : {
+    "start" : 1648892345559,
+    "stop" : 1648892347129,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3b4ebd333400cd0a",
+  "name" : "参数erea3缺失新增失败",
+  "time" : {
+    "start" : 1648892265186,
+    "stop" : 1648892265980,
+    "duration" : 794
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6fd09634009330d5",
+  "name" : "postalCode参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892278835,
+    "stop" : 1648892279636,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43e1edfdce64ba16",
+  "name" : "postalCode为空修改地址失败",
+  "time" : {
+    "start" : 1648892314147,
+    "stop" : 1648892315708,
+    "duration" : 1561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f509d68a1a64fe",
+  "name" : "content-type参数类型错误注册失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892034309,
+    "stop" : 1648892035084,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "500207a8b0cf3633",
+  "name" : "错误的请求方式获取验证码失败",
+  "time" : {
+    "start" : 1648892634111,
+    "stop" : 1648892634895,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e89a0f050da4b2a1",
+  "name" : "错误的参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648892970165,
+    "stop" : 1648892970968,
+    "duration" : 803
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba54f3c2ef69f647",
+  "name" : "错误请求方式（PUT）删除商品失败",
+  "time" : {
+    "start" : 1648892585511,
+    "stop" : 1648892587597,
+    "duration" : 2086
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "285d1b470703bb8b",
+  "name" : "输入正确信息兑换优惠券成功",
+  "time" : {
+    "start" : 1648892892579,
+    "stop" : 1648892894163,
+    "duration" : 1584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3324c38b6e14028",
+  "name" : "错误请求方式（GET）删除商品失败",
+  "time" : {
+    "start" : 1648892581256,
+    "stop" : 1648892583392,
+    "duration" : 2136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "718a16df28ca56bf",
+  "name" : "错误的请求方式DELETE查询失败",
+  "time" : {
+    "start" : 1648892887033,
+    "stop" : 1648892887812,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9df5fdfd96b9ee",
+  "name" : "参数count为非数字编辑失败",
+  "time" : {
+    "start" : 1648892203862,
+    "stop" : 1648892206214,
+    "duration" : 2352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fa27d08b04b65a58",
+  "name" : "缺少参数id删除商品失败",
+  "time" : {
+    "start" : 1648892587604,
+    "stop" : 1648892588384,
+    "duration" : 780
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f41608e01c23adea",
+  "name" : "发送错误请求方式编辑购物车失败（PUT）",
+  "time" : {
+    "start" : 1648892191085,
+    "stop" : 1648892193463,
+    "duration" : 2378
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6940bfd08e58194",
+  "name" : "参数ID不存在兑换失败",
+  "time" : {
+    "start" : 1648892903939,
+    "stop" : 1648892904732,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9abb462a89ce9167",
+  "name" : "list为空提交订单失败",
+  "time" : {
+    "start" : 1648892387334,
+    "stop" : 1648892390495,
+    "duration" : 3161
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "17682d786dac9587",
+  "name" : "count超过商品最大库存提交订单失败",
+  "time" : {
+    "start" : 1648892396859,
+    "stop" : 1648892400047,
+    "duration" : 3188
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d427e8901accd9c3",
+  "name" : "使用错误的请求方式PUT查询失败",
+  "time" : {
+    "start" : 1648892075812,
+    "stop" : 1648892076604,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "23ea67f4298d82ab",
+  "name" : "错误请求方式DELETE修改密码失败",
+  "time" : {
+    "start" : 1648892730816,
+    "stop" : 1648892753879,
+    "duration" : 23063
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca9f72391c466fe5",
+  "name" : "错误的请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648893252598,
+    "stop" : 1648893314215,
+    "duration" : 61617
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a7c6e65826c19382",
+  "name" : "未登录状态下查询失败",
+  "time" : {
+    "start" : 1648892102463,
+    "stop" : 1648892103483,
+    "duration" : 1020
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a4af1a3fa772d342",
+  "name" : "使用正确账户密码登录成功",
+  "time" : {
+    "start" : 1648892011843,
+    "stop" : 1648892012388,
+    "duration" : 545
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d1e62b77ba7a8a47",
+  "name" : "错误请求方式（PUT）发起订单支付失败",
+  "time" : {
+    "start" : 1648892465718,
+    "stop" : 1648892470691,
+    "duration" : 4973
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5626752f41b0f683",
+  "name" : "参数pageno为空查询成功",
+  "time" : {
+    "start" : 1648892878054,
+    "stop" : 1648892878838,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b374fa1ce29db5f6",
+  "name" : "错误的参数请求类型领取失败application/json",
+  "time" : {
+    "start" : 1648892913384,
+    "stop" : 1648892913910,
+    "duration" : 526
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac3ea9f86dd51580",
+  "name" : "userAccount输入30个字符注册成功",
+  "time" : {
+    "start" : 1648892024560,
+    "stop" : 1648892025374,
+    "duration" : 814
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c876aa7f495b17",
+  "name" : "参数integral为5001兑换成功",
+  "time" : {
+    "start" : 1648892959577,
+    "stop" : 1648892960395,
+    "duration" : 818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "479aa5d0e65d90e8",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892595830,
+    "stop" : 1648892596859,
+    "duration" : 1029
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3802efc6a541369d",
+  "name" : "错误的请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648892965426,
+    "stop" : 1648892966208,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e72c00035f63cd96",
+  "name" : "错误参数请求类型删除商品失败",
+  "time" : {
+    "start" : 1648892592134,
+    "stop" : 1648892594235,
+    "duration" : 2101
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "527f7d873602722f",
+  "name" : "已领取账户再次领取优惠券失败",
+  "time" : {
+    "start" : 1648892912303,
+    "stop" : 1648892912825,
+    "duration" : 522
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "7468137e47d9188",
+  "name" : "参数name为空领取优惠券失败",
+  "time" : {
+    "start" : 1648892911785,
+    "stop" : 1648892912299,
+    "duration" : 514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6ed920d138597a84",
+  "name" : "参数类型错误新增购物车失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892171496,
+    "stop" : 1648892175256,
+    "duration" : 3760
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac987e6dfb48af9c",
+  "name" : "发送错误请求GET删除地址失败",
+  "time" : {
+    "start" : 1648892343991,
+    "stop" : 1648892345554,
+    "duration" : 1563
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5919de2c6d5232a4",
+  "name" : "userAccount为空请求失败",
+  "time" : {
+    "start" : 1648892021336,
+    "stop" : 1648892022135,
+    "duration" : 799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bda8e48f9ba8c51f",
+  "name" : "错误的请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648893190786,
+    "stop" : 1648893252430,
+    "duration" : 61644
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a596b882649ac11c",
+  "name" : "请求类型错误注册失败PUT",
+  "time" : {
+    "start" : 1648892033518,
+    "stop" : 1648892034304,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8f94796244634f5f",
+  "name" : "PageSize为非数字查询失败",
+  "time" : {
+    "start" : 1648893000358,
+    "stop" : 1648893001616,
+    "duration" : 1258
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "333b1c94bf7fc2a7",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892980739,
+    "stop" : 1648892981548,
+    "duration" : 809
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "19b35cdde68ea5b2",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892036701,
+    "stop" : 1648892037555,
+    "duration" : 854
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9b587f852a6abd4c",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892060247,
+    "stop" : 1648892061045,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6616ea99bd2e4315",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892963599,
+    "stop" : 1648892964625,
+    "duration" : 1026
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e87e2548bb63349",
+  "name" : "pageSize参数为查询成功",
+  "time" : {
+    "start" : 1648892602415,
+    "stop" : 1648892603205,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8044ecead94536",
+  "name" : "输入不存在TYPE删除地址失败",
+  "time" : {
+    "start" : 1648892356682,
+    "stop" : 1648892358256,
+    "duration" : 1574
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f79fb7e8886c277e",
+  "name" : "参数缺失领取优惠券失败",
+  "time" : {
+    "start" : 1648892911280,
+    "stop" : 1648892911782,
+    "duration" : 502
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fcf53b568006d618",
+  "name" : "错误的参数请求方式获取用户信息失败",
+  "time" : {
+    "start" : 1648892919433,
+    "stop" : 1648892920218,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9940cb8739d96190",
+  "name" : "password为空请求失败",
+  "time" : {
+    "start" : 1648892013455,
+    "stop" : 1648892013966,
+    "duration" : 511
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea6e266ee7484d79",
+  "name" : "缺少successUrl发起订单支付失败",
+  "time" : {
+    "start" : 1648892471484,
+    "stop" : 1648892476463,
+    "duration" : 4979
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "853ddc79ca3b8246",
+  "name" : "未登录删除地址失败",
+  "time" : {
+    "start" : 1648892342160,
+    "stop" : 1648892343986,
+    "duration" : 1826
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aeffb6902ef0eea9",
+  "name" : "ids为非数字删除失败",
+  "time" : {
+    "start" : 1648892236006,
+    "stop" : 1648892237587,
+    "duration" : 1581
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "48bce6593695e684",
+  "name" : "发送错误请求方式编辑购物车失败（GET）",
+  "time" : {
+    "start" : 1648892186341,
+    "stop" : 1648892188701,
+    "duration" : 2360
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0fab1355794f226",
+  "name" : "pageNO参数值为非数字查询失败",
+  "time" : {
+    "start" : 1648892109025,
+    "stop" : 1648892109806,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4c4f7209b951dd2e",
+  "name" : "无参数查询成功",
+  "time" : {
+    "start" : 1648892599237,
+    "stop" : 1648892600024,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ad0c499bba51e2",
+  "name" : "错误的请求方式查询失败POST",
+  "time" : {
+    "start" : 1648892994149,
+    "stop" : 1648892994946,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2df9c31815dabdc2",
+  "name" : "未登录状态新增地址失败",
+  "time" : {
+    "start" : 1648892257758,
+    "stop" : 1648892258793,
+    "duration" : 1035
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8551b7da309487c6",
+  "name" : "正确参数订单发起支付成功",
+  "time" : {
+    "start" : 1648892439707,
+    "stop" : 1648892445397,
+    "duration" : 5690
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c31fb3219e3c7c2",
+  "name" : "未登录状态签到失败",
+  "time" : {
+    "start" : 1648892528807,
+    "stop" : 1648892529850,
+    "duration" : 1043
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "efdd720e0d7fe02c",
+  "name" : "password6位字符注册成功",
+  "time" : {
+    "start" : 1648892028649,
+    "stop" : 1648892029465,
+    "duration" : 816
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1b2d610ded8b84b",
+  "name" : "已收藏goodsid再次收藏收藏失败",
+  "time" : {
+    "start" : 1648892569368,
+    "stop" : 1648892574546,
+    "duration" : 5178
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c5edda295547e872",
+  "name" : "参数id为空修改默认地址失败",
+  "time" : {
+    "start" : 1648892334215,
+    "stop" : 1648892334994,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4de1f65351c1fff8",
+  "name" : "orderid参数为空发起订单支付失败",
+  "time" : {
+    "start" : 1648892482198,
+    "stop" : 1648892482989,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e3fdd0c885465688",
+  "name" : "参数PageNo为非数字查询失败",
+  "time" : {
+    "start" : 1648892968576,
+    "stop" : 1648892969359,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7fcdc18c8bc585e",
+  "name" : "输入正确的信息新增地址成功",
+  "time" : {
+    "start" : 1648892256166,
+    "stop" : 1648892256949,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "acc0811fe0a64f25",
+  "name" : "参数count超过商品库存编辑失败",
+  "time" : {
+    "start" : 1648892201400,
+    "stop" : 1648892203842,
+    "duration" : 2442
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "93ffa82bbef102e",
+  "name" : "参数id缺失编辑失败",
+  "time" : {
+    "start" : 1648892193468,
+    "stop" : 1648892195060,
+    "duration" : 1592
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4dca41284f49e02",
+  "name" : "参数First Name不填新增失败",
+  "time" : {
+    "start" : 1648892267586,
+    "stop" : 1648892268376,
+    "duration" : 790
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "21f8e8b91fae931a",
+  "name" : "pageSize参数值超出长度限制查询失败",
+  "time" : {
+    "start" : 1648892113004,
+    "stop" : 1648892113788,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da3de17eecf40ead",
+  "name" : "未登录状态获取通知列表失败",
+  "time" : {
+    "start" : 1648892973359,
+    "stop" : 1648892974386,
+    "duration" : 1027
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a8b6ac3128b9392",
+  "name" : "password参数错误请求失败",
+  "time" : {
+    "start" : 1648892014506,
+    "stop" : 1648892015029,
+    "duration" : 523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b14a0eb6a6fa5296",
+  "name" : "错误的请求类型领取优惠券失败PUT",
+  "time" : {
+    "start" : 1648892910766,
+    "stop" : 1648892911275,
+    "duration" : 509
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4bb61c3d656fbaa4",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648892883625,
+    "stop" : 1648892884407,
+    "duration" : 782
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9f808471fa124e3b",
+  "name" : "输入正确信息删除收藏夹商品成功",
+  "time" : {
+    "start" : 1648892574600,
+    "stop" : 1648892576714,
+    "duration" : 2114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bdf1fc9fa13cc73b",
+  "name" : "pageNo参数为空查询失败",
+  "time" : {
+    "start" : 1648892249763,
+    "stop" : 1648892250542,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2350a5cfc1ac6dd6",
+  "name" : "PageSize参数错误获取通知列表失败",
+  "time" : {
+    "start" : 1648892978377,
+    "stop" : 1648892979156,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "126a7adc6680cfdf",
+  "name" : "错误的请求方式POST查询失败",
+  "time" : {
+    "start" : 1648892885449,
+    "stop" : 1648892886235,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a962d25158e3e557",
+  "name" : "输入错误请求方式POST获取首页广告栏位数据失败",
+  "time" : {
+    "start" : 1648892050601,
+    "stop" : 1648892051386,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ca6524ff65fb1942",
+  "name" : "错误的请求方式查询失败PUT",
+  "time" : {
+    "start" : 1648892057799,
+    "stop" : 1648892058596,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4816e86b664f2ff9",
+  "name" : "参数传递类型错误修改密码失败multipart/form-data",
+  "time" : {
+    "start" : 1648892850207,
+    "stop" : 1648892873029,
+    "duration" : 22822
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "558bd2a2392bf36b",
+  "name" : "userAccount 存在中文注册失败",
+  "time" : {
+    "start" : 1648892026192,
+    "stop" : 1648892026990,
+    "duration" : 798
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd318b011128f7e",
+  "name" : "参数First Name缺失新增失败",
+  "time" : {
+    "start" : 1648892261189,
+    "stop" : 1648892261978,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "55fe60bd83f3c44c",
+  "name" : "错误请求方式签到失败（DELETE)",
+  "time" : {
+    "start" : 1648892530657,
+    "stop" : 1648892531443,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9a72cf05f3f16933",
+  "name" : "postalCode:缺失新增失败",
+  "time" : {
+    "start" : 1648892265984,
+    "stop" : 1648892266770,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c6554038ce22b8b",
+  "name" : "输入错误URL地址兑换失败",
+  "time" : {
+    "start" : 1648892951410,
+    "stop" : 1648892952185,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96d8b0794cec1e59",
+  "name" : "未登录状态提交订单失败",
+  "time" : {
+    "start" : 1648892367837,
+    "stop" : 1648892371275,
+    "duration" : 3438
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b64330ce4fe1303",
+  "name" : "参数请求类型错误查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892882024,
+    "stop" : 1648892882809,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dff230c507ce7008",
+  "name" : "参数id不存在修改默认地址失败",
+  "time" : {
+    "start" : 1648892334998,
+    "stop" : 1648892335794,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fc96699b6205d0fa",
+  "name" : "错误的请求方式查询失败POST",
+  "time" : {
+    "start" : 1648892983400,
+    "stop" : 1648892984201,
+    "duration" : 801
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cffa36fcbb27d4a3",
+  "name" : "错误URL地址编辑购物车失败",
+  "time" : {
+    "start" : 1648892181297,
+    "stop" : 1648892183689,
+    "duration" : 2392
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c86691c1263fb694",
+  "name" : "pageNO参数值为空查询失败",
+  "time" : {
+    "start" : 1648892106654,
+    "stop" : 1648892107440,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4fc4479a6a44a6fe",
+  "name" : "错误的请求类型修改失败DELETE",
+  "time" : {
+    "start" : 1648892928640,
+    "stop" : 1648892930500,
+    "duration" : 1860
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c977d2f54eb7b86b",
+  "name" : "错误请求方式批量删除购物车商品失败（DELETE）",
+  "time" : {
+    "start" : 1648892228824,
+    "stop" : 1648892231197,
+    "duration" : 2373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "dff41b8d19b2b85e",
+  "name" : "错误请求方式签到失败（PUT)",
+  "time" : {
+    "start" : 1648892531457,
+    "stop" : 1648892532248,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "768cc50bb1f0068",
+  "name" : "couponsid为空提交订单成功",
+  "time" : {
+    "start" : 1648892380109,
+    "stop" : 1648892382482,
+    "duration" : 2373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a4f638299d17220",
+  "name" : "错误的请求方式提交订单失败（DELETE）",
+  "time" : {
+    "start" : 1648892430212,
+    "stop" : 1648892433368,
+    "duration" : 3156
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f7ebc53847cb5f7",
+  "name" : "参数id为空编辑失败",
+  "time" : {
+    "start" : 1648892197445,
+    "stop" : 1648892199006,
+    "duration" : 1561
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c42795f860b198a4",
+  "name" : "输入正确参数修改地址成功",
+  "time" : {
+    "start" : 1648892282057,
+    "stop" : 1648892283641,
+    "duration" : 1584
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96614ffec2a3d91d",
+  "name" : "参数sex为非限定数字修改失败",
+  "time" : {
+    "start" : 1648892936056,
+    "stop" : 1648892937899,
+    "duration" : 1843
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c750d1a9d953fbbb",
+  "name" : "参数类型错误查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892084209,
+    "stop" : 1648892084983,
+    "duration" : 774
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2833b43b194a61ee",
+  "name" : "错误的请求类型失败PUT",
+  "time" : {
+    "start" : 1648892945810,
+    "stop" : 1648892946609,
+    "duration" : 799
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "917eb0ca4ea99fac",
+  "name" : "错误的请求方式新增地址失败（DELETE）",
+  "time" : {
+    "start" : 1648892259594,
+    "stop" : 1648892260390,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66a6c24858e45684",
+  "name" : "pageSize参数值为空查询失败",
+  "time" : {
+    "start" : 1648892107445,
+    "stop" : 1648892108234,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cf3095af3a8cb001",
+  "name" : "输入错误URL地址查询失败",
+  "time" : {
+    "start" : 1648892043206,
+    "stop" : 1648892043998,
+    "duration" : 792
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53f23827b05a8024",
+  "name" : "错误的请求方式新增地址失败（GET）",
+  "time" : {
+    "start" : 1648892258797,
+    "stop" : 1648892259588,
+    "duration" : 791
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1b8839f0882218db",
+  "name" : "错误的参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648892890984,
+    "stop" : 1648892891781,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2ef6b15b578514",
+  "name" : "输入错误URL地址获取验证码失败",
+  "time" : {
+    "start" : 1648892625256,
+    "stop" : 1648892626049,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d82d827cb12953b0",
+  "name" : "shopCartId不存在提交订单失败",
+  "time" : {
+    "start" : 1648892400078,
+    "stop" : 1648892403240,
+    "duration" : 3162
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b04587c4e199242a",
+  "name" : "password为空请求失败",
+  "time" : {
+    "start" : 1648892022150,
+    "stop" : 1648892022948,
+    "duration" : 798
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee1284f2e282091c",
+  "name" : "未登录状态查询失败",
+  "time" : {
+    "start" : 1648892874637,
+    "stop" : 1648892875658,
+    "duration" : 1021
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18d5d69d96c0d97d",
+  "name" : "错误请求方式（DELETE）发起订单支付失败",
+  "time" : {
+    "start" : 1648892460728,
+    "stop" : 1648892465714,
+    "duration" : 4986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7366bafb0abea8f",
+  "name" : "pagesize参数错误查询失败",
+  "time" : {
+    "start" : 1648892600835,
+    "stop" : 1648892601619,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6bd819f18b58bdc8",
+  "name" : "错误的参数请求方式查询路由失败application/json",
+  "time" : {
+    "start" : 1648892070843,
+    "stop" : 1648892071622,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a913724e56ca33db",
+  "name" : "缺少cancelURL发起订单支付失败",
+  "time" : {
+    "start" : 1648892476468,
+    "stop" : 1648892482172,
+    "duration" : 5704
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "3065781267837a3c",
+  "name" : "生日日期输入异常日期修改失败",
+  "time" : {
+    "start" : 1648892934219,
+    "stop" : 1648892936052,
+    "duration" : 1833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8de32bc705919f65",
+  "name" : "参数pageno错误查询失败",
+  "time" : {
+    "start" : 1648892879649,
+    "stop" : 1648892880436,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "247ad8e07bc6c75",
+  "name" : "pageNO参数值超出长度限制查询失败",
+  "time" : {
+    "start" : 1648892110626,
+    "stop" : 1648892111414,
+    "duration" : 788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9c548af25a11d73f",
+  "name" : "参数intergral为非数字兑换失败",
+  "time" : {
+    "start" : 1648892957198,
+    "stop" : 1648892957979,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a3f62a06ae77937f",
+  "name" : "错误请求方式删除失败PUT",
+  "time" : {
+    "start" : 1648892615154,
+    "stop" : 1648892617016,
+    "duration" : 1862
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "20ed9fad6c672def",
+  "name" : "错误请求方式PUT获取用户信息失败",
+  "time" : {
+    "start" : 1648892918633,
+    "stop" : 1648892919429,
+    "duration" : 796
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c445b05948300dbf",
+  "name" : "发送错误请求方式编辑购物车失败（DELETE）",
+  "time" : {
+    "start" : 1648892188704,
+    "stop" : 1648892191077,
+    "duration" : 2373
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "41a860bff0872271",
+  "name" : "area1为空修改地址失败",
+  "time" : {
+    "start" : 1648892309343,
+    "stop" : 1648892310950,
+    "duration" : 1607
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ab0c869367cee31c",
+  "name" : "请求错误查询失败（DELETE）",
+  "time" : {
+    "start" : 1648892104277,
+    "stop" : 1648892105065,
+    "duration" : 788
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45c564fc597cc25a",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648892055425,
+    "stop" : 1648892056202,
+    "duration" : 777
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af5877f9f1c6b82e",
+  "name" : "错误的请求类型查询失败application/json",
+  "time" : {
+    "start" : 1648892058607,
+    "stop" : 1648892059459,
+    "duration" : 852
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f525b8cd4b3bb1d8",
+  "name" : "content-type参数类型错误注册失败multipart/form-data",
+  "time" : {
+    "start" : 1648892035089,
+    "stop" : 1648892035886,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "daff37da4d7ece95",
+  "name" : "使用已注册的userAccount注册失败",
+  "time" : {
+    "start" : 1648892035900,
+    "stop" : 1648892036687,
+    "duration" : 787
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4e77d79f6b310862",
+  "name" : "错误请求方式POST查询路由失败",
+  "time" : {
+    "start" : 1648892068457,
+    "stop" : 1648892069232,
+    "duration" : 775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "afbfc1edeac83c9e",
+  "name" : "pageSize参数为非数字查询失败",
+  "time" : {
+    "start" : 1648892250546,
+    "stop" : 1648892251339,
+    "duration" : 793
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6050eecf97b7bd21",
+  "name" : "错误参数类型删除失败multipart/form-data",
+  "time" : {
+    "start" : 1648892621297,
+    "stop" : 1648892623126,
+    "duration" : 1829
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "130cd373d390a6f0",
+  "name" : "请求类型错误请求失败DELETE",
+  "time" : {
+    "start" : 1648892017110,
+    "stop" : 1648892017625,
+    "duration" : 515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ba85fd87beb14a8",
+  "name" : "错误请求方式DELETE获取用户信息失败",
+  "time" : {
+    "start" : 1648892917844,
+    "stop" : 1648892918630,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c3c5f0969bca0a0",
+  "name" : "addressid不存在提交订单失败",
+  "time" : {
+    "start" : 1648892382487,
+    "stop" : 1648892384898,
+    "duration" : 2411
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "db1e5d63e87060c0",
+  "name" : "参数lastname参数长度超过限制新增失败",
+  "time" : {
+    "start" : 1648892274762,
+    "stop" : 1648892275589,
+    "duration" : 827
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da0d50e831980a65",
+  "name" : "错误请求方式添加商品到收藏栏失败（DELETE）",
+  "time" : {
+    "start" : 1648892552758,
+    "stop" : 1648892556486,
+    "duration" : 3728
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13b4cb25d4a10e6",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892882812,
+    "stop" : 1648892883612,
+    "duration" : 800
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bfe831708376dca5",
+  "name" : "contactnumber为空修改地址失败",
+  "time" : {
+    "start" : 1648892307767,
+    "stop" : 1648892309338,
+    "duration" : 1571
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "71a22b26404e430d",
+  "name" : "请求错误查询失败（POST）",
+  "time" : {
+    "start" : 1648892103487,
+    "stop" : 1648892104273,
+    "duration" : 786
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "122cffe7f16b0221",
+  "name" : "输入全称查询到指定产品成功",
+  "time" : {
+    "start" : 1648892076609,
+    "stop" : 1648892077589,
+    "duration" : 980
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "45d314fb5a100b11",
+  "name" : "错误的参数类型查询失败application/json",
+  "time" : {
+    "start" : 1648893001635,
+    "stop" : 1648893002873,
+    "duration" : 1238
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "64b9b397652a2361",
+  "name" : "goodsid为非数字型新增失败",
+  "time" : {
+    "start" : 1648892163862,
+    "stop" : 1648892167664,
+    "duration" : 3802
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7e7c5ffdc8538be5",
+  "name" : "参数类型错误发起订单支付失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892517164,
+    "stop" : 1648892522177,
+    "duration" : 5013
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cb282c321dcc664a",
+  "name" : "id为空删除商品失败",
+  "time" : {
+    "start" : 1648892588388,
+    "stop" : 1648892589174,
+    "duration" : 786
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2b97711515d068cc",
+  "name" : "未登录状态删除商品失败",
+  "time" : {
+    "start" : 1648892578834,
+    "stop" : 1648892581222,
+    "duration" : 2388
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "d13c6c8217ed3ad9",
+  "name" : "输入错误URL查询失败",
+  "time" : {
+    "start" : 1648892595029,
+    "stop" : 1648892595814,
+    "duration" : 785
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "54388d816c20c40c",
+  "name" : "不存在ids删除失败",
+  "time" : {
+    "start" : 1648892237596,
+    "stop" : 1648892239186,
+    "duration" : 1590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7439da22ec162d46",
+  "name" : "参数请求方式错误获取通知列表失败",
+  "time" : {
+    "start" : 1648892979951,
+    "stop" : 1648892980735,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "487fad621a63e81b",
+  "name" : "参数pagesize错误查询失败",
+  "time" : {
+    "start" : 1648892880439,
+    "stop" : 1648892881207,
+    "duration" : 768
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2bc6fb0f69cb1c",
+  "name" : "错误的请求方式PUT查询失败",
+  "time" : {
+    "start" : 1648892598453,
+    "stop" : 1648892599232,
+    "duration" : 779
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a866ddfade01ea8",
+  "name" : "输入错误URL地址修改默认地址失败",
+  "time" : {
+    "start" : 1648892326050,
+    "stop" : 1648892327617,
+    "duration" : 1567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a6ed85d061c37e9",
+  "name" : "错误的参数请求方式获取用户信息失败",
+  "time" : {
+    "start" : 1648892920222,
+    "stop" : 1648892921006,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9adaf61fd59d0998",
+  "name" : "area3为空修改地址失败",
+  "time" : {
+    "start" : 1648892312531,
+    "stop" : 1648892314132,
+    "duration" : 1601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cee54c65948c7d79",
+  "name" : "错误的参数请求类型领取失败multipart/form-data",
+  "time" : {
+    "start" : 1648892913917,
+    "stop" : 1648892914421,
+    "duration" : 504
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bca45980987a8082",
+  "name" : "错误的参数请求类型兑换失败application/x-www-form-urlencoded",
+  "time" : {
+    "start" : 1648892905523,
+    "stop" : 1648892907112,
+    "duration" : 1589
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6e34dbe0d472d48",
+  "name" : "缺少lastname修改地址失败",
+  "time" : {
+    "start" : 1648892291092,
+    "stop" : 1648892292669,
+    "duration" : 1577
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "370b8032d3e85dec",
+  "name" : "参数erea1缺失新增失败",
+  "time" : {
+    "start" : 1648892263577,
+    "stop" : 1648892264374,
+    "duration" : 797
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "881fe53aa93b1aa1",
+  "name" : "缺少password参数请求失败",
+  "time" : {
+    "start" : 1648892012400,
+    "stop" : 1648892012921,
+    "duration" : 521
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7413250ecd32f3b9",
+  "name" : "错误的请求方式查询失败DELETE",
+  "time" : {
+    "start" : 1648892984214,
+    "stop" : 1648892984998,
+    "duration" : 784
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c80041dedb31c4e",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892990571,
+    "stop" : 1648892991830,
+    "duration" : 1259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "52c08dce4f16b1d7",
+  "name" : "pageNO参数为空查询成功",
+  "time" : {
+    "start" : 1648892601625,
+    "stop" : 1648892602408,
+    "duration" : 783
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e4339a5d966ba077",
+  "name" : "错误的请求方式PUT查询失败",
+  "time" : {
+    "start" : 1648892886239,
+    "stop" : 1648892887028,
+    "duration" : 789
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "59347c79bf745859",
+  "name" : "输入正确信息查询成功",
+  "time" : {
+    "start" : 1648892961981,
+    "stop" : 1648892962800,
+    "duration" : 819
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "75fd17512a8febe7",
+  "name" : "未登录状态修改地址失败",
+  "time" : {
+    "start" : 1648892283649,
+    "stop" : 1648892285467,
+    "duration" : 1818
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e83b631b821eb70c",
+  "name" : "错误请求方式签到失败（POST)",
+  "time" : {
+    "start" : 1648892529854,
+    "stop" : 1648892530649,
+    "duration" : 795
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b89461fba63ca1df",
+  "name" : "错误的参数类型查询失败multipart/form-data",
+  "time" : {
+    "start" : 1648892970973,
+    "stop" : 1648892971754,
+    "duration" : 781
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
