@@ -121,7 +121,7 @@ class Common:
 
         # 5、为报告开启端口，共享查看
         # print('正在开启端口，分享报告')
-        # cmd3 = r'allure open -h 192.168.81.102 -p 8885 C:\Users\admin\PycharmProjects\pythonProject\Okmarts_test_front\report'
+        # cmd3 = r'allure open -h 192.168.81.102 -p 8885 C:\Users\admin\PycharmProjects\pythonProject\Okmarts_test_front\reports'
         # os.system(cmd3)
 
     # 查询首页商品ID

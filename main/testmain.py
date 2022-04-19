@@ -1,6 +1,8 @@
 """
 前端接口测试入口
 """
+import os
+
 import allure
 import pytest
 
@@ -440,4 +442,7 @@ class TestMain:
 
 
 if __name__ == '__main__':
-    pytest.main([__file__])
+    # 执行用例生成测试报告
+    pytest.main(['-s', __file__, '--alluredir', '../tmp'])
+    # 生成测试报告
+    os.system('allure generate ../tmp/ -0 ../re[prt/ --clean')
