@@ -18,7 +18,7 @@ class Change_Password:
         self.token = info[1]
         self.user_agent = random.choice(UserAgent().useragent_list())
 
-    def change_password(self,Parameters):
+    def change_password(self, Parameters):
         casename = Parameters['casename']
         print(f'当前执行用例为{casename}')
         url = Parameters['url']
@@ -35,20 +35,17 @@ class Change_Password:
                   'Accept-Encoding': 'gzip,deflate',
                   'Accept-Language': 'zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6', 'sec-gpc': '1'}
 
-        #发送验证码
+        # 发送验证码
         url1 = 'http://18.118.13.94:81/jeecg-boot/sys/api/homePage/getUserEmailCode'
         data1 = "type=1"
-        res1 = self.sess.get(url=url1+'?'+data1,headers=header)
+        res1 = self.sess.get(url=url1 + '?' + data1, headers=header)
         print(res1.json())
         time.sleep(5)
 
         spec_case = Spec_Cases().spec_cases()
 
-
-
         if '"code":' in data:
-            data = Parameters_cls().code(casename,data,spec_case['spec_code'])
+            data = Parameters_cls().code(casename, data, spec_case['spec_code'])
 
         print(data)
-        post(self.sess,casename,url,data,header,result,assert_way,content_type)
-
+        post(self.sess, casename, url, data, header, result, assert_way, content_type)

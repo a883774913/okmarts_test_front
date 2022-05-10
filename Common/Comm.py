@@ -772,11 +772,13 @@ if __name__ == '__main__':
         data = """
 Host: 18.118.13.94:8080
 Connection: keep-alive
+Content-Length: 64
 Accept: application/json, text/plain, */*
-X-Access-Token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2NDkzMDc4NTMsInVzZXJuYW1lIjoiYTg4Mzc3NDkxOEAxNjMuY29tIn0.s7K8f9vuMIV27nNj8H9VHXKRTdriRRPA78grO3gXi9w
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36 Edg/100.0.1185.29
+X-Access-Token: null
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 OPR/86.0.4363.50
+Content-Type: application/json;charset=UTF-8
 Origin: http://18.118.13.94:81
 Referer: http://18.118.13.94:81/
 Accept-Encoding: gzip, deflate
-Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6
+Accept-Language: zh-CN,zh;q=0.9
 """)
