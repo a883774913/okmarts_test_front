@@ -8,7 +8,7 @@ from Okmarts_test_front.Common.Comm import Common
 from Okmarts_test_front.mode.Post_mode import post
 from Okmarts_test_front.parameter.parameter import Parameters_cls
 from Okmarts_test_front.spec_cases.spec_cases import Spec_Cases
-from pachong1.userAgent import UserAgent
+from Data_import.mode.userAgent import UserAgent
 
 
 class Change_Password:

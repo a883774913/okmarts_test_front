@@ -9,7 +9,7 @@ import requests
 import xlrd
 
 from Okmarts_test_front.save_report_history.save_report_history import Get_History
-from pachong1.userAgent import UserAgent
+from Data_import.mode.userAgent import UserAgent
 
 
 class Common:
